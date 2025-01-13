@@ -4,7 +4,7 @@ This repository contains several static datasets utilized in Kaito.ai services.
 
 ## VC Affiliations
 
-The VC Twitter affiliations are stored in `vc/twitter_affiliation.json`. Below is an example format using @AlanaDLevin from Variant Fund:
+The VC Twitter affiliations are stored in `vc/vc_twitter_affiliation.json`. Below is an example format using @AlanaDLevin from Variant Fund:
 
 ```json
 [
