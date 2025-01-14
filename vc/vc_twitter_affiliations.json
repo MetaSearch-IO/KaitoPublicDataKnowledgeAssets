@@ -2748,5 +2748,41 @@
                 "PanteraCapital"
             ]
         }
+    },
+    {
+        "twitter_user_id": "386282560",
+        "vc_affiliations": [
+            "1119002171054288896"
+        ],
+        "remarks": {
+            "twitter_username": "DoveyWan",
+            "vc_affiliation_usernames": [
+                "primitivecrypto"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "1756336904495333376",
+        "vc_affiliations": [
+            "1119002171054288896"
+        ],
+        "remarks": {
+            "twitter_username": "YettaSing",
+            "vc_affiliation_usernames": [
+                "primitivecrypto"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "899311685302984704",
+        "vc_affiliations": [
+            "1119002171054288896"
+        ],
+        "remarks": {
+            "twitter_username": "ManoppoMarco",
+            "vc_affiliation_usernames": [
+                "primitivecrypto"
+            ]
+        }
     }
 ]
