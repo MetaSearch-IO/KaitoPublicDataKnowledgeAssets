@@ -2784,5 +2784,17 @@
                 "primitivecrypto"
             ]
         }
+    },
+    {
+        "twitter_user_id": "test_id",
+        "vc_affiliations": [
+            "test_id"
+        ],
+        "remarks": {
+            "twitter_username": "test_username",
+            "vc_affiliation_usernames": [
+                "test_username"
+            ]
+        }
     }
 ]
