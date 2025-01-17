@@ -2808,5 +2808,101 @@
                 "Superscrypt"
             ]
         }
+    },
+    {
+        "twitter_user_id": "47217105",
+        "vc_affiliations": [
+            "1544990371742363648"
+        ],
+        "remarks": {
+            "twitter_username": "linfluence",
+            "vc_affiliation_usernames": [
+                "Superscrypt"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "772113478806974465",
+        "vc_affiliations": [
+            "1544990371742363648"
+        ],
+        "remarks": {
+            "twitter_username": "carlhua",
+            "vc_affiliation_usernames": [
+                "Superscrypt"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "1536147628278398976",
+        "vc_affiliations": [
+            "1731748085364113408"
+        ],
+        "remarks": {
+            "twitter_username": "jadwagmi",
+            "vc_affiliation_usernames": [
+                "reforge_vc"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "772113478806974465",
+        "vc_affiliations": [
+            "1731748085364113408"
+        ],
+        "remarks": {
+            "twitter_username": "carlhua",
+            "vc_affiliation_usernames": [
+                "reforge_vc"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "47217105",
+        "vc_affiliations": [
+            "1731748085364113408"
+        ],
+        "remarks": {
+            "twitter_username": "linfluence",
+            "vc_affiliation_usernames": [
+                "reforge_vc"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "1536147628278398976",
+        "vc_affiliations": [
+            "1544990371742363648"
+        ],
+        "remarks": {
+            "twitter_username": "jadwagmi",
+            "vc_affiliation_usernames": [
+                "Superscrypt"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "1584420416311152640",
+        "vc_affiliations": [
+            "1544990371742363648"
+        ],
+        "remarks": {
+            "twitter_username": "jacobkxyz",
+            "vc_affiliation_usernames": [
+                "Superscrypt"
+            ]
+        }
+    },
+    {
+        "twitter_user_id": "1430056397736054787",
+        "vc_affiliations": [
+            "1623332896424566784"
+        ],
+        "remarks": {
+            "twitter_username": "SaulDataman",
+            "vc_affiliation_usernames": [
+                "DewhalesCapital"
+            ]
+        }
     }
 ]
