@@ -2784,5 +2784,17 @@
                 "primitivecrypto"
             ]
         }
+    },
+    {
+        "twitter_user_id": "47217105",
+        "vc_affiliations": [
+            "1544990371742363648"
+        ],
+        "remarks": {
+            "twitter_username": "linfluence",
+            "vc_affiliation_usernames": [
+                "Superscrypt"
+            ]
+        }
     }
 ]
