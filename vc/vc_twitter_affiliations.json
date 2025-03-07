@@ -3180,5 +3180,17 @@
                 "coinfund_io"
             ]
         }
+    },
+    {
+        "twitter_user_id": "1374577402769149954",
+        "vc_affiliations": [
+            "1173770081295200263"
+        ],
+        "remarks": {
+            "twitter_username": "gmEthereum",
+            "vc_affiliation_usernames": [
+                "dragonfly_xyz"
+            ]
+        }
     }
 ]
