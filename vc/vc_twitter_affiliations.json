@@ -3372,5 +3372,21 @@
                 "1kxnetwork"
             ]
         }
+    },
+    {
+        "twitter_user_id": null,
+        "vc_affiliations": [
+            null,
+            null,
+            null
+        ],
+        "remarks": {
+            "twitter_username": "{user's",
+            "vc_affiliation_usernames": [
+                "{VC user's twitter handle}",
+                " If the user's handle has changed recently",
+                " you may want to consider using its old handle."
+            ]
+        }
     }
 ]
