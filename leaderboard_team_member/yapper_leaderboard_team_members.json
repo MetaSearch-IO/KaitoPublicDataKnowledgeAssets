@@ -2821,5 +2821,207 @@
                 "twitter_user_id": "2882819127"
             }
         ]
+    },
+    {
+        "ticker": "POLYMER",
+        "team_members": [
+            {
+                "twitter_user_name": "0xbodu",
+                "twitter_user_id": "1354829999522672648"
+            },
+            {
+                "twitter_user_name": "0xPeterKim",
+                "twitter_user_id": "1347480216923328512"
+            },
+            {
+                "twitter_user_name": "tommyoc0",
+                "twitter_user_id": "1727123278362202112"
+            },
+            {
+                "twitter_user_name": "dpbmaverick98",
+                "twitter_user_id": "1394583056829149187"
+            },
+            {
+                "twitter_user_name": "Sadwire23",
+                "twitter_user_id": "1146383133467529217"
+            },
+            {
+                "twitter_user_name": "FabricWeaver",
+                "twitter_user_id": "1799051821123522560"
+            }
+        ]
+    },
+    {
+        "ticker": "CAMP",
+        "team_members": [
+            {
+                "twitter_user_name": "CharcoOnchain",
+                "twitter_user_id": "1438280717755158528"
+            },
+            {
+                "twitter_user_name": "MrLudlow_",
+                "twitter_user_id": "1129037458056855552"
+            },
+            {
+                "twitter_user_name": "unephemeral",
+                "twitter_user_id": "14773662"
+            },
+            {
+                "twitter_user_name": "UsmanPatel_",
+                "twitter_user_id": "1256283974311108608"
+            },
+            {
+                "twitter_user_name": "jadynviolet",
+                "twitter_user_id": "3304027585"
+            },
+            {
+                "twitter_user_name": "headcampranger",
+                "twitter_user_id": "1790469008392589312"
+            },
+            {
+                "twitter_user_name": "DoraiswamiRahul",
+                "twitter_user_id": "1263526538214993920"
+            },
+            {
+                "twitter_user_name": "TheCyclotron",
+                "twitter_user_id": "319715947"
+            },
+            {
+                "twitter_user_name": "niravmurthy",
+                "twitter_user_id": "363921258"
+            },
+            {
+                "twitter_user_name": "jameskchi",
+                "twitter_user_id": "1203335226"
+            },
+            {
+                "twitter_user_name": "exopi_1111",
+                "twitter_user_id": "1533566367168962560"
+            }
+        ]
+    },
+    {
+        "ticker": "THRIVE",
+        "team_members": [
+            {
+                "twitter_user_name": "thrivegiraffe",
+                "twitter_user_id": "17979453"
+            },
+            {
+                "twitter_user_name": "matthewcarano",
+                "twitter_user_id": "94702145"
+            },
+            {
+                "twitter_user_name": "DillyDilly_eth",
+                "twitter_user_id": "1041784261018304512"
+            },
+            {
+                "twitter_user_name": "0xJZhao",
+                "twitter_user_id": "1477200909616566273"
+            }
+        ]
+    },
+    {
+        "ticker": "ESPRESSO",
+        "team_members": [
+            {
+                "twitter_user_name": "jillrgunter",
+                "twitter_user_id": "169312819"
+            },
+            {
+                "twitter_user_name": "ellierdavidson",
+                "twitter_user_id": "1700273093984333824"
+            },
+            {
+                "twitter_user_name": "AveriGerberding",
+                "twitter_user_id": "1622711730357895189"
+            },
+            {
+                "twitter_user_name": "benafisch",
+                "twitter_user_id": "958834218871615488"
+            },
+            {
+                "twitter_user_name": "ferkrell",
+                "twitter_user_id": "205803048"
+            },
+            {
+                "twitter_user_name": "shenkeyao",
+                "twitter_user_id": "1032060278"
+            },
+            {
+                "twitter_user_name": "charleslu1",
+                "twitter_user_id": "44823249"
+            },
+            {
+                "twitter_user_name": "CurryHoward42",
+                "twitter_user_id": "1500717748606832647"
+            },
+            {
+                "twitter_user_name": "cryptomachia",
+                "twitter_user_id": "968349462077853696"
+            },
+            {
+                "twitter_user_name": "composablepod",
+                "twitter_user_id": "1846638419264655361"
+            },
+            {
+                "twitter_user_name": "getsqt",
+                "twitter_user_id": "2349136958"
+            },
+            {
+                "twitter_user_name": "alysiatech",
+                "twitter_user_id": "1663880118"
+            },
+            {
+                "twitter_user_name": "marianabernado",
+                "twitter_user_id": "57726561"
+            },
+            {
+                "twitter_user_name": "benediktbuenz",
+                "twitter_user_id": "795521517433929728"
+            }
+        ]
+    },
+    {
+        "ticker": "KINTO",
+        "team_members": [
+            {
+                "twitter_user_name": "ramonrecuero",
+                "twitter_user_id": "120937300"
+            },
+            {
+                "twitter_user_name": "VictorSanchez",
+                "twitter_user_id": "11364222"
+            },
+            {
+                "twitter_user_name": "ylv_io",
+                "twitter_user_id": "361787000"
+            },
+            {
+                "twitter_user_name": "0xadagio",
+                "twitter_user_id": "1600078239938056192"
+            }
+        ]
+    },
+    {
+        "ticker": "NEAR",
+        "team_members": [
+            {
+                "twitter_user_name": "AlexSkidanov",
+                "twitter_user_id": "1034268067331694593"
+            },
+            {
+                "twitter_user_name": "ilblackdragon",
+                "twitter_user_id": "81185431"
+            },
+            {
+                "twitter_user_name": "Cameron_Dennis_",
+                "twitter_user_id": "3557004079"
+            },
+            {
+                "twitter_user_name": "mraltantutar",
+                "twitter_user_id": "760083561475141639"
+            }
+        ]
     }
 ]
