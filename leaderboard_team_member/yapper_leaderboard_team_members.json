@@ -3023,5 +3023,130 @@
                 "twitter_user_id": "760083561475141639"
             }
         ]
+    },
+    {
+        "ticker": "THEORIQ",
+        "team_members": [
+            {
+                "twitter_user_name": "davidm_ller",
+                "twitter_user_id": "61858130"
+            },
+            {
+                "twitter_user_name": "PeiChen01",
+                "twitter_user_id": "923345797663555586"
+            }
+        ]
+    },
+    {
+        "ticker": "SATLAYER",
+        "team_members": [
+            {
+                "twitter_user_name": "Lukex",
+                "twitter_user_id": "19677508"
+            },
+            {
+                "twitter_user_name": "feynyman",
+                "twitter_user_id": "1112836761300815873"
+            },
+            {
+                "twitter_user_name": "0xniccomi",
+                "twitter_user_id": "22771253"
+            },
+            {
+                "twitter_user_name": "imacryptopotato",
+                "twitter_user_id": "1437380208949018633"
+            },
+            {
+                "twitter_user_name": "frantick",
+                "twitter_user_id": "1354424269577408517"
+            },
+            {
+                "twitter_user_name": "lstmaximalist",
+                "twitter_user_id": "1673649791744499713"
+            },
+            {
+                "twitter_user_name": "benhwx",
+                "twitter_user_id": "1434198722582237188"
+            },
+            {
+                "twitter_user_name": "spenceryang",
+                "twitter_user_id": "48025018"
+            },
+            {
+                "twitter_user_name": "NanXiaoning",
+                "twitter_user_id": "2501128405"
+            }
+        ]
+    },
+    {
+        "ticker": "TABI",
+        "team_members": [
+            {
+                "twitter_user_name": "Lfuckjpg",
+                "twitter_user_id": "1284922390414192640"
+            },
+            {
+                "twitter_user_name": "Momoxu7",
+                "twitter_user_id": "1306530442904887297"
+            }
+        ]
+    },
+    {
+        "ticker": "OM",
+        "team_members": [
+            {
+                "twitter_user_name": "ekin_gultepe",
+                "twitter_user_id": "2930628759"
+            },
+            {
+                "twitter_user_name": "jayantramanand",
+                "twitter_user_id": "3001620020"
+            },
+            {
+                "twitter_user_name": "Profoneur",
+                "twitter_user_id": "3195524621"
+            },
+            {
+                "twitter_user_name": "jp_mullin888",
+                "twitter_user_id": "956763283767271425"
+            },
+            {
+                "twitter_user_name": "katekimmyy",
+                "twitter_user_id": "1018779431458910209"
+            },
+            {
+                "twitter_user_name": "bgmaninnit",
+                "twitter_user_id": "1131108154857541632"
+            },
+            {
+                "twitter_user_name": "Ainsleyeung",
+                "twitter_user_id": "1196275970862223360"
+            },
+            {
+                "twitter_user_name": "defisushi",
+                "twitter_user_id": "1277438216434417664"
+            },
+            {
+                "twitter_user_name": "Cryptoph88",
+                "twitter_user_id": "1462757207808692231"
+            },
+            {
+                "twitter_user_name": "EscapeZeMatrix",
+                "twitter_user_id": "1465676964816035844"
+            },
+            {
+                "twitter_user_name": "AndreRingman",
+                "twitter_user_id": "1569615908167102467"
+            }
+        ]
+    },
+    {
+        "ticker": "KAIA",
+        "team_members": [
+            {
+                "twitter_user_name": "jayantramanand",
+                "twitter_user_id": "3001620020"
+            }
+        ]
     }
 ]
