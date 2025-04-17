@@ -3148,5 +3148,96 @@
                 "twitter_user_id": "3001620020"
             }
         ]
+    },
+    {
+        "ticker": "MORPH",
+        "team_members": [
+            {
+                "twitter_user_name": "cecilia_hsueh",
+                "twitter_user_id": "1192644966343823360"
+            },
+            {
+                "twitter_user_name": "azeemk_",
+                "twitter_user_id": "93298375"
+            },
+            {
+                "twitter_user_name": "MaggieSWeb3",
+                "twitter_user_id": "1259877964663140353"
+            },
+            {
+                "twitter_user_name": "EudemoniaCC",
+                "twitter_user_id": "1496736849703825409"
+            },
+            {
+                "twitter_user_name": "july_web3",
+                "twitter_user_id": "915138030603784193"
+            },
+            {
+                "twitter_user_name": "KMagcap",
+                "twitter_user_id": "319465933"
+            },
+            {
+                "twitter_user_name": "ShiGenie1",
+                "twitter_user_id": "1519233813309710337"
+            }
+        ]
+    },
+    {
+        "ticker": "ENSO",
+        "team_members": [
+            {
+                "twitter_user_name": "connor_enso",
+                "twitter_user_id": "1234864561133625345"
+            },
+            {
+                "twitter_user_name": "MilosCostantini",
+                "twitter_user_id": "34275027"
+            },
+            {
+                "twitter_user_name": "lindyhan",
+                "twitter_user_id": "1483701198041452546"
+            },
+            {
+                "twitter_user_name": "impliedval",
+                "twitter_user_id": "967029293124669442"
+            },
+            {
+                "twitter_user_name": "Leo_Plaro",
+                "twitter_user_id": "1467887034291429384"
+            },
+            {
+                "twitter_user_name": "nikoethvida",
+                "twitter_user_id": "1103240383985844225"
+            },
+            {
+                "twitter_user_name": "BKWeb3",
+                "twitter_user_id": "1637048334492872707"
+            },
+            {
+                "twitter_user_name": "pixelis0x",
+                "twitter_user_id": "314065213"
+            }
+        ]
+    },
+    {
+        "ticker": "TURTLECLUB",
+        "team_members": [
+            {
+                "twitter_user_name": "pedro_verdades",
+                "twitter_user_id": "1355605298577371136"
+            },
+            {
+                "twitter_user_name": "0xShillok",
+                "twitter_user_id": "1040001191739092994"
+            },
+            {
+                "twitter_user_name": "JasonTurtleClub",
+                "twitter_user_id": "1832060341653512192"
+            },
+            {
+                "twitter_user_name": "diogoweb3",
+                "twitter_user_id": "1526506082654294018"
+            }
+        ]
     }
 ]
