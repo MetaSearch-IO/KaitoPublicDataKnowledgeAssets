@@ -3239,5 +3239,35 @@
                 "twitter_user_id": "1526506082654294018"
             }
         ]
+    },
+    {
+        "ticker": "SIDEKICK",
+        "team_members": [
+            {
+                "twitter_user_name": "HeyfishYC",
+                "twitter_user_id": "1400600987061075969"
+            },
+            {
+                "twitter_user_name": "SanConfucius77",
+                "twitter_user_id": "762196105698373632"
+            },
+            {
+                "twitter_user_name": "Sidekick_Intern",
+                "twitter_user_id": "1859888029877334016"
+            }
+        ]
+    },
+    {
+        "ticker": "AXIOM",
+        "team_members": [
+            {
+                "twitter_user_name": "mist_trading",
+                "twitter_user_id": "1806620829746364416"
+            },
+            {
+                "twitter_user_name": "cal_trading",
+                "twitter_user_id": "1881526669963665409"
+            }
+        ]
     }
 ]
