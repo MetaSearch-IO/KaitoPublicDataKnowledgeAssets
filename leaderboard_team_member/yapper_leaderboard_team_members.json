@@ -3269,5 +3269,21 @@
                 "twitter_user_id": "1881526669963665409"
             }
         ]
+    },
+    {
+        "ticker": "DYDX",
+        "team_members": []
+    },
+    {
+        "ticker": "ARB",
+        "team_members": []
+    },
+    {
+        "ticker": "CALDERA",
+        "team_members": []
+    },
+    {
+        "ticker": "NYT",
+        "team_members": []
     }
 ]
