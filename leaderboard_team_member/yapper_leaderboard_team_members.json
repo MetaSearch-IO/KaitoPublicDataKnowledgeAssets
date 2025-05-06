@@ -3285,5 +3285,9 @@
     {
         "ticker": "NYT",
         "team_members": []
+    },
+    {
+        "ticker": "HUMAFINANCE",
+        "team_members": []
     }
 ]
