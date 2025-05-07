@@ -3289,5 +3289,18 @@
     {
         "ticker": "HUMAFINANCE",
         "team_members": []
+    },
+    {
+        "ticker": "NEWTON",
+        "team_members": [
+            {
+                "twitter_user_name": "_seanli",
+                "twitter_user_id": "1122537388738146304"
+            },
+            {
+                "twitter_user_name": "jaemin0x",
+                "twitter_user_id": "2685661184"
+            }
+        ]
     }
 ]
