@@ -3306,5 +3306,22 @@
                 "twitter_user_id": "177492042"
             }
         ]
+    },
+    {
+        "ticker": "SYMPHONY",
+        "team_members": [
+            {
+                "twitter_user_name": "ChopinCadence",
+                "twitter_user_id": "1681428443643166720"
+            },
+            {
+                "twitter_user_name": "mozartcadence",
+                "twitter_user_id": "1682438115246350366"
+            },
+            {
+                "twitter_user_name": "vivaldi0x",
+                "twitter_user_id": "1643359055748947969"
+            }
+        ]
     }
 ]
