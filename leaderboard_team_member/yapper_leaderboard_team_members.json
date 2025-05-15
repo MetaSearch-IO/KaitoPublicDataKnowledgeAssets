@@ -3323,5 +3323,66 @@
                 "twitter_user_id": "1643359055748947969"
             }
         ]
+    },
+    {
+        "ticker": "SO",
+        "team_members": [
+            {
+                "twitter_user_name": "As_Hatom",
+                "twitter_user_id": "1527320263263588363"
+            },
+            {
+                "twitter_user_name": "mbsoufiane",
+                "twitter_user_id": "1359464198"
+            },
+            {
+                "twitter_user_name": "efectorami",
+                "twitter_user_id": "3286267949"
+            },
+            {
+                "twitter_user_name": "fscucchiero",
+                "twitter_user_id": "1271561654468259849"
+            },
+            {
+                "twitter_user_name": "robolteanu_",
+                "twitter_user_id": "1879107361933070336"
+            },
+            {
+                "twitter_user_name": "Davyegld",
+                "twitter_user_id": "1519613748289363969"
+            },
+            {
+                "twitter_user_name": "AndreiMX_",
+                "twitter_user_id": "1377193257373990912"
+            },
+            {
+                "twitter_user_name": "Davyegld",
+                "twitter_user_id": "1519613748289363969"
+            },
+            {
+                "twitter_user_name": "arnod3f",
+                "twitter_user_id": "1417895889264386050"
+            },
+            {
+                "twitter_user_name": "xFoudres",
+                "twitter_user_id": "1251226086375149568"
+            }
+        ]
+    },
+    {
+        "ticker": "INJ",
+        "team_members": []
+    },
+    {
+        "ticker": "POL",
+        "team_members": []
+    },
+    {
+        "ticker": "YEET",
+        "team_members": []
+    },
+    {
+        "ticker": "GIZA",
+        "team_members": []
     }
 ]
