@@ -3392,5 +3392,66 @@
     {
         "ticker": "LAYEREDGE",
         "team_members": []
+    },
+    {
+        "ticker": "PORTALPORTAL",
+        "team_members": [
+            {
+                "twitter_user_name": "csentropy",
+                "twitter_user_id": "15695772"
+            },
+            {
+                "twitter_user_name": "manojduggi",
+                "twitter_user_id": "1587078057067565058"
+            },
+            {
+                "twitter_user_name": "deeeedle",
+                "twitter_user_id": "20197421"
+            },
+            {
+                "twitter_user_name": "Elektroveniks",
+                "twitter_user_id": "33172987"
+            },
+            {
+                "twitter_user_name": "geoburke",
+                "twitter_user_id": "53307005"
+            },
+            {
+                "twitter_user_name": "0xyashtiwari",
+                "twitter_user_id": "1246661167835054081"
+            },
+            {
+                "twitter_user_name": "ref_1829",
+                "twitter_user_id": "1439190662344323078"
+            },
+            {
+                "twitter_user_name": "0xm1ggy",
+                "twitter_user_id": "1648426156763369475"
+            },
+            {
+                "twitter_user_name": "jenniferng_",
+                "twitter_user_id": "4299196094"
+            }
+        ]
+    },
+    {
+        "ticker": "IRYS",
+        "team_members": []
+    },
+    {
+        "ticker": "PORTALPORTAL",
+        "team_members": []
+    },
+    {
+        "ticker": "MULTIBANK",
+        "team_members": []
+    },
+    {
+        "ticker": "KAT",
+        "team_members": []
+    },
+    {
+        "ticker": "NOYA",
+        "team_members": []
     }
 ]
