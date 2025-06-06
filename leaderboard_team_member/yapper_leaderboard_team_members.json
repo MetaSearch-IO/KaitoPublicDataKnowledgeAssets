@@ -3453,5 +3453,9 @@
     {
         "ticker": "NOYA",
         "team_members": []
+    },
+    {
+        "ticker": "ZEC",
+        "team_members": []
     }
 ]
