@@ -3457,5 +3457,9 @@
     {
         "ticker": "ZEC",
         "team_members": []
+    },
+    {
+        "ticker": "MIRA",
+        "team_members": []
     }
 ]
