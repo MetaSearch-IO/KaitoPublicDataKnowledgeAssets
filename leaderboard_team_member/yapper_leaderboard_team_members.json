@@ -3461,5 +3461,79 @@
     {
         "ticker": "MIRA",
         "team_members": []
+    },
+    {
+        "ticker": "HANAHANA",
+        "team_members": [
+            {
+                "twitter_user_name": "0xJeek",
+                "twitter_user_id": "1515716410911395843"
+            },
+            {
+                "twitter_user_name": "0xHanasaka",
+                "twitter_user_id": "1181497056273129472"
+            }
+        ]
+    },
+    {
+        "ticker": "BILLIONS",
+        "team_members": [
+            {
+                "twitter_user_name": "provenauthority",
+                "twitter_user_id": "1051212501910777857"
+            },
+            {
+                "twitter_user_name": "jgonzalezferrer",
+                "twitter_user_id": "269458599"
+            },
+            {
+                "twitter_user_name": "blurredone_",
+                "twitter_user_id": "1931091650450694144"
+            },
+            {
+                "twitter_user_name": "ravikantagrawal",
+                "twitter_user_id": "90760445"
+            },
+            {
+                "twitter_user_name": "sandeepnailwal",
+                "twitter_user_id": "100798845"
+            },
+            {
+                "twitter_user_name": "kryptojogi",
+                "twitter_user_id": "1433315253295718400"
+            },
+            {
+                "twitter_user_name": "vitalii_koval11",
+                "twitter_user_id": "1455839350718144514"
+            },
+            {
+                "twitter_user_name": "davidsrz",
+                "twitter_user_id": "64383417"
+            },
+            {
+                "twitter_user_name": "OBrezhniev",
+                "twitter_user_id": "2865475072"
+            },
+            {
+                "twitter_user_name": "WebWalle",
+                "twitter_user_id": "1256451376839667712"
+            },
+            {
+                "twitter_user_name": "onchainron",
+                "twitter_user_id": "1733071277533839360"
+            },
+            {
+                "twitter_user_name": "0xAlexDigital",
+                "twitter_user_id": "1602777128856076288"
+            },
+            {
+                "twitter_user_name": "ottomorac",
+                "twitter_user_id": "383898822"
+            },
+            {
+                "twitter_user_name": "Dicevicius",
+                "twitter_user_id": "731827942716772352"
+            }
+        ]
     }
 ]
