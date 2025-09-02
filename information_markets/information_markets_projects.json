@@ -1,0 +1,191 @@
+[
+    {
+        "ticker": "POLYMARKET",
+        "remarks": {
+            "display_ticker": "POLYMARKET",
+            "fullname": "Polymarket"
+        }
+    },
+    {
+        "ticker": "LIMITLESS",
+        "remarks": {
+            "display_ticker": "LIMITLESS",
+            "fullname": "Limitless"
+        }
+    },
+    {
+        "ticker": "HEDGEHOG",
+        "remarks": {
+            "display_ticker": "HEDGEHOG",
+            "fullname": "Hedgehog Market"
+        }
+    },
+    {
+        "ticker": "OVERTIME",
+        "remarks": {
+            "display_ticker": "OVERTIME",
+            "fullname": "Overtime Markets"
+        }
+    },
+    {
+        "ticker": "MYR",
+        "remarks": {
+            "display_ticker": "MYR",
+            "fullname": "MYRIAD"
+        }
+    },
+    {
+        "ticker": "NOISE",
+        "remarks": {
+            "display_ticker": "NOISE",
+            "fullname": "Noise"
+        }
+    },
+    {
+        "ticker": "ALKIMIYA",
+        "remarks": {
+            "display_ticker": "ALKIMIYA",
+            "fullname": "Alkimiya"
+        }
+    },
+    {
+        "ticker": "OPINIONSFUN",
+        "remarks": {
+            "display_ticker": "OPINIONSFUN",
+            "fullname": "opinions.fun"
+        }
+    },
+    {
+        "ticker": "FOOTBALLFUN",
+        "remarks": {
+            "display_ticker": "FOOTBALLFUN",
+            "fullname": "FootballFun"
+        }
+    },
+    {
+        "ticker": "KALSHI",
+        "remarks": {
+            "display_ticker": "KALSHI",
+            "fullname": "Kalshi"
+        }
+    },
+    {
+        "ticker": "CONTEXT",
+        "remarks": {
+            "display_ticker": "CONTEXT",
+            "fullname": "Context"
+        }
+    },
+    {
+        "ticker": "TRUEMARKETS",
+        "remarks": {
+            "display_ticker": "TRUEMARKETS",
+            "fullname": "True Markets"
+        }
+    },
+    {
+        "ticker": "KIZZY",
+        "remarks": {
+            "display_ticker": "KIZZY",
+            "fullname": "Kizzy"
+        }
+    },
+    {
+        "ticker": "POLYPOLYTRADERBYVIRTUALS",
+        "remarks": {
+            "display_ticker": "POLY",
+            "fullname": "Polytrader by Virtuals"
+        }
+    },
+    {
+        "ticker": "SPECSPECULATE",
+        "remarks": {
+            "display_ticker": "SPEC",
+            "fullname": "Speculate"
+        }
+    },
+    {
+        "ticker": "TRIAD",
+        "remarks": {
+            "display_ticker": "TRIAD",
+            "fullname": "Triad"
+        }
+    },
+    {
+        "ticker": "FACTCHECK",
+        "remarks": {
+            "display_ticker": "FACTCHECK",
+            "fullname": "factCheck"
+        }
+    },
+    {
+        "ticker": "BRKT",
+        "remarks": {
+            "display_ticker": "BRKT",
+            "fullname": "BRKT"
+        }
+    },
+    {
+        "ticker": "MELEE",
+        "remarks": {
+            "display_ticker": "MELEE",
+            "fullname": "Melee"
+        }
+    },
+    {
+        "ticker": "POLL",
+        "remarks": {
+            "display_ticker": "POLL",
+            "fullname": "Poll"
+        }
+    },
+    {
+        "ticker": "SPREDICT",
+        "remarks": {
+            "display_ticker": "SPREDICT",
+            "fullname": "Spredict"
+        }
+    },
+    {
+        "ticker": "XOMARKET",
+        "remarks": {
+            "display_ticker": "XOMARKET",
+            "fullname": "XO Market"
+        }
+    },
+    {
+        "ticker": "CASTORA",
+        "remarks": {
+            "display_ticker": "CASTORA",
+            "fullname": "Castora"
+        }
+    },
+    {
+        "ticker": "CGX",
+        "remarks": {
+            "display_ticker": "CGX",
+            "fullname": "Forkast"
+        }
+    },
+    {
+        "ticker": "VORTX",
+        "remarks": {
+            "display_ticker": "VORTX",
+            "fullname": "Vortx"
+        }
+    },
+    {
+        "ticker": "BLUFF",
+        "remarks": {
+            "display_ticker": "BLUFF",
+            "fullname": "Bluff"
+        }
+    },
+    {
+        "ticker": "FIREPLACE",
+        "remarks": {
+            "display_ticker": "FIREPLACE",
+            "fullname": "fireplace"
+        }
+    }
+]
