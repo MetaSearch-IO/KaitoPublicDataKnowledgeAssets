@@ -1,5 +1,12 @@
 [
     {
+        "ticker": "PICASSO",
+        "remarks": {
+            "display_ticker": "PICASSO",
+            "fullname": "Picasso Markets"
+        }
+    },
+    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
