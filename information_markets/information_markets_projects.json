@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+    {
+        "ticker": "BELIEFMARKET",
+        "remarks": {
+            "display_ticker": "BELIEFMARKET",
+            "fullname": "Belief Market"
+        }
     }
 ]
