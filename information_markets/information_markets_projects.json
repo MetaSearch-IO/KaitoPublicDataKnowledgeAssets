@@ -1,5 +1,12 @@
 [
     {
+        "ticker": "ACTIONS",
+        "remarks": {
+            "display_ticker": "ACTIONS",
+            "fullname": "actions.fun"
+        }
+    },
+    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
