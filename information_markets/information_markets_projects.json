@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+        {
+        "ticker": "WANNA",
+        "remarks": {
+            "display_ticker": "WANNAFUN",
+            "fullname": "WANNA.FUN ?"
+        }
     }
 ]
