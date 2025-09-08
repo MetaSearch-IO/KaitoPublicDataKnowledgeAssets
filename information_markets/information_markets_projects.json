@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+        {
+        "ticker": "HYPIQ",
+        "remarks": {
+            "display_ticker": "HYPIQ",
+            "fullname": "HYPIQ"
+        }
     }
 ]
