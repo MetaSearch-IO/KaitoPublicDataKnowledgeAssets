@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+    {
+        "ticker": "POLYSIGHTS",
+        "remarks": {
+            "display_ticker": "POLYSIGHTS",
+            "fullname": "Polysights"
+        }
     }
 ]
