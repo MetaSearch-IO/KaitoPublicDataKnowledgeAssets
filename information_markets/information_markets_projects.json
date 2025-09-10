@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+    {
+        "ticker": "BUZZING",
+        "remarks": {
+            "display_ticker": "BUZZING",
+            "fullname": "Buzzing"
+        }
     }
 ]
