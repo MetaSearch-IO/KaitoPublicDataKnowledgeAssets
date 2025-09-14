@@ -187,5 +187,12 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
+    },
+    {
+        "ticker": "KASH",
+        "remarks": {
+            "display_ticker": "KASH",
+            "fullname": "kash"
+        }
     }
 ]
