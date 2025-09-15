@@ -7,6 +7,20 @@
         }
     },
     {
+        "ticker": "PICASSO",
+        "remarks": {
+            "display_ticker": "PICASSO",
+            "fullname": "Picasso Markets"
+        }
+    },
+    {
+        "ticker": "FLIQ",
+        "remarks": {
+            "display_ticker": "FLIQ",
+            "fullname": "Fliq"
+        }
+    },
+    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
@@ -193,6 +207,13 @@
         "remarks": {
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
+        }
+    },
+    {
+        "ticker": "BELIEFMARKET",
+        "remarks": {
+            "display_ticker": "BELIEFMARKET",
+            "fullname": "Belief Market"
         }
     }
 ]
