@@ -7,6 +7,13 @@
         }
     },
     {
+        "ticker": "FLIQ",
+        "remarks": {
+            "display_ticker": "FLIQ",
+            "fullname": "Fliq"
+        }
+    },
+    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
