@@ -210,6 +210,13 @@
         }
     },
     {
+        "ticker": "KASH",
+        "remarks": {
+            "display_ticker": "KASH",
+            "fullname": "kash"
+        }
+    },
+    {
         "ticker": "BUZZING",
         "remarks": {
             "display_ticker": "BUZZING",
