@@ -8,3 +8,4 @@
     - [ ] Twitter username in remarks (no "@" mark)
     - [ ] Twitter user ID of affiliated VC's official account
     - [ ] Twitter username of affiliated VC's official account in remarks (no "@" mark)
+    - [ ] Twitter handle
