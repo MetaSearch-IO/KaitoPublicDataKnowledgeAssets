@@ -210,6 +210,13 @@
         }
     },
     {
+        "ticker": "WANNA",
+        "remarks": {
+            "display_ticker": "WANNAFUN",
+            "fullname": "WANNA.FUN"
+        }
+    },
+    {
         "ticker": "BELIEFMARKET",
         "remarks": {
             "display_ticker": "BELIEFMARKET",
