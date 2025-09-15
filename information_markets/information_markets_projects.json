@@ -210,6 +210,13 @@
         }
     },
     {
+        "ticker": "POLYSIGHTS",
+        "remarks": {
+            "display_ticker": "POLYSIGHTS",
+            "fullname": "Polysights"
+        }
+    },
+    {
         "ticker": "HYPIQ",
         "remarks": {
             "display_ticker": "HYPIQ",
