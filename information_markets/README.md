@@ -8,7 +8,8 @@ The information markets projects list data is stored in `information_market/info
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
-            "fullname": "Polymarket"
+            "fullname": "Polymarket",
+            "username": "Polymarket"
         }
     },
     // additional entries here
