@@ -1,5 +1,26 @@
 [
     {
+        "ticker": "ACTIONS",
+        "remarks": {
+            "display_ticker": "ACTIONS",
+            "fullname": "actions.fun"
+        }
+    },
+    {
+        "ticker": "PICASSO",
+        "remarks": {
+            "display_ticker": "PICASSO",
+            "fullname": "Picasso Markets"
+        }
+    },
+    {
+        "ticker": "FLIQ",
+        "remarks": {
+            "display_ticker": "FLIQ",
+            "fullname": "Fliq"
+        }
+    },
+    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
@@ -193,6 +214,41 @@
         "remarks": {
             "display_ticker": "KASH",
             "fullname": "kash"
+        }
+    },
+    {
+        "ticker": "BUZZING",
+        "remarks": {
+            "display_ticker": "BUZZING",
+            "fullname": "Buzzing"
+        }
+    },
+    {
+        "ticker": "POLYSIGHTS",
+        "remarks": {
+            "display_ticker": "POLYSIGHTS",
+            "fullname": "Polysights"
+        }
+    },
+    {
+        "ticker": "HYPIQ",
+        "remarks": {
+            "display_ticker": "HYPIQ",
+            "fullname": "HYPIQ"
+        }
+    },
+    {
+        "ticker": "WANNA",
+        "remarks": {
+            "display_ticker": "WANNAFUN",
+            "fullname": "WANNA.FUN"
+        }
+    },
+    {
+        "ticker": "BELIEFMARKET",
+        "remarks": {
+            "display_ticker": "BELIEFMARKET",
+            "fullname": "Belief Market"
         }
     }
 ]
