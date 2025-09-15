@@ -1,5 +1,12 @@
 [
     {
+        "ticker": "PICASSO",
+        "remarks": {
+            "display_ticker": "PICASSO",
+            "fullname": "Picasso Markets"
+        }
+    },
+    {
         "ticker": "FLIQ",
         "remarks": {
             "display_ticker": "FLIQ",
@@ -194,5 +201,5 @@
             "display_ticker": "FIREPLACE",
             "fullname": "fireplace"
         }
-    },
+    }
 ]
