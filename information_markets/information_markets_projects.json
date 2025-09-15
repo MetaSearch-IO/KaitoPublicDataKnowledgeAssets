@@ -1,5 +1,12 @@
 [
     {
+        "ticker": "ACTIONS",
+        "remarks": {
+            "display_ticker": "ACTIONS",
+            "fullname": "actions.fun"
+        }
+    },
+    {
         "ticker": "PICASSO",
         "remarks": {
             "display_ticker": "PICASSO",
