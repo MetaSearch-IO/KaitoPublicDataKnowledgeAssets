@@ -3,261 +3,296 @@
         "ticker": "ACTIONS",
         "remarks": {
             "display_ticker": "ACTIONS",
-            "fullname": "actions.fun"
+            "fullname": "actions.fun",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "PICASSO",
         "remarks": {
             "display_ticker": "PICASSO",
-            "fullname": "Picasso Markets"
+            "fullname": "Picasso Markets",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "FLIQ",
         "remarks": {
             "display_ticker": "FLIQ",
-            "fullname": "Fliq"
+            "fullname": "Fliq",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
-            "fullname": "Polymarket"
+            "fullname": "Polymarket",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "LIMITLESS",
         "remarks": {
             "display_ticker": "LIMITLESS",
-            "fullname": "Limitless"
+            "fullname": "Limitless",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "HEDGEHOG",
         "remarks": {
             "display_ticker": "HEDGEHOG",
-            "fullname": "Hedgehog Market"
+            "fullname": "Hedgehog Market",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "OVERTIME",
         "remarks": {
             "display_ticker": "OVERTIME",
-            "fullname": "Overtime Markets"
+            "fullname": "Overtime Markets",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "MYR",
         "remarks": {
             "display_ticker": "MYR",
-            "fullname": "MYRIAD"
+            "fullname": "MYRIAD",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "NOISE",
         "remarks": {
             "display_ticker": "NOISE",
-            "fullname": "Noise"
+            "fullname": "Noise",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "ALKIMIYA",
         "remarks": {
             "display_ticker": "ALKIMIYA",
-            "fullname": "Alkimiya"
+            "fullname": "Alkimiya",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "OPINIONSFUN",
         "remarks": {
             "display_ticker": "OPINIONSFUN",
-            "fullname": "opinions.fun"
+            "fullname": "opinions.fun",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "FOOTBALLFUN",
         "remarks": {
             "display_ticker": "FOOTBALLFUN",
-            "fullname": "FootballFun"
+            "fullname": "FootballFun",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "KALSHI",
         "remarks": {
             "display_ticker": "KALSHI",
-            "fullname": "Kalshi"
+            "fullname": "Kalshi",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "CONTEXT",
         "remarks": {
             "display_ticker": "CONTEXT",
-            "fullname": "Context"
+            "fullname": "Context",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "TRUEMARKETS",
         "remarks": {
             "display_ticker": "TRUEMARKETS",
-            "fullname": "True Markets"
+            "fullname": "True Markets",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "KIZZY",
         "remarks": {
             "display_ticker": "KIZZY",
-            "fullname": "Kizzy"
+            "fullname": "Kizzy",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "POLYPOLYTRADERBYVIRTUALS",
         "remarks": {
             "display_ticker": "POLY",
-            "fullname": "Polytrader by Virtuals"
+            "fullname": "Polytrader by Virtuals",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "SPECSPECULATE",
         "remarks": {
             "display_ticker": "SPEC",
-            "fullname": "Speculate"
+            "fullname": "Speculate",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "TRIAD",
         "remarks": {
             "display_ticker": "TRIAD",
-            "fullname": "Triad"
+            "fullname": "Triad",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "FACTCHECK",
         "remarks": {
             "display_ticker": "FACTCHECK",
-            "fullname": "factCheck"
+            "fullname": "factCheck",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "BRKT",
         "remarks": {
             "display_ticker": "BRKT",
-            "fullname": "BRKT"
+            "fullname": "BRKT",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "MELEE",
         "remarks": {
             "display_ticker": "MELEE",
-            "fullname": "Melee"
+            "fullname": "Melee",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "POLL",
         "remarks": {
             "display_ticker": "POLL",
-            "fullname": "Poll"
+            "fullname": "Poll",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "SPREDICT",
         "remarks": {
             "display_ticker": "SPREDICT",
-            "fullname": "Spredict"
+            "fullname": "Spredict",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "XOMARKET",
         "remarks": {
             "display_ticker": "XOMARKET",
-            "fullname": "XO Market"
+            "fullname": "XO Market",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "CASTORA",
         "remarks": {
             "display_ticker": "CASTORA",
-            "fullname": "Castora"
+            "fullname": "Castora",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "CGX",
         "remarks": {
             "display_ticker": "CGX",
-            "fullname": "Forkast"
+            "fullname": "Forkast",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "VORTX",
         "remarks": {
             "display_ticker": "VORTX",
-            "fullname": "Vortx"
+            "fullname": "Vortx",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "BLUFF",
         "remarks": {
             "display_ticker": "BLUFF",
-            "fullname": "Bluff"
+            "fullname": "Bluff",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "FIREPLACE",
         "remarks": {
             "display_ticker": "FIREPLACE",
-            "fullname": "fireplace"
+            "fullname": "fireplace",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "KASH",
         "remarks": {
             "display_ticker": "KASH",
-            "fullname": "kash"
+            "fullname": "kash",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "BUZZING",
         "remarks": {
             "display_ticker": "BUZZING",
-            "fullname": "Buzzing"
+            "fullname": "Buzzing",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "POLYSIGHTS",
         "remarks": {
             "display_ticker": "POLYSIGHTS",
-            "fullname": "Polysights"
+            "fullname": "Polysights",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "HYPIQ",
         "remarks": {
             "display_ticker": "HYPIQ",
-            "fullname": "HYPIQ"
+            "fullname": "HYPIQ",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "WANNA",
         "remarks": {
             "display_ticker": "WANNAFUN",
-            "fullname": "WANNA.FUN"
+            "fullname": "WANNA.FUN",
+            "twitter_handle": ""
         }
     },
     {
         "ticker": "BELIEFMARKET",
         "remarks": {
             "display_ticker": "BELIEFMARKET",
-            "fullname": "Belief Market"
-        },
-        
+            "fullname": "Belief Market",
+            "twitter_handle": ""
+        }
     },
     {
         "ticker": "PRECOG",
         "remarks": {
             "display_ticker": "PRECOG",
-            "fullname": "Precog Market"
-        },
-        
+            "fullname": "Precog Market",
+            "twitter_handle": ""
+        }
     }
 ]

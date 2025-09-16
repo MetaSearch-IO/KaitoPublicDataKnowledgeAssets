@@ -9,7 +9,7 @@ The information markets projects list data is stored in `information_market/info
         "remarks": {
             "display_ticker": "POLYMARKET",
             "fullname": "Polymarket",
-            "username": "Polymarket"
+            "twitter_handle": "Polymarket"
         }
     },
     // additional entries here
