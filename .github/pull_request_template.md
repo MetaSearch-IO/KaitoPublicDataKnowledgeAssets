@@ -7,4 +7,4 @@
     - [ ] ticker name
     - [ ] display_ticker in remarks 
     - [ ] fullname in remarks (no "@" mark)
-    - [ ] Twitter username in remarks 
+    - [ ] Twitter handle in remarks 
