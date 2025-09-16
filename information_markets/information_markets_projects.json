@@ -249,6 +249,15 @@
         "remarks": {
             "display_ticker": "BELIEFMARKET",
             "fullname": "Belief Market"
-        }
+        },
+        
+    },
+    {
+        "ticker": "PRECOG",
+        "remarks": {
+            "display_ticker": "PRECOG",
+            "fullname": "Precog Market"
+        },
+        
     }
 ]
