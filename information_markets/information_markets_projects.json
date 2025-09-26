@@ -294,5 +294,13 @@
             "fullname": "Precog Market",
             "twitter_handle": "precogmarket"
         }
+    },
+    {
+        "ticker": "PG",
+        "remarks": {
+            "display_ticker": "PREDICTGO",
+            "fullname": "PredictGo",
+            "twitter_handle": "PredictGo"
+        }
     }
 ]
