@@ -295,7 +295,14 @@
             "twitter_handle": "precogmarket"
         }
     },
-    [
+    {
+        "ticker": "PG",
+        "remarks": {
+            "display_ticker": "PREDICTGO",
+            "fullname": "PredictGo",
+            "twitter_handle": "PredictGo"
+        }
+    },
     {
         "ticker": "CRYPTOUFOS",
         "remarks": {
@@ -304,5 +311,4 @@
             "twitter_handle": "0xCryptoUFOs"
         }
     }
-]
 ]
