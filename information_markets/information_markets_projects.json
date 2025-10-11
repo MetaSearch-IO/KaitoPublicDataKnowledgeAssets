@@ -294,5 +294,15 @@
             "fullname": "Precog Market",
             "twitter_handle": "precogmarket"
         }
+    },
+    [
+    {
+        "ticker": "CRYPTOUFOS",
+        "remarks": {
+            "display_ticker": "CryptoUFOs",
+            "fullname": "Crypto UFOs",
+            "twitter_handle": "0xCryptoUFOs"
+        }
     }
+]
 ]
