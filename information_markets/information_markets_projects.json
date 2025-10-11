@@ -302,5 +302,13 @@
             "fullname": "PredictGo",
             "twitter_handle": "PredictGo"
         }
+    },
+    {
+        "ticker": "CRYPTOUFOS",
+        "remarks": {
+            "display_ticker": "CryptoUFOs",
+            "fullname": "Crypto UFOs",
+            "twitter_handle": "0xCryptoUFOs"
+        }
     }
 ]
