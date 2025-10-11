@@ -296,6 +296,14 @@
         }
     },
     {
+      "ticker": "SX",
+      "remarks": {
+          "display_ticker": "SX",
+          "fullname": "SX Bet",
+          "twitter_handle": "SX_Bet"
+      }
+    },
+    {
         "ticker": "PG",
         "remarks": {
             "display_ticker": "PREDICTGO",
