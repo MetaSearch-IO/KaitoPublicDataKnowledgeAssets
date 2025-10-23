@@ -318,5 +318,13 @@
             "fullname": "Crypto UFOs",
             "twitter_handle": "0xCryptoUFOs"
         }
+    },
+    {
+        "ticker": "MENTORABLE",
+        "remarks": {
+            "display_ticker": "MENTORABLE",
+            "fullname": "Mentorable",
+            "twitter_handle": "MentorableHQ"
+        }
     }
 ]
