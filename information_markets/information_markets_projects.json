@@ -326,5 +326,13 @@
             "fullname": "Mentorable",
             "twitter_handle": "MentorableHQ"
         }
+    },
+    {
+        "ticker": "HYPERSTITIONS",
+        "remarks": {
+            "display_ticker": "Hyperstitions",
+            "fullname": "Hyperstitions",
+            "twitter_handle": "Hyperstiti0ns"
+        }
     }
 ]
