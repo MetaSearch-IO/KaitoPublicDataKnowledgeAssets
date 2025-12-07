@@ -334,5 +334,13 @@
             "fullname": "Hyperstitions",
             "twitter_handle": "Hyperstiti0ns"
         }
+    },
+    {
+        "ticker": "SCAI",
+        "remarks": {
+            "display_ticker": "SCAI",
+            "fullname": "SecureChainAI",
+            "twitter_handle": "SecureChainAI"
+        }
     }
 ]
