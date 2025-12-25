@@ -342,5 +342,13 @@
             "fullname": "SecureChainAI",
             "twitter_handle": "SecureChainAI"
         }
+    },
+    {
+        "ticker": "PNP",
+        "remarks": {
+            "display_ticker": "PNP",
+            "fullname": "PNP Exchange",
+            "twitter_handle": "predictandpump"
+        }
     }
 ]
