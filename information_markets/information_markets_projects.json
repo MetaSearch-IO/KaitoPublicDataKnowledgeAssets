@@ -336,6 +336,14 @@
         }
     },
     {
+        "ticker": "SCAI",
+        "remarks": {
+            "display_ticker": "SCAI",
+            "fullname": "SecureChainAI",
+            "twitter_handle": "SecureChainAI"
+        }
+    },
+    {
         "ticker": "PNP",
         "remarks": {
             "display_ticker": "PNP",
