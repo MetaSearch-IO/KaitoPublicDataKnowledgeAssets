@@ -334,5 +334,13 @@
             "fullname": "Hyperstitions",
             "twitter_handle": "Hyperstiti0ns"
         }
+    },
+    {
+        "ticker": "PNP",
+        "remarks": {
+            "display_ticker": "PNP",
+            "fullname": "PNP Exchange",
+            "twitter_handle": "predictandpump"
+        }
     }
 ]
