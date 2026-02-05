@@ -1,0 +1,1770 @@
+[
+    {
+        "ticker": "UFO",
+        "remarks": {
+            "display_ticker": "SPACE",
+            "fullname": "Space",
+            "twitter_handle": "intodotspace"
+        }
+    },
+    {
+        "ticker": "BASE",
+        "remarks": {
+            "display_ticker": "BASE",
+            "fullname": "BASE",
+            "twitter_handle": "base"
+        }
+    },
+    {
+        "ticker": "PSP",
+        "remarks": {
+            "display_ticker": "PSP",
+            "fullname": "ParaSwap",
+            "twitter_handle": "VeloraDEX"
+        }
+    },
+    {
+        "ticker": "VVV",
+        "remarks": {
+            "display_ticker": "VVV",
+            "fullname": "vVv",
+            "twitter_handle": "vvvexchange"
+        }
+    },
+    {
+        "ticker": "KUJI",
+        "remarks": {
+            "display_ticker": "KUJI",
+            "fullname": "Kujira",
+            "twitter_handle": "RujiraNetwork"
+        }
+    },
+    {
+        "ticker": "WASABI",
+        "remarks": {
+            "display_ticker": "WASABI",
+            "fullname": "Wasabi",
+            "twitter_handle": "wasabi_protocol"
+        }
+    },
+    {
+        "ticker": "ECOX",
+        "remarks": {
+            "display_ticker": "ECOX",
+            "fullname": "ECOx",
+            "twitter_handle": "eco"
+        }
+    },
+    {
+        "ticker": "SUPERPOSITION",
+        "remarks": {
+            "display_ticker": "SPO",
+            "fullname": "Superposition",
+            "twitter_handle": "Superpositionso"
+        }
+    },
+    {
+        "ticker": "BAINBOW",
+        "remarks": {
+            "display_ticker": "RAINBOW",
+            "fullname": "Rainbow Wallet",
+            "twitter_handle": "rainbowdotme"
+        }
+    },
+    {
+        "ticker": "BACKPACK",
+        "remarks": {
+            "display_ticker": "BACKPACK",
+            "fullname": "Backpack",
+            "twitter_handle": "Backpack"
+        }
+    },
+    {
+        "ticker": "LUMITERRA",
+        "remarks": {
+            "display_ticker": "LUMITERRA",
+            "fullname": "LumiTerra",
+            "twitter_handle": "LumiterraGame"
+        }
+    },
+    {
+        "ticker": "NANSEN",
+        "remarks": {
+            "display_ticker": "NANSEN",
+            "fullname": "Nansen",
+            "twitter_handle": "nansen_ai"
+        }
+    },
+    {
+        "ticker": "SOLUNIBOT",
+        "remarks": {
+            "display_ticker": "TROJAN",
+            "fullname": "Trojan on Solana",
+            "twitter_handle": "UnibotOnSolana"
+        }
+    },
+    {
+        "ticker": "FARCASTER",
+        "remarks": {
+            "display_ticker": "FARCASTER",
+            "fullname": "Farcaster",
+            "twitter_handle": "farcaster_xyz"
+        }
+    },
+    {
+        "ticker": "METAMASK",
+        "remarks": {
+            "display_ticker": "MASK",
+            "fullname": "MetaMask",
+            "twitter_handle": "MetaMask"
+        }
+    },
+    {
+        "ticker": "LAYERN",
+        "remarks": {
+            "display_ticker": "LAYERN",
+            "fullname": "Layer N",
+            "twitter_handle": "N1Chain"
+        }
+    },
+    {
+        "ticker": "MEGAETH",
+        "remarks": {
+            "display_ticker": "MEGAETH",
+            "fullname": "MegaETH",
+            "twitter_handle": "megaeth"
+        }
+    },
+    {
+        "ticker": "POLYMARKET",
+        "remarks": {
+            "display_ticker": "POLYMARKET",
+            "fullname": "Polymarket",
+            "twitter_handle": "Polymarket"
+        }
+    },
+    {
+        "ticker": "AZTEC",
+        "remarks": {
+            "display_ticker": "AZTEC",
+            "fullname": "Aztec Network",
+            "twitter_handle": "aztecnetwork"
+        }
+    },
+    {
+        "ticker": "REYA",
+        "remarks": {
+            "display_ticker": "REYA",
+            "fullname": "Reya Labs",
+            "twitter_handle": "Reya_xyz"
+        }
+    },
+    {
+        "ticker": "HINKAL",
+        "remarks": {
+            "display_ticker": "HINKAL",
+            "fullname": "Hinkal",
+            "twitter_handle": "hinkal_protocol"
+        }
+    },
+    {
+        "ticker": "ALMANAK",
+        "remarks": {
+            "display_ticker": "ALMANAK",
+            "fullname": "Almanak",
+            "twitter_handle": "almanak"
+        }
+    },
+    {
+        "ticker": "SHOGUN",
+        "remarks": {
+            "display_ticker": "SHOGUN",
+            "fullname": "Shogun",
+            "twitter_handle": "gundotfun"
+        }
+    },
+    {
+        "ticker": "SOCKET",
+        "remarks": {
+            "display_ticker": "SOCKET",
+            "fullname": "Socket Protocol",
+            "twitter_handle": "SOCKETProtocol"
+        }
+    },
+    {
+        "ticker": "MORPH",
+        "remarks": {
+            "display_ticker": "MORPH",
+            "fullname": "Morph",
+            "twitter_handle": "MorphNetwork"
+        }
+    },
+    {
+        "ticker": "BASEDAPP",
+        "remarks": {
+            "display_ticker": "BASEDAPP",
+            "fullname": "BasedApp",
+            "twitter_handle": "BasedOneX"
+        }
+    },
+    {
+        "ticker": "POLYMER",
+        "remarks": {
+            "display_ticker": "POLYMER",
+            "fullname": "Polymer Labs",
+            "twitter_handle": "Polymer_Labs"
+        }
+    },
+    {
+        "ticker": "HUDDLE01",
+        "remarks": {
+            "display_ticker": "HUDDLE01",
+            "fullname": "Huddle01",
+            "twitter_handle": "huddle01com"
+        }
+    },
+    {
+        "ticker": "NUBIT",
+        "remarks": {
+            "display_ticker": "NUBIT",
+            "fullname": "Nubit",
+            "twitter_handle": "nubit_org"
+        }
+    },
+    {
+        "ticker": "HYPERBOLIC",
+        "remarks": {
+            "display_ticker": "HYPERBOLIC",
+            "fullname": "Hyperbolic",
+            "twitter_handle": "hyperbolic_labs"
+        }
+    },
+    {
+        "ticker": "RABBY",
+        "remarks": {
+            "display_ticker": "RABBY",
+            "fullname": "Rabby Wallet",
+            "twitter_handle": "Rabby_io"
+        }
+    },
+    {
+        "ticker": "SYMBIOTIC",
+        "remarks": {
+            "display_ticker": "SYMBIOTIC",
+            "fullname": "Symbiotic",
+            "twitter_handle": "symbioticfi"
+        }
+    },
+    {
+        "ticker": "WARP",
+        "remarks": {
+            "display_ticker": "WARD",
+            "fullname": "Warden Protocol",
+            "twitter_handle": "wardenprotocol"
+        }
+    },
+    {
+        "ticker": "BUNGEE",
+        "remarks": {
+            "display_ticker": "BUNGEE",
+            "fullname": "Bungee",
+            "twitter_handle": "BungeeExchange"
+        }
+    },
+    {
+        "ticker": "FABLEBORNE",
+        "remarks": {
+            "display_ticker": "FABLEBORNE",
+            "fullname": "Fableborne",
+            "twitter_handle": "fableborne"
+        }
+    },
+    {
+        "ticker": "PARTYICONS",
+        "remarks": {
+            "display_ticker": "PARTYICONS",
+            "fullname": "PARTY ICONS",
+            "twitter_handle": "PartyIconsOGX"
+        }
+    },
+    {
+        "ticker": "OSTIUMLABS",
+        "remarks": {
+            "display_ticker": "OSTIUMLABS",
+            "fullname": "Ostium Labs",
+            "twitter_handle": "ostiumlabs"
+        }
+    },
+    {
+        "ticker": "MELLOWPROTOCOL",
+        "remarks": {
+            "display_ticker": "MELLOWPROTOCOL",
+            "fullname": "Mellow Protocol",
+            "twitter_handle": "Mellowprotocol"
+        }
+    },
+    {
+        "ticker": "GOAT",
+        "remarks": {
+            "display_ticker": "GOAT",
+            "fullname": "GOAT Gaming",
+            "twitter_handle": "playgoatgaming"
+        }
+    },
+    {
+        "ticker": "PARADEX",
+        "remarks": {
+            "display_ticker": "DIME",
+            "fullname": "Paradex",
+            "twitter_handle": "paradex"
+        }
+    },
+    {
+        "ticker": "SUPERFORM",
+        "remarks": {
+            "display_ticker": "SUPERFORM",
+            "fullname": "Superform ",
+            "twitter_handle": "superformxyz"
+        }
+    },
+    {
+        "ticker": "FLUENT",
+        "remarks": {
+            "display_ticker": "FLUENT",
+            "fullname": "Fluent",
+            "twitter_handle": "fluentxyz"
+        }
+    },
+    {
+        "ticker": "EORACLE",
+        "remarks": {
+            "display_ticker": "EORACLE",
+            "fullname": "eOracle",
+            "twitter_handle": "EO_Network"
+        }
+    },
+    {
+        "ticker": "PUFFPAW",
+        "remarks": {
+            "display_ticker": "PUFFPAW",
+            "fullname": "Puffpaw",
+            "twitter_handle": "puffpaw"
+        }
+    },
+    {
+        "ticker": "VARIATIONAL",
+        "remarks": {
+            "display_ticker": "VARIATIONAL",
+            "fullname": "Variational",
+            "twitter_handle": "variational_io"
+        }
+    },
+    {
+        "ticker": "POLYNOMIAL",
+        "remarks": {
+            "display_ticker": "POLYNOMIAL",
+            "fullname": "Polynomial",
+            "twitter_handle": "polynomialfi"
+        }
+    },
+    {
+        "ticker": "ABSTRACT",
+        "remarks": {
+            "display_ticker": "ABSTRACT",
+            "fullname": "Abstract",
+            "twitter_handle": "AbstractChain"
+        }
+    },
+    {
+        "ticker": "FHENIX",
+        "remarks": {
+            "display_ticker": "FHENIX",
+            "fullname": "Fhenix",
+            "twitter_handle": "fhenix"
+        }
+    },
+    {
+        "ticker": "HOLONYM",
+        "remarks": {
+            "display_ticker": "HOLONYM",
+            "fullname": "Holonym",
+            "twitter_handle": "humntech"
+        }
+    },
+    {
+        "ticker": "DOOR",
+        "remarks": {
+            "display_ticker": "DOOR",
+            "fullname": "Tradoor",
+            "twitter_handle": "tradoor_io"
+        }
+    },
+    {
+        "ticker": "ALIGNEDLAYER",
+        "remarks": {
+            "display_ticker": "ALIGNEDLAYER",
+            "fullname": "Aligned Layer",
+            "twitter_handle": "alignedlayer"
+        }
+    },
+    {
+        "ticker": "KIVAAI",
+        "remarks": {
+            "display_ticker": "KIVAAI",
+            "fullname": "Kiva Ai",
+            "twitter_handle": "Meet_Perle"
+        }
+    },
+    {
+        "ticker": "OPENGRADIENT",
+        "remarks": {
+            "display_ticker": "OPENGRADIENT",
+            "fullname": "OpenGradient",
+            "twitter_handle": "OpenGradient"
+        }
+    },
+    {
+        "ticker": "SOMO",
+        "remarks": {
+            "display_ticker": "SOMO",
+            "fullname": "SOMO",
+            "twitter_handle": "playsomo"
+        }
+    },
+    {
+        "ticker": "PINAI",
+        "remarks": {
+            "display_ticker": "PINAI",
+            "fullname": "PIN AI",
+            "twitter_handle": "pinai_io"
+        }
+    },
+    {
+        "ticker": "INFERENCELABS",
+        "remarks": {
+            "display_ticker": "INFERENCELABS",
+            "fullname": "Inference Labs",
+            "twitter_handle": "inference_labs"
+        }
+    },
+    {
+        "ticker": "PHOTON",
+        "remarks": {
+            "display_ticker": "PHOTON",
+            "fullname": "Photon",
+            "twitter_handle": "tradewithPhoton"
+        }
+    },
+    {
+        "ticker": "OPENSEA",
+        "remarks": {
+            "display_ticker": "OPENSEA",
+            "fullname": "OpenSea",
+            "twitter_handle": "opensea"
+        }
+    },
+    {
+        "ticker": "DIN",
+        "remarks": {
+            "display_ticker": "DIN",
+            "fullname": "DIN",
+            "twitter_handle": "din_lol_"
+        }
+    },
+    {
+        "ticker": "TABI",
+        "remarks": {
+            "display_ticker": "TABI",
+            "fullname": "Tabi",
+            "twitter_handle": "Tabichain"
+        }
+    },
+    {
+        "ticker": "MEZO",
+        "remarks": {
+            "display_ticker": "MEZO",
+            "fullname": "Mezo",
+            "twitter_handle": "mezonetwork"
+        }
+    },
+    {
+        "ticker": "MULTIPLIER",
+        "remarks": {
+            "display_ticker": "MULTIPLIER",
+            "fullname": "Multiplier",
+            "twitter_handle": "brokeexee"
+        }
+    },
+    {
+        "ticker": "BOTANIXLABS",
+        "remarks": {
+            "display_ticker": "BOTANIXLABS",
+            "fullname": "Botanix Labs",
+            "twitter_handle": "botanix"
+        }
+    },
+    {
+        "ticker": "NEXUSLABORATORIES",
+        "remarks": {
+            "display_ticker": "NEXUSLABORATORIES",
+            "fullname": "Nexus Laboratories",
+            "twitter_handle": "NexusLabsHQ"
+        }
+    },
+    {
+        "ticker": "CHRONOSWORLDS",
+        "remarks": {
+            "display_ticker": "CHRONOSWORLDS",
+            "fullname": "ChronosWorlds",
+            "twitter_handle": "ChronosWorlds"
+        }
+    },
+    {
+        "ticker": "WEBERA",
+        "remarks": {
+            "display_ticker": "WEBERA",
+            "fullname": "WeBera Finance",
+            "twitter_handle": "WeberaFinance"
+        }
+    },
+    {
+        "ticker": "HYPERFLUID",
+        "remarks": {
+            "display_ticker": "HYPERFLUID",
+            "fullname": "Hyperfluid",
+            "twitter_handle": "Hyperfluidxyz"
+        }
+    },
+    {
+        "ticker": "MAGPIEPROTOCOL",
+        "remarks": {
+            "display_ticker": "MAGPIEPROTOCOL",
+            "fullname": "Magpie Protocol",
+            "twitter_handle": "flytrade_"
+        }
+    },
+    {
+        "ticker": "GTE",
+        "remarks": {
+            "display_ticker": "GTE",
+            "fullname": "GTE",
+            "twitter_handle": "GTE_XYZ"
+        }
+    },
+    {
+        "ticker": "IMMORTALRISING2",
+        "remarks": {
+            "display_ticker": "IMMORTALRISING2",
+            "fullname": "ImmortalRising2",
+            "twitter_handle": "immortalrising2"
+        }
+    },
+    {
+        "ticker": "MYR",
+        "remarks": {
+            "display_ticker": "MYR",
+            "fullname": "MYRIAD",
+            "twitter_handle": "MyriadMarkets"
+        }
+    },
+    {
+        "ticker": "QUESTFLOW",
+        "remarks": {
+            "display_ticker": "QUESTFLOW",
+            "fullname": "Questflow",
+            "twitter_handle": "questflow"
+        }
+    },
+    {
+        "ticker": "ENDEMIC",
+        "remarks": {
+            "display_ticker": "ENDEMIC",
+            "fullname": "Endemic",
+            "twitter_handle": "Endemic_nft"
+        }
+    },
+    {
+        "ticker": "THRIVE",
+        "remarks": {
+            "display_ticker": "THRIVE",
+            "fullname": "Thrive",
+            "twitter_handle": "thriveprotocol"
+        }
+    },
+    {
+        "ticker": "MULTIPLI",
+        "remarks": {
+            "display_ticker": "MULTIPLI",
+            "fullname": "Multipli",
+            "twitter_handle": "multiplifi"
+        }
+    },
+    {
+        "ticker": "INCO",
+        "remarks": {
+            "display_ticker": "INCO",
+            "fullname": "Inco",
+            "twitter_handle": "inconetwork"
+        }
+    },
+    {
+        "ticker": "ESPRESSO",
+        "remarks": {
+            "display_ticker": "ESPRESSO",
+            "fullname": "Espresso",
+            "twitter_handle": "EspressoSys"
+        }
+    },
+    {
+        "ticker": "ETHOSNETWORK",
+        "remarks": {
+            "display_ticker": "ETHOSNETWORK",
+            "fullname": "Ethos Network",
+            "twitter_handle": "ethos_network"
+        }
+    },
+    {
+        "ticker": "NOISE",
+        "remarks": {
+            "display_ticker": "NOISE",
+            "fullname": "Noise",
+            "twitter_handle": "noise_xyz"
+        }
+    },
+    {
+        "ticker": "MINTY",
+        "remarks": {
+            "display_ticker": "MINTY",
+            "fullname": "Minterest",
+            "twitter_handle": "Minterest"
+        }
+    },
+    {
+        "ticker": "BITCOINOS",
+        "remarks": {
+            "display_ticker": "BITCOINOS",
+            "fullname": "BitcoinOS",
+            "twitter_handle": "BTC_OS"
+        }
+    },
+    {
+        "ticker": "CAP",
+        "remarks": {
+            "display_ticker": "CAP",
+            "fullname": "CAP",
+            "twitter_handle": "capmoney_"
+        }
+    },
+    {
+        "ticker": "FOGO",
+        "remarks": {
+            "display_ticker": "FOGO",
+            "fullname": "Fogo",
+            "twitter_handle": "fogo"
+        }
+    },
+    {
+        "ticker": "YOLOEX",
+        "remarks": {
+            "display_ticker": "YOLOEX",
+            "fullname": "Yolo.ex",
+            "twitter_handle": "Yolodotex"
+        }
+    },
+    {
+        "ticker": "KIBBLEKIBBLE",
+        "remarks": {
+            "display_ticker": "KIBBLE",
+            "fullname": "Kibble",
+            "twitter_handle": "KibbleExchange"
+        }
+    },
+    {
+        "ticker": "APRIORI",
+        "remarks": {
+            "display_ticker": "APRIORI",
+            "fullname": "aPriori",
+            "twitter_handle": "aprmev"
+        }
+    },
+    {
+        "ticker": "OPENMIND",
+        "remarks": {
+            "display_ticker": "OPENMIND",
+            "fullname": "OpenMind",
+            "twitter_handle": "openmind_agi"
+        }
+    },
+    {
+        "ticker": "RUJI",
+        "remarks": {
+            "display_ticker": "RUJI",
+            "fullname": "Rujira",
+            "twitter_handle": "RujiraNetwork"
+        }
+    },
+    {
+        "ticker": "FLIPSTER",
+        "remarks": {
+            "display_ticker": "FLIPSTER",
+            "fullname": "Flipster",
+            "twitter_handle": "flipster_io"
+        }
+    },
+    {
+        "ticker": "NARRA",
+        "remarks": {
+            "display_ticker": "NARRA",
+            "fullname": "Narra",
+            "twitter_handle": "narralayer"
+        }
+    },
+    {
+        "ticker": "GAMERBOOM",
+        "remarks": {
+            "display_ticker": "GAMERBOOM",
+            "fullname": "GamerBoom",
+            "twitter_handle": "BOOM_FND"
+        }
+    },
+    {
+        "ticker": "YOAKE",
+        "remarks": {
+            "display_ticker": "YOAKE",
+            "fullname": "YOAKE",
+            "twitter_handle": "YOAKEofficialEN"
+        }
+    },
+    {
+        "ticker": "BOOST",
+        "remarks": {
+            "display_ticker": "BOOST",
+            "fullname": "Boost",
+            "twitter_handle": "boostdotgg"
+        }
+    },
+    {
+        "ticker": "INC",
+        "remarks": {
+            "display_ticker": "INC",
+            "fullname": "Incentiv",
+            "twitter_handle": "ipnfdn"
+        }
+    },
+    {
+        "ticker": "GOMBLEGAMES",
+        "remarks": {
+            "display_ticker": "GOMBLEGAMES",
+            "fullname": "Gomble Games",
+            "twitter_handle": "gomblegames"
+        }
+    },
+    {
+        "ticker": "AGNT",
+        "remarks": {
+            "display_ticker": "AGNT",
+            "fullname": "iAgent",
+            "twitter_handle": "iAgentProtocol"
+        }
+    },
+    {
+        "ticker": "BYTHEN",
+        "remarks": {
+            "display_ticker": "BYTHEN",
+            "fullname": "bythen",
+            "twitter_handle": "bythenAI"
+        }
+    },
+    {
+        "ticker": "SLINGSHOTDAO",
+        "remarks": {
+            "display_ticker": "SLINGSHOTDAO",
+            "fullname": "SlingshotDAO",
+            "twitter_handle": "SlingShotDAO"
+        }
+    },
+    {
+        "ticker": "SWARM",
+        "remarks": {
+            "display_ticker": "SWARM",
+            "fullname": "Swarm",
+            "twitter_handle": "getswarmed"
+        }
+    },
+    {
+        "ticker": "10PLANET",
+        "remarks": {
+            "display_ticker": "10PLANET",
+            "fullname": "10Planet",
+            "twitter_handle": "Bitplanet_AI"
+        }
+    },
+    {
+        "ticker": "TARI",
+        "remarks": {
+            "display_ticker": "TARI",
+            "fullname": "Tari",
+            "twitter_handle": "tari"
+        }
+    },
+    {
+        "ticker": "XFORGE",
+        "remarks": {
+            "display_ticker": "XFORGE",
+            "fullname": "XForge",
+            "twitter_handle": "XForgeOfficial"
+        }
+    },
+    {
+        "ticker": "SPICE",
+        "remarks": {
+            "display_ticker": "SPICE",
+            "fullname": "Lowlife Forms",
+            "twitter_handle": "LowLifeForms"
+        }
+    },
+    {
+        "ticker": "LOOP",
+        "remarks": {
+            "display_ticker": "LOOP",
+            "fullname": "Loop",
+            "twitter_handle": "loopfixyz"
+        }
+    },
+    {
+        "ticker": "LEVEL",
+        "remarks": {
+            "display_ticker": "LEVEL",
+            "fullname": "Level",
+            "twitter_handle": "levelusd"
+        }
+    },
+    {
+        "ticker": "ZOOP",
+        "remarks": {
+            "display_ticker": "ZOOP",
+            "fullname": "Zoop",
+            "twitter_handle": "ZOOP"
+        }
+    },
+    {
+        "ticker": "GENOME",
+        "remarks": {
+            "display_ticker": "GENOME",
+            "fullname": "Genome",
+            "twitter_handle": "genome_protocol"
+        }
+    },
+    {
+        "ticker": "MAWARI",
+        "remarks": {
+            "display_ticker": "MAWARI",
+            "fullname": "Mawari",
+            "twitter_handle": "mawariXR"
+        }
+    },
+    {
+        "ticker": "AIRDROPACRES",
+        "remarks": {
+            "display_ticker": "AIRDROPACRES",
+            "fullname": "Airdrop Acres",
+            "twitter_handle": "airdropacres"
+        }
+    },
+    {
+        "ticker": "GIGAVERSE",
+        "remarks": {
+            "display_ticker": "GIGAVERSE",
+            "fullname": "gigaverse",
+            "twitter_handle": "playgigaverse"
+        }
+    },
+    {
+        "ticker": "UOMI",
+        "remarks": {
+            "display_ticker": "UOMI",
+            "fullname": "Uomi",
+            "twitter_handle": "Listapiexyz_io"
+        }
+    },
+    {
+        "ticker": "ATLANTIS",
+        "remarks": {
+            "display_ticker": "ATLANTIS",
+            "fullname": "Atlantis",
+            "twitter_handle": "AtlantisOnSonic"
+        }
+    },
+    {
+        "ticker": "INCEPTION",
+        "remarks": {
+            "display_ticker": "INCEPTION",
+            "fullname": "Inception",
+            "twitter_handle": "InceptionLRT"
+        }
+    },
+    {
+        "ticker": "METALEND",
+        "remarks": {
+            "display_ticker": "METALEND",
+            "fullname": "MetaLend",
+            "twitter_handle": "metalend_defi"
+        }
+    },
+    {
+        "ticker": "PALIO",
+        "remarks": {
+            "display_ticker": "PALIO",
+            "fullname": "Palio",
+            "twitter_handle": "PalioAI"
+        }
+    },
+    {
+        "ticker": "TEN",
+        "remarks": {
+            "display_ticker": "TEN",
+            "fullname": "tenprotocol",
+            "twitter_handle": "tenprotocol"
+        }
+    },
+    {
+        "ticker": "SYMPHONY",
+        "remarks": {
+            "display_ticker": "SYMPHONY",
+            "fullname": "Symphony",
+            "twitter_handle": "symphonyio"
+        }
+    },
+    {
+        "ticker": "FAIRBLOCK",
+        "remarks": {
+            "display_ticker": "FAIRBLOCK",
+            "fullname": "Fairblock",
+            "twitter_handle": "0xfairblock"
+        }
+    },
+    {
+        "ticker": "BLACKMIRROR",
+        "remarks": {
+            "display_ticker": "BLACKMIRROR",
+            "fullname": "blackmirror",
+            "twitter_handle": "blackmirror_xp"
+        }
+    },
+    {
+        "ticker": "DOGEOS",
+        "remarks": {
+            "display_ticker": "DOGEOS",
+            "fullname": "DogeOS",
+            "twitter_handle": "DogeOS"
+        }
+    },
+    {
+        "ticker": "FAVRR",
+        "remarks": {
+            "display_ticker": "FAVRR",
+            "fullname": "Favrr",
+            "twitter_handle": "favrr_market"
+        }
+    },
+    {
+        "ticker": "SOLSTICE",
+        "remarks": {
+            "display_ticker": "SOLSTICE",
+            "fullname": "Solstice",
+            "twitter_handle": "solsticefi"
+        }
+    },
+    {
+        "ticker": "TIMEFUN",
+        "remarks": {
+            "display_ticker": "TIMEFUN",
+            "fullname": "timefun",
+            "twitter_handle": "moolah"
+        }
+    },
+    {
+        "ticker": "SO",
+        "remarks": {
+            "display_ticker": "SOUL",
+            "fullname": "Soul Labs",
+            "twitter_handle": "0xSoulProtocol"
+        }
+    },
+    {
+        "ticker": "YEET",
+        "remarks": {
+            "display_ticker": "YEET",
+            "fullname": "YEET",
+            "twitter_handle": "yeet"
+        }
+    },
+    {
+        "ticker": "NOBLE",
+        "remarks": {
+            "display_ticker": "NOBLE",
+            "fullname": "Noble",
+            "twitter_handle": "noble_xyz"
+        }
+    },
+    {
+        "ticker": "IFR",
+        "remarks": {
+            "display_ticker": "IFR",
+            "fullname": "Inferium Ai",
+            "twitter_handle": "InferiumAI"
+        }
+    },
+    {
+        "ticker": "MOREMARKETS",
+        "remarks": {
+            "display_ticker": "MOREMARKETS",
+            "fullname": "MoreMarkets",
+            "twitter_handle": "moremarketsxyz"
+        }
+    },
+    {
+        "ticker": "OBJKT",
+        "remarks": {
+            "display_ticker": "OBJKT",
+            "fullname": "objkt",
+            "twitter_handle": "objktcom"
+        }
+    },
+    {
+        "ticker": "MOONBERG",
+        "remarks": {
+            "display_ticker": "MOONBERG",
+            "fullname": "MOONBERG",
+            "twitter_handle": "moonberg"
+        }
+    },
+    {
+        "ticker": "ASET",
+        "remarks": {
+            "display_ticker": "ASET",
+            "fullname": "AssetLink",
+            "twitter_handle": "AtivoLabs"
+        }
+    },
+    {
+        "ticker": "FXHASH",
+        "remarks": {
+            "display_ticker": "FXHASH",
+            "fullname": "fxhash",
+            "twitter_handle": "fx_hash_"
+        }
+    },
+    {
+        "ticker": "PROJECTX",
+        "remarks": {
+            "display_ticker": "PROJECTX",
+            "fullname": "Project X",
+            "twitter_handle": "prjx_hl"
+        }
+    },
+    {
+        "ticker": "GONDI",
+        "remarks": {
+            "display_ticker": "GONDI",
+            "fullname": "Gondi",
+            "twitter_handle": "gondixyz"
+        }
+    },
+    {
+        "ticker": "KAT",
+        "remarks": {
+            "display_ticker": "KATANA",
+            "fullname": "Katana",
+            "twitter_handle": "katana"
+        }
+    },
+    {
+        "ticker": "NOYA",
+        "remarks": {
+            "display_ticker": "NOYA",
+            "fullname": "NOYA.ai",
+            "twitter_handle": "networknoya"
+        }
+    },
+    {
+        "ticker": "CYCLENETWORK",
+        "remarks": {
+            "display_ticker": "CYCLENETWORK",
+            "fullname": "CYCLENETWORK",
+            "twitter_handle": "cyclenetwork_GO"
+        }
+    },
+    {
+        "ticker": "OPINIONLABS",
+        "remarks": {
+            "display_ticker": "OPINIONLABS",
+            "fullname": "Opinion Labs",
+            "twitter_handle": "opinionlabsxyz"
+        }
+    },
+    {
+        "ticker": "GVNR",
+        "remarks": {
+            "display_ticker": "GVNR",
+            "fullname": "GVNR",
+            "twitter_handle": "gvnrdao"
+        }
+    },
+    {
+        "ticker": "PARITY",
+        "remarks": {
+            "display_ticker": "PARITY",
+            "fullname": "Parity",
+            "twitter_handle": "Exceed_Finance"
+        }
+    },
+    {
+        "ticker": "MHYPE",
+        "remarks": {
+            "display_ticker": "MHYPE",
+            "fullname": "Hyperpie Staked mHYPE",
+            "twitter_handle": "SpinUpZone"
+        }
+    },
+    {
+        "ticker": "GOLDENGOOSE",
+        "remarks": {
+            "display_ticker": "GOLDENGOOSE",
+            "fullname": "GoldenGoose",
+            "twitter_handle": "GoldenGoose_app"
+        }
+    },
+    {
+        "ticker": "AEGISAEGIS",
+        "remarks": {
+            "display_ticker": "AEGIS",
+            "fullname": "Aegis",
+            "twitter_handle": "aegis_im"
+        }
+    },
+    {
+        "ticker": "RISERISE",
+        "remarks": {
+            "display_ticker": "RISE",
+            "fullname": "RISE",
+            "twitter_handle": "rise_chain"
+        }
+    },
+    {
+        "ticker": "YUPP",
+        "remarks": {
+            "display_ticker": "YUPP",
+            "fullname": "Yupp",
+            "twitter_handle": "yupp_ai"
+        }
+    },
+    {
+        "ticker": "PING",
+        "remarks": {
+            "display_ticker": "PING",
+            "fullname": "Ping",
+            "twitter_handle": "PingNetwork_io"
+        }
+    },
+    {
+        "ticker": "BION",
+        "remarks": {
+            "display_ticker": "BION",
+            "fullname": "Bion",
+            "twitter_handle": "bion_app"
+        }
+    },
+    {
+        "ticker": "NOON",
+        "remarks": {
+            "display_ticker": "NOON",
+            "fullname": "Noon",
+            "twitter_handle": "noon_capital"
+        }
+    },
+    {
+        "ticker": "UNIFAI",
+        "remarks": {
+            "display_ticker": "UNIFAI",
+            "fullname": "UnifAI Network",
+            "twitter_handle": "UnifaiNetwork"
+        }
+    },
+    {
+        "ticker": "MEMEX",
+        "remarks": {
+            "display_ticker": "MEMEX",
+            "fullname": "MemeX",
+            "twitter_handle": "MemeX_MRC20"
+        }
+    },
+    {
+        "ticker": "LUFFA",
+        "remarks": {
+            "display_ticker": "LUFFA",
+            "fullname": "Luffa",
+            "twitter_handle": "LuffaMessage"
+        }
+    },
+    {
+        "ticker": "ENDLESS",
+        "remarks": {
+            "display_ticker": "ENDLESS",
+            "fullname": "Endless",
+            "twitter_handle": "EndlessProtocol"
+        }
+    },
+    {
+        "ticker": "WINGBITS",
+        "remarks": {
+            "display_ticker": "WINGBITS",
+            "fullname": "wingbits",
+            "twitter_handle": "wingbits"
+        }
+    },
+    {
+        "ticker": "CASHMERE",
+        "remarks": {
+            "display_ticker": "CASHMERE",
+            "fullname": "Cashmere Labs",
+            "twitter_handle": "CashmereLabs"
+        }
+    },
+    {
+        "ticker": "SURF",
+        "remarks": {
+            "display_ticker": "SURF",
+            "fullname": "Surf",
+            "twitter_handle": "SurfAI"
+        }
+    },
+    {
+        "ticker": "SNAPX",
+        "remarks": {
+            "display_ticker": "SNAPX",
+            "fullname": "SnapX",
+            "twitter_handle": "snapx_co"
+        }
+    },
+    {
+        "ticker": "UPSHIFT",
+        "remarks": {
+            "display_ticker": "UPSHIFT",
+            "fullname": "Upshift",
+            "twitter_handle": "upshift_fi"
+        }
+    },
+    {
+        "ticker": "ME3LABS",
+        "remarks": {
+            "display_ticker": "ME3LABS",
+            "fullname": "Me3Labs",
+            "twitter_handle": "Me3Labs"
+        }
+    },
+    {
+        "ticker": "BANTR",
+        "remarks": {
+            "display_ticker": "BANTR",
+            "fullname": "Bantr",
+            "twitter_handle": "Bantr_fun"
+        }
+    },
+    {
+        "ticker": "KITE",
+        "remarks": {
+            "display_ticker": "KITE",
+            "fullname": "KITE AI",
+            "twitter_handle": "GoKiteAI"
+        }
+    },
+    {
+        "ticker": "CHIPS",
+        "remarks": {
+            "display_ticker": "CHIPS",
+            "fullname": "CHIPS",
+            "twitter_handle": "chipsprotocol"
+        }
+    },
+    {
+        "ticker": "PARTI",
+        "remarks": {
+            "display_ticker": "PARTI",
+            "fullname": "PARTI",
+            "twitter_handle": "jointheparti"
+        }
+    },
+    {
+        "ticker": "WILDCARD",
+        "remarks": {
+            "display_ticker": "WILDCARD",
+            "fullname": "WILDCARD",
+            "twitter_handle": "Thousandsxyz"
+        }
+    },
+    {
+        "ticker": "LOKY",
+        "remarks": {
+            "display_ticker": "LOKY",
+            "fullname": "Loky Agent Infra",
+            "twitter_handle": "Loky_AI"
+        }
+    },
+    {
+        "ticker": "KURU",
+        "remarks": {
+            "display_ticker": "KURU",
+            "fullname": "Kuru",
+            "twitter_handle": "KuruExchange"
+        }
+    },
+    {
+        "ticker": "BILLIONS",
+        "remarks": {
+            "display_ticker": "BILLIONS",
+            "fullname": "Billions",
+            "twitter_handle": "billions_ntwk"
+        }
+    },
+    {
+        "ticker": "RIALO",
+        "remarks": {
+            "display_ticker": "RIALO",
+            "fullname": "Rialo",
+            "twitter_handle": "RialoHQ"
+        }
+    },
+    {
+        "ticker": "JUNKYBETS",
+        "remarks": {
+            "display_ticker": "JUNKYBETS",
+            "fullname": "JunkyBets",
+            "twitter_handle": "JunkyUrsas"
+        }
+    },
+    {
+        "ticker": "KAIO",
+        "remarks": {
+            "display_ticker": "KAIO",
+            "fullname": "KAIO",
+            "twitter_handle": "KAIO_xyz"
+        }
+    },
+    {
+        "ticker": "ARCARCARC",
+        "remarks": {
+            "display_ticker": "ARC",
+            "fullname": "Arc",
+            "twitter_handle": "arc"
+        }
+    },
+    {
+        "ticker": "ACURAST",
+        "remarks": {
+            "display_ticker": "ACURAST",
+            "fullname": "Acurast",
+            "twitter_handle": "Acurast"
+        }
+    },
+    {
+        "ticker": "PROJECTZERO",
+        "remarks": {
+            "display_ticker": "PROJECTZERO",
+            "fullname": "ProjectZero",
+            "twitter_handle": "ProjectZeroIO"
+        }
+    },
+    {
+        "ticker": "SHATTERPOINT",
+        "remarks": {
+            "display_ticker": "SHATTERPOINT",
+            "fullname": "Shatterpoint",
+            "twitter_handle": "shatterpointgg"
+        }
+    },
+    {
+        "ticker": "MANIFESTNETWORK",
+        "remarks": {
+            "display_ticker": "MANIFESTNETWORK",
+            "fullname": "ManifestNetwork",
+            "twitter_handle": "ManifestNetwork"
+        }
+    },
+    {
+        "ticker": "KALSHI",
+        "remarks": {
+            "display_ticker": "KALSHI",
+            "fullname": "Kalshi",
+            "twitter_handle": "Kalshi"
+        }
+    },
+    {
+        "ticker": "KINDRED",
+        "remarks": {
+            "display_ticker": "KINDRED",
+            "fullname": "Kindred",
+            "twitter_handle": "Kindred_AI"
+        }
+    },
+    {
+        "ticker": "XOMARKET",
+        "remarks": {
+            "display_ticker": "XOMARKET",
+            "fullname": "XO Market",
+            "twitter_handle": "xodotmarket"
+        }
+    },
+    {
+        "ticker": "LINERA",
+        "remarks": {
+            "display_ticker": "LINERA",
+            "fullname": "Linera",
+            "twitter_handle": "linera_io"
+        }
+    },
+    {
+        "ticker": "BLACKBIRD",
+        "remarks": {
+            "display_ticker": "BLACKBIRD",
+            "fullname": "Blackbird",
+            "twitter_handle": "blackbird"
+        }
+    },
+    {
+        "ticker": "AMBIENT",
+        "remarks": {
+            "display_ticker": "AMBIENT",
+            "fullname": "ambient",
+            "twitter_handle": "ambient_xyz"
+        }
+    },
+    {
+        "ticker": "HYPERLEND",
+        "remarks": {
+            "display_ticker": "HYPERLEND",
+            "fullname": "HyperLend",
+            "twitter_handle": "hyperlendx"
+        }
+    },
+    {
+        "ticker": "CHAOS",
+        "remarks": {
+            "display_ticker": "CHAOS",
+            "fullname": "Chaos",
+            "twitter_handle": "chaoslabs"
+        }
+    },
+    {
+        "ticker": "WALLCHAIN",
+        "remarks": {
+            "display_ticker": "WALLCHAIN",
+            "fullname": "Wallchain",
+            "twitter_handle": "wallchain"
+        }
+    },
+    {
+        "ticker": "SEISMIC",
+        "remarks": {
+            "display_ticker": "SEISMIC",
+            "fullname": "Seismic",
+            "twitter_handle": "SeismicSys"
+        }
+    },
+    {
+        "ticker": "INFRARED",
+        "remarks": {
+            "display_ticker": "INFRARED",
+            "fullname": "Infrared",
+            "twitter_handle": "InfraredFinance"
+        }
+    },
+    {
+        "ticker": "TREX",
+        "remarks": {
+            "display_ticker": "TREX",
+            "fullname": "TREX",
+            "twitter_handle": "TREX_chain"
+        }
+    },
+    {
+        "ticker": "IMUA",
+        "remarks": {
+            "display_ticker": "IMUA",
+            "fullname": "Imua",
+            "twitter_handle": "imua"
+        }
+    },
+    {
+        "ticker": "MIDEN",
+        "remarks": {
+            "display_ticker": "MIDEN",
+            "fullname": "Miden",
+            "twitter_handle": "0xMiden"
+        }
+    },
+    {
+        "ticker": "NOUS",
+        "remarks": {
+            "display_ticker": "NOUS",
+            "fullname": "Nous Research",
+            "twitter_handle": "NousResearch"
+        }
+    },
+    {
+        "ticker": "EVEONLINE",
+        "remarks": {
+            "display_ticker": "EVEONLINE",
+            "fullname": "EveOnline",
+            "twitter_handle": "EveOnline"
+        }
+    },
+    {
+        "ticker": "THEOTHEO",
+        "remarks": {
+            "display_ticker": "THEO",
+            "fullname": "Theo",
+            "twitter_handle": "Theo_Network"
+        }
+    },
+    {
+        "ticker": "COMMONWARE",
+        "remarks": {
+            "display_ticker": "COMMONWARE",
+            "fullname": "commonware",
+            "twitter_handle": "commonwarexyz"
+        }
+    },
+    {
+        "ticker": "GENSYN",
+        "remarks": {
+            "display_ticker": "GENSYN",
+            "fullname": "gensyn",
+            "twitter_handle": "gensynai"
+        }
+    },
+    {
+        "ticker": "GLIDER",
+        "remarks": {
+            "display_ticker": "GLIDER",
+            "fullname": "Glider",
+            "twitter_handle": "glider_fi"
+        }
+    },
+    {
+        "ticker": "QURANIUM",
+        "remarks": {
+            "display_ticker": "QURANIUM",
+            "fullname": "Quranium",
+            "twitter_handle": "quranium_org"
+        }
+    },
+    {
+        "ticker": "EDGEN",
+        "remarks": {
+            "display_ticker": "EDGEN",
+            "fullname": "Edgen",
+            "twitter_handle": "EdgenTech"
+        }
+    },
+    {
+        "ticker": "METAWIN",
+        "remarks": {
+            "display_ticker": "METAWIN",
+            "fullname": "METAWIN",
+            "twitter_handle": "MetaWin"
+        }
+    },
+    {
+        "ticker": "BELIEFMARKET",
+        "remarks": {
+            "display_ticker": "BELIEFMARKET",
+            "fullname": "Belief Market",
+            "twitter_handle": "BeliefMarket_"
+        }
+    },
+    {
+        "ticker": "INTEGRA",
+        "remarks": {
+            "display_ticker": "INTEGRA",
+            "fullname": "integra",
+            "twitter_handle": "integra_layer"
+        }
+    },
+    {
+        "ticker": "EDGEX",
+        "remarks": {
+            "display_ticker": "EDGEX",
+            "fullname": "edgeX",
+            "twitter_handle": "edgeX_exchange"
+        }
+    },
+    {
+        "ticker": "FLYINGTULIP",
+        "remarks": {
+            "display_ticker": "FLYINGTULIP",
+            "fullname": "flyingtulip",
+            "twitter_handle": "flyingtulip_"
+        }
+    },
+    {
+        "ticker": "AURADOTMONEY",
+        "remarks": {
+            "display_ticker": "AURADOTMONEY",
+            "fullname": "auradotmoney",
+            "twitter_handle": "Auramoney"
+        }
+    },
+    {
+        "ticker": "BLAZPAY",
+        "remarks": {
+            "display_ticker": "BLAZPAY",
+            "fullname": "Blazpay",
+            "twitter_handle": "blazpaylabs"
+        }
+    },
+    {
+        "ticker": "PIPWORLD",
+        "remarks": {
+            "display_ticker": "PIPWORLD",
+            "fullname": "PiP World",
+            "twitter_handle": "pip_world"
+        }
+    },
+    {
+        "ticker": "BITROBOT",
+        "remarks": {
+            "display_ticker": "BITROBOT",
+            "fullname": "BitRobot",
+            "twitter_handle": "BitRobotNetwork"
+        }
+    },
+    {
+        "ticker": "TRIA",
+        "remarks": {
+            "display_ticker": "TRIA",
+            "fullname": "Tria",
+            "twitter_handle": "useTria"
+        }
+    },
+    {
+        "ticker": "FCM",
+        "remarks": {
+            "display_ticker": "FCM",
+            "fullname": "FCM",
+            "twitter_handle": "fcmdotfun"
+        }
+    },
+    {
+        "ticker": "MAXBID",
+        "remarks": {
+            "display_ticker": "MAXBID",
+            "fullname": "MAXBID",
+            "twitter_handle": "maxbidbro"
+        }
+    },
+    {
+        "ticker": "MEMEMAX",
+        "remarks": {
+            "display_ticker": "MEMEMAX",
+            "fullname": "MemeMax",
+            "twitter_handle": "MemeMax_Fi"
+        }
+    },
+    {
+        "ticker": "GOPHER",
+        "remarks": {
+            "display_ticker": "GOPHER",
+            "fullname": "Gopher",
+            "twitter_handle": "gopher_ai"
+        }
+    },
+    {
+        "ticker": "SIXR",
+        "remarks": {
+            "display_ticker": "SIXR",
+            "fullname": "SIXR Cricket",
+            "twitter_handle": "SIXR_cricket"
+        }
+    },
+    {
+        "ticker": "SPAACE",
+        "remarks": {
+            "display_ticker": "SPAACE",
+            "fullname": "Spaace",
+            "twitter_handle": "spaace_io"
+        }
+    },
+    {
+        "ticker": "BEYOND",
+        "remarks": {
+            "display_ticker": "BEYOND",
+            "fullname": "Beyond",
+            "twitter_handle": "beyond__tech"
+        }
+    },
+    {
+        "ticker": "HUBSAI",
+        "remarks": {
+            "display_ticker": "HUBSAI",
+            "fullname": "HubsAI",
+            "twitter_handle": "hubsaiofficial"
+        }
+    },
+    {
+        "ticker": "RECORD",
+        "remarks": {
+            "display_ticker": "RECORD",
+            "fullname": "Record",
+            "twitter_handle": "record_protocol"
+        }
+    },
+    {
+        "ticker": "NESA",
+        "remarks": {
+            "display_ticker": "NESA",
+            "fullname": "Nesa",
+            "twitter_handle": "nesaorg"
+        }
+    },
+    {
+        "ticker": "FERRA",
+        "remarks": {
+            "display_ticker": "FERRA",
+            "fullname": "Ferra",
+            "twitter_handle": "ferra_protocol"
+        }
+    },
+    {
+        "ticker": "STANDX",
+        "remarks": {
+            "display_ticker": "STANDX",
+            "fullname": "StandX",
+            "twitter_handle": "StandX_Official"
+        }
+    },
+    {
+        "ticker": "VERSEEIGHT",
+        "remarks": {
+            "display_ticker": "VERSEEIGHT",
+            "fullname": "VerseEight",
+            "twitter_handle": "Verse_Eight"
+        }
+    },
+    {
+        "ticker": "BLUFFBLUFF",
+        "remarks": {
+            "display_ticker": "BLUFF",
+            "fullname": "Bluff",
+            "twitter_handle": "official_bluff"
+        }
+    },
+    {
+        "ticker": "BETHOG",
+        "remarks": {
+            "display_ticker": "BETHOG",
+            "fullname": "BetHog",
+            "twitter_handle": "BetHog"
+        }
+    }
+]
