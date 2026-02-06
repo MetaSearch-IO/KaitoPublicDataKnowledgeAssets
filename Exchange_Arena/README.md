@@ -1,6 +1,6 @@
-# CEX Arena (Cryptocurrency Exchange) List Contribution Guidelines
+# Exchange Arena (Cryptocurrency Exchange) List Contribution Guidelines
 
-The CEX Arena list data is stored in `CEX_Arena/CEX_Arena.json`. This list tracks major cryptocurrency exchanges (both centralized and decentralized) and their associated platform tokens. Below is an example format:
+The Exchange Arena list data is stored in `Exchange_Arena/Exchange_Arena.json`. This list tracks major cryptocurrency exchanges (both centralized and decentralized) and their associated platform tokens. Below is an example format:
 
 ```json
 [
@@ -24,7 +24,7 @@ The CEX Arena list data is stored in `CEX_Arena/CEX_Arena.json`. This list track
 ]
 ```
 
-To add or remove an exchange, please edit the `CEX_Arena.json` file using the format provided above and create a pull request.
+To add or remove an exchange, please edit the `Exchange_Arena.json` file using the format provided above and create a pull request.
 
 ## Adding a Cryptocurrency Exchange
 
@@ -84,7 +84,7 @@ Example: For Binance, the Twitter handle is `binance` (from @binance)
 
 This list includes various types of exchanges:
 
-1. **Centralized Exchanges (CEX)**: Binance, Coinbase, OKX, Bybit, KuCoin, Gate.io, MEXC, HTX, Kraken, Upbit, Bithumb
+1. **Centralized Exchanges**: Binance, Coinbase, OKX, Bybit, KuCoin, Gate.io, MEXC, HTX, Kraken, Upbit, Bithumb
 2. **Decentralized Perpetual Exchanges**: dYdX, Hyperliquid, Jupiter, Drift, Paradex, SynFutures, Avantis, Lighter, Aster
 3. **Decentralized Spot Exchanges**: Orderly Network
 4. **Hybrid/DeFi Trading Platforms**: Aevo, Flipster, Ostium Labs

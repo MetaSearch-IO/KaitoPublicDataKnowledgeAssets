@@ -6,5 +6,6 @@ This repository contains several static datasets utilized in Kaito.ai services, 
 * [Team members of projects on Project Leaderboards](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/tree/main/leaderboard_team_member)
 * [Information Market project list](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/tree/main/information_markets)
 * [Pre-TGE projects list](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/tree/main/PreTGE_Project)
+* [Exchange Arena](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/tree/main/Exchange_Arena)
 
 ---
