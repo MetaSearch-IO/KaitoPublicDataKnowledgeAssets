@@ -1,0 +1,202 @@
+[
+    {
+        "ticker": "MX",
+        "remarks": {
+            "display_ticker": "MEXC",
+            "fullname": "MEXC",
+            "twitter_handle": "MEXC_Global"
+        }
+    },
+    {
+        "ticker": "DYDX",
+        "remarks": {
+            "display_ticker": "DYDX",
+            "fullname": "dYdX",
+            "twitter_handle": "dYdX"
+        }
+    },
+    {
+        "ticker": "OKB",
+        "remarks": {
+            "display_ticker": "OKX",
+            "fullname": "OKX",
+            "twitter_handle": "okx"
+        }
+    },
+    {
+        "ticker": "KCS",
+        "remarks": {
+            "display_ticker": "KUCOIN",
+            "fullname": "KuCoin",
+            "twitter_handle": "kucoincom"
+        }
+    },
+    {
+        "ticker": "GT",
+        "remarks": {
+            "display_ticker": "GATE",
+            "fullname": "Gate",
+            "twitter_handle": "gate_io"
+        }
+    },
+    {
+        "ticker": "HT",
+        "remarks": {
+            "display_ticker": "HTX",
+            "fullname": "HTX",
+            "twitter_handle": "HTX_Global"
+        }
+    },
+    {
+        "ticker": "BNB",
+        "remarks": {
+            "display_ticker": "BINANCE",
+            "fullname": "Binance",
+            "twitter_handle": "BNBCHAIN"
+        }
+    },
+    {
+        "ticker": "ORDERLYNETWORK",
+        "remarks": {
+            "display_ticker": "ORDER",
+            "fullname": "Orderly Network",
+            "twitter_handle": "OrderlyNetwork"
+        }
+    },
+    {
+        "ticker": "JUP",
+        "remarks": {
+            "display_ticker": "JUPITER",
+            "fullname": "Jupiter",
+            "twitter_handle": "JupiterExchange"
+        }
+    },
+    {
+        "ticker": "BGB",
+        "remarks": {
+            "display_ticker": "BITGET",
+            "fullname": "Bitget",
+            "twitter_handle": "bitget"
+        }
+    },
+    {
+        "ticker": "AEVO",
+        "remarks": {
+            "display_ticker": "AEVO",
+            "fullname": "Aevo",
+            "twitter_handle": "aevoxyz"
+        }
+    },
+    {
+        "ticker": "HYPERLIQUID",
+        "remarks": {
+            "display_ticker": "HYPERLIQUID",
+            "fullname": "Hyperliquid",
+            "twitter_handle": "HyperliquidX"
+        }
+    },
+    {
+        "ticker": "COINBASE",
+        "remarks": {
+            "display_ticker": "COINBASE",
+            "fullname": "Coinbase",
+            "twitter_handle": "Coinbase"
+        }
+    },
+    {
+        "ticker": "DRIFT",
+        "remarks": {
+            "display_ticker": "DRIFT",
+            "fullname": "Drift",
+            "twitter_handle": "DriftProtocol"
+        }
+    },
+    {
+        "ticker": "SYNFUTURES",
+        "remarks": {
+            "display_ticker": "SYNFUTURES",
+            "fullname": "SynFutures",
+            "twitter_handle": "SynFuturesDefi"
+        }
+    },
+    {
+        "ticker": "OSTIUMLABS",
+        "remarks": {
+            "display_ticker": "OSTIUMLABS",
+            "fullname": "Ostium Labs",
+            "twitter_handle": "ostiumlabs"
+        }
+    },
+    {
+        "ticker": "PARADEX",
+        "remarks": {
+            "display_ticker": "PARADEX",
+            "fullname": "Paradex",
+            "twitter_handle": "paradex"
+        }
+    },
+    {
+        "ticker": "FLIPSTER",
+        "remarks": {
+            "display_ticker": "FLIPSTER",
+            "fullname": "Flipster",
+            "twitter_handle": "flipster_io"
+        }
+    },
+    {
+        "ticker": "AVANTIS",
+        "remarks": {
+            "display_ticker": "AVANTIS",
+            "fullname": "Avantis",
+            "twitter_handle": "avantisfi"
+        }
+    },
+    {
+        "ticker": "ASTER",
+        "remarks": {
+            "display_ticker": "ASTER",
+            "fullname": "Aster",
+            "twitter_handle": "Aster_DEX"
+        }
+    },
+    {
+        "ticker": "BYBIT",
+        "remarks": {
+            "display_ticker": "BYBIT",
+            "fullname": "Bybit",
+            "twitter_handle": "Bybit_Official"
+        }
+    },
+    {
+        "ticker": "LIGHTER",
+        "remarks": {
+            "display_ticker": "LIGHTER",
+            "fullname": "Lighter",
+            "twitter_handle": "Lighter_xyz"
+        }
+    },
+    {
+        "ticker": "KRAKEN",
+        "remarks": {
+            "display_ticker": "KRAKEN",
+            "fullname": "Kraken",
+            "twitter_handle": "krakenfx"
+        }
+    },
+    {
+        "ticker": "UPBIT",
+        "remarks": {
+            "display_ticker": "UPBIT",
+            "fullname": "Upbit",
+            "twitter_handle": "Official_Upbit"
+        }
+    },
+    {
+        "ticker": "BITHUMB",
+        "remarks": {
+            "display_ticker": "BITHUMB",
+            "fullname": "Bithumb",
+            "twitter_handle": "bithumbofficial"
+        }
+    }
+]
