@@ -19,8 +19,7 @@ The Exchange Arena list data is stored in `Exchange_Arena/Exchange_Arena.json`. 
             "fullname": "Coinbase",
             "twitter_handle": "Coinbase"
         }
-    },
-    // additional entries here
+    }
 ]
 ```
 

@@ -36,7 +36,7 @@
         "remarks": {
             "display_ticker": "GATE",
             "fullname": "Gate",
-            "twitter_handle": "GateLayer"
+            "twitter_handle": "gate_io"
         }
     },
     {
@@ -44,7 +44,7 @@
         "remarks": {
             "display_ticker": "HTX",
             "fullname": "HTX",
-            "twitter_handle": "HuobiGlobal"
+            "twitter_handle": "HTX_Global"
         }
     },
     {
@@ -52,7 +52,7 @@
         "remarks": {
             "display_ticker": "BINANCE",
             "fullname": "Binance",
-            "twitter_handle": "binance"
+            "twitter_handle": "BNBCHAIN"
         }
     },
     {
