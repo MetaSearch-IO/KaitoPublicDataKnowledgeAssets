@@ -64,14 +64,6 @@
         }
     },
     {
-        "ticker": "BAINBOW",
-        "remarks": {
-            "display_ticker": "RAINBOW",
-            "fullname": "Rainbow Wallet",
-            "twitter_handle": "rainbowdotme"
-        }
-    },
-    {
         "ticker": "BACKPACK",
         "remarks": {
             "display_ticker": "BACKPACK",
