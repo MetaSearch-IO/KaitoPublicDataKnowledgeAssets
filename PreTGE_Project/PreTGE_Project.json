@@ -1384,14 +1384,6 @@
         }
     },
     {
-        "ticker": "KALSHI",
-        "remarks": {
-            "display_ticker": "KALSHI",
-            "fullname": "Kalshi",
-            "twitter_handle": "Kalshi"
-        }
-    },
-    {
         "ticker": "KINDRED",
         "remarks": {
             "display_ticker": "KINDRED",
