@@ -80,14 +80,6 @@
         }
     },
     {
-        "ticker": "NANSEN",
-        "remarks": {
-            "display_ticker": "NANSEN",
-            "fullname": "Nansen",
-            "twitter_handle": "nansen_ai"
-        }
-    },
-    {
         "ticker": "SOLUNIBOT",
         "remarks": {
             "display_ticker": "TROJAN",
