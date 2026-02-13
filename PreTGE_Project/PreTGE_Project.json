@@ -1582,5 +1582,37 @@
             "fullname": "BetHog",
             "twitter_handle": "BetHog"
         }
+    },
+    {
+        "ticker": "BANTR",
+        "remarks": {
+            "display_ticker": "BANTR",
+            "fullname": "Bantr",
+            "twitter_handle": "Bantr_fun"
+        }
+    },
+    {
+        "ticker": "FABLEBORNE",
+        "remarks": {
+            "display_ticker": "FABLEBORNE",
+            "fullname": "Fableborne",
+            "twitter_handle": "fableborne"
+        }
+    },
+    {
+        "ticker": "GOAT",
+        "remarks": {
+            "display_ticker": "GOAT",
+            "fullname": "GOAT Gaming",
+            "twitter_handle": "playgoatgaming"
+        }
+    },
+    {
+        "ticker": "WEBERA",
+        "remarks": {
+            "display_ticker": "WEBERA",
+            "fullname": "WeBera Finance",
+            "twitter_handle": "WeberaFinance"
+        }
     }
 ]
