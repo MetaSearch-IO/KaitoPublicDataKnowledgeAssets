@@ -128,14 +128,6 @@
         }
     },
     {
-        "ticker": "AZTEC",
-        "remarks": {
-            "display_ticker": "AZTEC",
-            "fullname": "Aztec Network",
-            "twitter_handle": "aztecnetwork"
-        }
-    },
-    {
         "ticker": "REYA",
         "remarks": {
             "display_ticker": "REYA",
@@ -149,14 +141,6 @@
             "display_ticker": "HINKAL",
             "fullname": "Hinkal",
             "twitter_handle": "hinkal_protocol"
-        }
-    },
-    {
-        "ticker": "ALMANAK",
-        "remarks": {
-            "display_ticker": "ALMANAK",
-            "fullname": "Almanak",
-            "twitter_handle": "almanak"
         }
     },
     {
@@ -240,27 +224,11 @@
         }
     },
     {
-        "ticker": "WARP",
-        "remarks": {
-            "display_ticker": "WARD",
-            "fullname": "Warden Protocol",
-            "twitter_handle": "wardenprotocol"
-        }
-    },
-    {
         "ticker": "BUNGEE",
         "remarks": {
             "display_ticker": "BUNGEE",
             "fullname": "Bungee",
             "twitter_handle": "BungeeExchange"
-        }
-    },
-    {
-        "ticker": "FABLEBORNE",
-        "remarks": {
-            "display_ticker": "FABLEBORNE",
-            "fullname": "Fableborne",
-            "twitter_handle": "fableborne"
         }
     },
     {
@@ -288,27 +256,11 @@
         }
     },
     {
-        "ticker": "GOAT",
-        "remarks": {
-            "display_ticker": "GOAT",
-            "fullname": "GOAT Gaming",
-            "twitter_handle": "playgoatgaming"
-        }
-    },
-    {
         "ticker": "PARADEX",
         "remarks": {
             "display_ticker": "DIME",
             "fullname": "Paradex",
             "twitter_handle": "paradex"
-        }
-    },
-    {
-        "ticker": "SUPERFORM",
-        "remarks": {
-            "display_ticker": "SUPERFORM",
-            "fullname": "Superform ",
-            "twitter_handle": "superformxyz"
         }
     },
     {
@@ -504,14 +456,6 @@
         }
     },
     {
-        "ticker": "WEBERA",
-        "remarks": {
-            "display_ticker": "WEBERA",
-            "fullname": "WeBera Finance",
-            "twitter_handle": "WeberaFinance"
-        }
-    },
-    {
         "ticker": "HYPERFLUID",
         "remarks": {
             "display_ticker": "HYPERFLUID",
@@ -592,14 +536,6 @@
         }
     },
     {
-        "ticker": "ESPRESSO",
-        "remarks": {
-            "display_ticker": "ESPRESSO",
-            "fullname": "Espresso",
-            "twitter_handle": "EspressoSys"
-        }
-    },
-    {
         "ticker": "ETHOSNETWORK",
         "remarks": {
             "display_ticker": "ETHOSNETWORK",
@@ -621,14 +557,6 @@
             "display_ticker": "MINTY",
             "fullname": "Minterest",
             "twitter_handle": "Minterest"
-        }
-    },
-    {
-        "ticker": "BITCOINOS",
-        "remarks": {
-            "display_ticker": "BITCOINOS",
-            "fullname": "BitcoinOS",
-            "twitter_handle": "BTC_OS"
         }
     },
     {
@@ -661,14 +589,6 @@
             "display_ticker": "KIBBLE",
             "fullname": "Kibble",
             "twitter_handle": "KibbleExchange"
-        }
-    },
-    {
-        "ticker": "APRIORI",
-        "remarks": {
-            "display_ticker": "APRIORI",
-            "fullname": "aPriori",
-            "twitter_handle": "aprmev"
         }
     },
     {
@@ -720,35 +640,11 @@
         }
     },
     {
-        "ticker": "BOOST",
-        "remarks": {
-            "display_ticker": "BOOST",
-            "fullname": "Boost",
-            "twitter_handle": "boostdotgg"
-        }
-    },
-    {
         "ticker": "INC",
         "remarks": {
             "display_ticker": "INC",
             "fullname": "Incentiv",
             "twitter_handle": "ipnfdn"
-        }
-    },
-    {
-        "ticker": "GOMBLEGAMES",
-        "remarks": {
-            "display_ticker": "GOMBLEGAMES",
-            "fullname": "Gomble Games",
-            "twitter_handle": "gomblegames"
-        }
-    },
-    {
-        "ticker": "AGNT",
-        "remarks": {
-            "display_ticker": "AGNT",
-            "fullname": "iAgent",
-            "twitter_handle": "iAgentProtocol"
         }
     },
     {
@@ -901,14 +797,6 @@
             "display_ticker": "PALIO",
             "fullname": "Palio",
             "twitter_handle": "PalioAI"
-        }
-    },
-    {
-        "ticker": "TEN",
-        "remarks": {
-            "display_ticker": "TEN",
-            "fullname": "tenprotocol",
-            "twitter_handle": "tenprotocol"
         }
     },
     {
@@ -1248,22 +1136,6 @@
         }
     },
     {
-        "ticker": "BANTR",
-        "remarks": {
-            "display_ticker": "BANTR",
-            "fullname": "Bantr",
-            "twitter_handle": "Bantr_fun"
-        }
-    },
-    {
-        "ticker": "KITE",
-        "remarks": {
-            "display_ticker": "KITE",
-            "fullname": "KITE AI",
-            "twitter_handle": "GoKiteAI"
-        }
-    },
-    {
         "ticker": "CHIPS",
         "remarks": {
             "display_ticker": "CHIPS",
@@ -1344,14 +1216,6 @@
         }
     },
     {
-        "ticker": "ACURAST",
-        "remarks": {
-            "display_ticker": "ACURAST",
-            "fullname": "Acurast",
-            "twitter_handle": "Acurast"
-        }
-    },
-    {
         "ticker": "PROJECTZERO",
         "remarks": {
             "display_ticker": "PROJECTZERO",
@@ -1373,14 +1237,6 @@
             "display_ticker": "MANIFESTNETWORK",
             "fullname": "ManifestNetwork",
             "twitter_handle": "ManifestNetwork"
-        }
-    },
-    {
-        "ticker": "KINDRED",
-        "remarks": {
-            "display_ticker": "KINDRED",
-            "fullname": "Kindred",
-            "twitter_handle": "Kindred_AI"
         }
     },
     {
@@ -1445,14 +1301,6 @@
             "display_ticker": "SEISMIC",
             "fullname": "Seismic",
             "twitter_handle": "SeismicSys"
-        }
-    },
-    {
-        "ticker": "INFRARED",
-        "remarks": {
-            "display_ticker": "INFRARED",
-            "fullname": "Infrared",
-            "twitter_handle": "InfraredFinance"
         }
     },
     {
@@ -1613,14 +1461,6 @@
             "display_ticker": "BITROBOT",
             "fullname": "BitRobot",
             "twitter_handle": "BitRobotNetwork"
-        }
-    },
-    {
-        "ticker": "TRIA",
-        "remarks": {
-            "display_ticker": "TRIA",
-            "fullname": "Tria",
-            "twitter_handle": "useTria"
         }
     },
     {
