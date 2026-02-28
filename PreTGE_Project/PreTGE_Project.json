@@ -592,14 +592,6 @@
         }
     },
     {
-        "ticker": "OPENMIND",
-        "remarks": {
-            "display_ticker": "OPENMIND",
-            "fullname": "OpenMind",
-            "twitter_handle": "openmind_agi"
-        }
-    },
-    {
         "ticker": "RUJI",
         "remarks": {
             "display_ticker": "RUJI",
