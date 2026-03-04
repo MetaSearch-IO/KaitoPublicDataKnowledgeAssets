@@ -1,13 +1,5 @@
 [
     {
-        "ticker": "UFO",
-        "remarks": {
-            "display_ticker": "SPACE",
-            "fullname": "Space",
-            "twitter_handle": "intodotspace"
-        }
-    },
-    {
         "ticker": "BASE",
         "remarks": {
             "display_ticker": "BASE",
@@ -16,27 +8,11 @@
         }
     },
     {
-        "ticker": "PSP",
-        "remarks": {
-            "display_ticker": "PSP",
-            "fullname": "ParaSwap",
-            "twitter_handle": "VeloraDEX"
-        }
-    },
-    {
         "ticker": "VVV",
         "remarks": {
             "display_ticker": "VVV",
             "fullname": "vVv",
             "twitter_handle": "vvvexchange"
-        }
-    },
-    {
-        "ticker": "KUJI",
-        "remarks": {
-            "display_ticker": "KUJI",
-            "fullname": "Kujira",
-            "twitter_handle": "RujiraNetwork"
         }
     },
     {
@@ -328,14 +304,6 @@
         }
     },
     {
-        "ticker": "DOOR",
-        "remarks": {
-            "display_ticker": "DOOR",
-            "fullname": "Tradoor",
-            "twitter_handle": "tradoor_io"
-        }
-    },
-    {
         "ticker": "ALIGNEDLAYER",
         "remarks": {
             "display_ticker": "ALIGNEDLAYER",
@@ -397,14 +365,6 @@
             "display_ticker": "OPENSEA",
             "fullname": "OpenSea",
             "twitter_handle": "opensea"
-        }
-    },
-    {
-        "ticker": "DIN",
-        "remarks": {
-            "display_ticker": "DIN",
-            "fullname": "DIN",
-            "twitter_handle": "din_lol_"
         }
     },
     {
@@ -568,14 +528,6 @@
         }
     },
     {
-        "ticker": "FOGO",
-        "remarks": {
-            "display_ticker": "FOGO",
-            "fullname": "Fogo",
-            "twitter_handle": "fogo"
-        }
-    },
-    {
         "ticker": "YOLOEX",
         "remarks": {
             "display_ticker": "YOLOEX",
@@ -589,14 +541,6 @@
             "display_ticker": "KIBBLE",
             "fullname": "Kibble",
             "twitter_handle": "KibbleExchange"
-        }
-    },
-    {
-        "ticker": "RUJI",
-        "remarks": {
-            "display_ticker": "RUJI",
-            "fullname": "Rujira",
-            "twitter_handle": "RujiraNetwork"
         }
     },
     {
@@ -645,14 +589,6 @@
             "display_ticker": "BYTHEN",
             "fullname": "bythen",
             "twitter_handle": "bythenAI"
-        }
-    },
-    {
-        "ticker": "SLINGSHOTDAO",
-        "remarks": {
-            "display_ticker": "SLINGSHOTDAO",
-            "fullname": "SlingshotDAO",
-            "twitter_handle": "SlingShotDAO"
         }
     },
     {
@@ -752,14 +688,6 @@
         }
     },
     {
-        "ticker": "UOMI",
-        "remarks": {
-            "display_ticker": "UOMI",
-            "fullname": "Uomi",
-            "twitter_handle": "Listapiexyz_io"
-        }
-    },
-    {
         "ticker": "ATLANTIS",
         "remarks": {
             "display_ticker": "ATLANTIS",
@@ -805,14 +733,6 @@
             "display_ticker": "FAIRBLOCK",
             "fullname": "Fairblock",
             "twitter_handle": "0xfairblock"
-        }
-    },
-    {
-        "ticker": "BLACKMIRROR",
-        "remarks": {
-            "display_ticker": "BLACKMIRROR",
-            "fullname": "blackmirror",
-            "twitter_handle": "blackmirror_xp"
         }
     },
     {
@@ -869,14 +789,6 @@
             "display_ticker": "NOBLE",
             "fullname": "Noble",
             "twitter_handle": "noble_xyz"
-        }
-    },
-    {
-        "ticker": "IFR",
-        "remarks": {
-            "display_ticker": "IFR",
-            "fullname": "Inferium Ai",
-            "twitter_handle": "InferiumAI"
         }
     },
     {
@@ -984,14 +896,6 @@
         }
     },
     {
-        "ticker": "MHYPE",
-        "remarks": {
-            "display_ticker": "MHYPE",
-            "fullname": "Hyperpie Staked mHYPE",
-            "twitter_handle": "SpinUpZone"
-        }
-    },
-    {
         "ticker": "GOLDENGOOSE",
         "remarks": {
             "display_ticker": "GOLDENGOOSE",
@@ -1048,14 +952,6 @@
         }
     },
     {
-        "ticker": "UNIFAI",
-        "remarks": {
-            "display_ticker": "UNIFAI",
-            "fullname": "UnifAI Network",
-            "twitter_handle": "UnifaiNetwork"
-        }
-    },
-    {
         "ticker": "MEMEX",
         "remarks": {
             "display_ticker": "MEMEX",
@@ -1101,14 +997,6 @@
             "display_ticker": "SURF",
             "fullname": "Surf",
             "twitter_handle": "SurfAI"
-        }
-    },
-    {
-        "ticker": "SNAPX",
-        "remarks": {
-            "display_ticker": "SNAPX",
-            "fullname": "SnapX",
-            "twitter_handle": "snapx_co"
         }
     },
     {
@@ -1413,14 +1301,6 @@
             "display_ticker": "EDGEX",
             "fullname": "edgeX",
             "twitter_handle": "edgeX_exchange"
-        }
-    },
-    {
-        "ticker": "FLYINGTULIP",
-        "remarks": {
-            "display_ticker": "FLYINGTULIP",
-            "fullname": "flyingtulip",
-            "twitter_handle": "flyingtulip_"
         }
     },
     {
