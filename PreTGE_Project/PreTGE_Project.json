@@ -240,14 +240,6 @@
         }
     },
     {
-        "ticker": "PARADEX",
-        "remarks": {
-            "display_ticker": "DIME",
-            "fullname": "Paradex",
-            "twitter_handle": "paradex"
-        }
-    },
-    {
         "ticker": "FLUENT",
         "remarks": {
             "display_ticker": "FLUENT",
