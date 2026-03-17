@@ -872,14 +872,6 @@
         }
     },
     {
-        "ticker": "OPINIONLABS",
-        "remarks": {
-            "display_ticker": "OPINIONLABS",
-            "fullname": "Opinion Labs",
-            "twitter_handle": "opinionlabsxyz"
-        }
-    },
-    {
         "ticker": "GVNR",
         "remarks": {
             "display_ticker": "GVNR",
@@ -1149,14 +1141,6 @@
             "display_ticker": "AMBIENT",
             "fullname": "ambient",
             "twitter_handle": "ambient_xyz"
-        }
-    },
-    {
-        "ticker": "HYPERLEND",
-        "remarks": {
-            "display_ticker": "HYPERLEND",
-            "fullname": "HyperLend",
-            "twitter_handle": "hyperlendx"
         }
     },
     {
