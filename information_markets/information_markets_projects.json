@@ -1,5 +1,13 @@
 [
     {
+        "ticker": "PREDICTEFY",
+        "remarks": {
+            "display_ticker": "PREDICTEFY",
+            "fullname": "Predictefy",
+            "twitter_handle": "Predictefy"
+        }
+    },
+    {
         "ticker": "ACTIONS",
         "remarks": {
             "display_ticker": "ACTIONS",
