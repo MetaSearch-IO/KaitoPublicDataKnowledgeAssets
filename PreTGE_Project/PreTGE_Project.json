@@ -320,14 +320,6 @@
     }
   },
   {
-    "ticker": "OPENGRADIENT",
-    "remarks": {
-      "display_ticker": "OPENGRADIENT",
-      "fullname": "OpenGradient",
-      "twitter_handle": "OpenGradient"
-    }
-  },
-  {
     "ticker": "SOMO",
     "remarks": {
       "display_ticker": "SOMO",
