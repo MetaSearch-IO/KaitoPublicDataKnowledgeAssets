@@ -1462,5 +1462,13 @@
       "fullname": "WeBera Finance",
       "twitter_handle": "WeberaFinance"
     }
+  },
+  {
+    "ticker": "HOOLI",
+    "remarks": {
+      "display_ticker": "HOOLI",
+      "fullname": "HOOLI",
+      "twitter_handle": "mypethooligan"
+    }
   }
 ]
