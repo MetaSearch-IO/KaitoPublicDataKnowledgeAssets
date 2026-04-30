@@ -1,13 +1,5 @@
 [
   {
-    "ticker": "UFO",
-    "remarks": {
-      "display_ticker": "SPACE",
-      "fullname": "Space",
-      "twitter_handle": "intodotspace"
-    }
-  },
-  {
     "ticker": "BASE",
     "remarks": {
       "display_ticker": "BASE",
@@ -1213,14 +1205,6 @@
       "display_ticker": "COMMONWARE",
       "fullname": "commonware",
       "twitter_handle": "commonwarexyz"
-    }
-  },
-  {
-    "ticker": "GENSYN",
-    "remarks": {
-      "display_ticker": "GENSYN",
-      "fullname": "gensyn",
-      "twitter_handle": "gensynai"
     }
   },
   {
