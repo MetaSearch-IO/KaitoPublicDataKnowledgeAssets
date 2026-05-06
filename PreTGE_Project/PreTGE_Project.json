@@ -1374,5 +1374,13 @@
             "fullname": "HOOLI",
             "twitter_handle": "mypethooligan"
         }
+    },
+    {
+        "ticker": "KII",
+        "remarks": {
+            "display_ticker": "KII",
+            "fullname": "KiiChain",
+            "twitter_handle": "KiiChainio"
+        }
     }
 ]
