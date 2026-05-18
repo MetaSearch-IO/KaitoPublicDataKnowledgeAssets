@@ -80,14 +80,6 @@
         }
     },
     {
-        "ticker": "MEGAETH",
-        "remarks": {
-            "display_ticker": "MEGAETH",
-            "fullname": "MegaETH",
-            "twitter_handle": "megaeth"
-        }
-    },
-    {
         "ticker": "POLYMARKET",
         "remarks": {
             "display_ticker": "POLYMARKET",
@@ -968,14 +960,6 @@
         }
     },
     {
-        "ticker": "BILLIONS",
-        "remarks": {
-            "display_ticker": "BILLIONS",
-            "fullname": "Billions",
-            "twitter_handle": "billions_ntwk"
-        }
-    },
-    {
         "ticker": "RIALO",
         "remarks": {
             "display_ticker": "RIALO",
@@ -989,14 +973,6 @@
             "display_ticker": "JUNKYBETS",
             "fullname": "JunkyBets",
             "twitter_handle": "JunkyUrsas"
-        }
-    },
-    {
-        "ticker": "KAIO",
-        "remarks": {
-            "display_ticker": "KAIO",
-            "fullname": "KAIO",
-            "twitter_handle": "KAIO_xyz"
         }
     },
     {
