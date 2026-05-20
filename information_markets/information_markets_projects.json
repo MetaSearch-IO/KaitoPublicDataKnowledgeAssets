@@ -358,5 +358,13 @@
             "fullname": "PNP Exchange",
             "twitter_handle": "predictandpump"
         }
+    },
+    {
+        "ticker": "OUTCOME",
+        "remarks": {
+            "display_ticker": "OUTCOME",
+            "fullname": "Outcome",
+            "twitter_handle": "Outcomexyz"
+        }
     }
 ]
