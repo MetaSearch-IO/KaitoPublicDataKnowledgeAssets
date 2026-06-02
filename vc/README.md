@@ -1,6 +1,13 @@
 # VC Affiliations Contribution Guidelines
 
-The VC Twitter affiliations are stored in `vc/vc_twitter_affiliation.json`. Below is an example format using @AlanaDLevin from Variant Fund:
+The VC Twitter affiliations are stored in two files in this directory:
+
+- **`vc/vc_twitter_affiliations.json`** — the user-to-firm edges (one Twitter user_id → array of VC firm Twitter user_ids). The example below shows this file's format.
+- **`vc/vc_firms.json`** — display metadata for each firm referenced by `vc_affiliations[]` (mirrors the `Exchange_Arena/Exchange_Arena.json` pattern). Required fields: `twitter_user_id`, `remarks.twitter_handle`, `remarks.display_name`. Optional: `remarks.fullname`, `remarks.website`. **Every firm Twitter user_id used in `vc_twitter_affiliations.json` MUST have a corresponding entry in `vc_firms.json`.**
+
+## `vc_twitter_affiliations.json` format
+
+Below is an example format using @AlanaDLevin from Variant Fund:
 
 ```json
 [
