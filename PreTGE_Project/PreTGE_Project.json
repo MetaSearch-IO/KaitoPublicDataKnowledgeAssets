@@ -1358,5 +1358,13 @@
             "fullname": "KiiChain",
             "twitter_handle": "KiiChainio"
         }
+    },
+    {
+        "ticker": "ARX",
+        "remarks": {
+            "display_ticker": "ARX",
+            "fullname": "Arcium",
+            "twitter_handle": "Arcium"
+        }
     }
 ]
