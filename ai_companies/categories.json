@@ -1,0 +1,32 @@
+[
+    {
+        "slug": "foundation_model",
+        "display_name": "Foundation Models",
+        "status": "active"
+    },
+    {
+        "slug": "coding_agents",
+        "display_name": "Coding Agents",
+        "status": "active"
+    },
+    {
+        "slug": "image_gen",
+        "display_name": "Image Generation",
+        "status": "active"
+    },
+    {
+        "slug": "video_gen",
+        "display_name": "Video Generation",
+        "status": "active"
+    },
+    {
+        "slug": "robotics",
+        "display_name": "Robotics",
+        "status": "active"
+    },
+    {
+        "slug": "vibe_apps",
+        "display_name": "Vibe Apps",
+        "status": "active"
+    }
+]

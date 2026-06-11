@@ -1,0 +1,2760 @@
+[
+    {
+        "symbol": "01AI",
+        "remarks": {
+            "display_name": "Yi-01.AI",
+            "fullname": "Yi-01.AI",
+            "twitter_handle": "01AI_Yi",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "1XTECH",
+        "remarks": {
+            "display_name": "1X",
+            "fullname": "1X",
+            "twitter_handle": "1x_tech",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "A0.DEV",
+        "remarks": {
+            "display_name": "a0.dev",
+            "fullname": "a0.dev",
+            "twitter_handle": "a0_dev",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "ABRIDGE",
+        "remarks": {
+            "display_name": "Abridge",
+            "fullname": "Abridge",
+            "twitter_handle": "AbridgeHQ",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "AI21",
+        "remarks": {
+            "display_name": "AI21 Labs",
+            "fullname": "AI21 Labs",
+            "twitter_handle": "AI21Labs",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "AIDER",
+        "remarks": {
+            "display_name": "Aider",
+            "fullname": "Aider",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "AIRCHAT",
+        "remarks": {
+            "display_name": "Airchat",
+            "fullname": "Airchat",
+            "twitter_handle": "getairchat",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ALEPHALPHA",
+        "remarks": {
+            "display_name": "Aleph Alpha",
+            "fullname": "Aleph Alpha",
+            "twitter_handle": "Aleph__Alpha",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "ALTARA",
+        "remarks": {
+            "display_name": "Altara",
+            "fullname": "Altara",
+            "twitter_handle": "altaratech",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "AMI_LABS",
+        "remarks": {
+            "display_name": "AMI Labs",
+            "fullname": "AMI Labs",
+            "twitter_handle": "lxbrun",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "AMP",
+        "remarks": {
+            "display_name": "Amp",
+            "fullname": "Amp",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "ANTHROPIC",
+        "remarks": {
+            "display_name": "Anthropic",
+            "fullname": "Anthropic",
+            "twitter_handle": "AnthropicAI",
+            "categories": [
+                "coding_agents",
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "ANYSCALE",
+        "remarks": {
+            "display_name": "Anyscale",
+            "fullname": "Anyscale",
+            "twitter_handle": "anyscalecompute",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "APOLLO_RESEARCH",
+        "remarks": {
+            "display_name": "Apollo Research",
+            "fullname": "Apollo Research",
+            "twitter_handle": "apolloaisafety",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "APPLIED_INTUITION",
+        "remarks": {
+            "display_name": "Applied Intuition",
+            "fullname": "Applied Intuition",
+            "twitter_handle": "",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "ARCEE",
+        "remarks": {
+            "display_name": "Arcee.ai",
+            "fullname": "Arcee.ai",
+            "twitter_handle": "arcee_ai",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "ARCHILLECT",
+        "remarks": {
+            "display_name": "Archillect",
+            "fullname": "Archillect",
+            "twitter_handle": "archillect",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ARTBREEDER",
+        "remarks": {
+            "display_name": "Artbreeder",
+            "fullname": "Artbreeder",
+            "twitter_handle": "Artbreeder",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "ARTIFICIAL_ANALYSIS",
+        "remarks": {
+            "display_name": "Artificial Analysis",
+            "fullname": "Artificial Analysis",
+            "twitter_handle": "ArtificialAnlys",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ARXIVGPT",
+        "remarks": {
+            "display_name": "arXivGPT",
+            "fullname": "arXivGPT",
+            "twitter_handle": "ArXivGPT",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ASSOCIATION_FOR_COMPUTATIONAL_LINGUISTICS_ACL",
+        "remarks": {
+            "display_name": "Association for Computational Linguistics (ACL)",
+            "fullname": "Association for Computational Linguistics (ACL)",
+            "twitter_handle": "aclmeeting",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ATLAS",
+        "remarks": {
+            "display_name": "Atlas",
+            "fullname": "Atlas",
+            "twitter_handle": "",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "AUGMENT",
+        "remarks": {
+            "display_name": "Augment",
+            "fullname": "Augment",
+            "twitter_handle": "augmentcode",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "AXIOM",
+        "remarks": {
+            "display_name": "Axiom",
+            "fullname": "Axiom",
+            "twitter_handle": "axiommathai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BAICHUAN_AI",
+        "remarks": {
+            "display_name": "Baichuan AI",
+            "fullname": "Baichuan AI",
+            "twitter_handle": "BaichuanAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "BASETEN",
+        "remarks": {
+            "display_name": "Baseten",
+            "fullname": "Baseten",
+            "twitter_handle": "basetenco",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BFL",
+        "remarks": {
+            "display_name": "Black Forest Labs",
+            "fullname": "Black Forest Labs",
+            "twitter_handle": "bfl_ml",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "BINGAI",
+        "remarks": {
+            "display_name": "Bing AI",
+            "fullname": "Bing AI",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BOLTDOTNEW",
+        "remarks": {
+            "display_name": "bolt.new",
+            "fullname": "bolt.new",
+            "twitter_handle": "stackblitz",
+            "categories": [
+                "coding_agents",
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "BRAINTRUST",
+        "remarks": {
+            "display_name": "Braintrust",
+            "fullname": "Braintrust",
+            "twitter_handle": "braintrustdata",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BRAVE_SEARCH",
+        "remarks": {
+            "display_name": "Brave Search",
+            "fullname": "Brave Search",
+            "twitter_handle": "brave",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BROWSERCOMPANY",
+        "remarks": {
+            "display_name": "The Browser Company",
+            "fullname": "The Browser Company",
+            "twitter_handle": "browsercompany",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "BROWSER_USE",
+        "remarks": {
+            "display_name": "Browser Use",
+            "fullname": "Browser Use",
+            "twitter_handle": "browser_use",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CARTESIA",
+        "remarks": {
+            "display_name": "Cartesia",
+            "fullname": "Cartesia",
+            "twitter_handle": "cartesia_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CEREBRAS",
+        "remarks": {
+            "display_name": "Cerebras",
+            "fullname": "Cerebras",
+            "twitter_handle": "CerebrasSystems",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CHARACTERAI",
+        "remarks": {
+            "display_name": "Character.AI",
+            "fullname": "Character.AI",
+            "twitter_handle": "character_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CHROMA",
+        "remarks": {
+            "display_name": "Chroma",
+            "fullname": "Chroma",
+            "twitter_handle": "trychroma",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CLARIFAI",
+        "remarks": {
+            "display_name": "Clarifai",
+            "fullname": "Clarifai",
+            "twitter_handle": "clarifai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CLINE",
+        "remarks": {
+            "display_name": "Cline",
+            "fullname": "Cline",
+            "twitter_handle": "thankscline",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "CLONE",
+        "remarks": {
+            "display_name": "Clone",
+            "fullname": "Clone",
+            "twitter_handle": "clonerobotics",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "CLUELY",
+        "remarks": {
+            "display_name": "Cluely",
+            "fullname": "Cluely",
+            "twitter_handle": "trycluely",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CODEGEN",
+        "remarks": {
+            "display_name": "Codegen AI",
+            "fullname": "Codegen",
+            "twitter_handle": "codegen",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "CODY",
+        "remarks": {
+            "display_name": "Cody",
+            "fullname": "Cody",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "COGNITION",
+        "remarks": {
+            "display_name": "Cognition",
+            "fullname": "Cognition",
+            "twitter_handle": "cognition_labs",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "COHERE",
+        "remarks": {
+            "display_name": "Cohere",
+            "fullname": "Cohere",
+            "twitter_handle": "cohere",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "COMMA",
+        "remarks": {
+            "display_name": "comma",
+            "fullname": "comma",
+            "twitter_handle": "comma_ai",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "CONTEXTUAL_AI",
+        "remarks": {
+            "display_name": "Contextual AI",
+            "fullname": "Contextual AI",
+            "twitter_handle": "ContextualAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CONTINUE",
+        "remarks": {
+            "display_name": "Continue",
+            "fullname": "Continue",
+            "twitter_handle": "continuedev",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "COPILOT",
+        "remarks": {
+            "display_name": "GitHub Copilot",
+            "fullname": "Copilot",
+            "twitter_handle": "github",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "CORE_AUTOMATION",
+        "remarks": {
+            "display_name": "Core Automation",
+            "fullname": "Core Automation",
+            "twitter_handle": "CoreAutoAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CRAIYON",
+        "remarks": {
+            "display_name": "Craiyon",
+            "fullname": "Craiyon",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "CRS",
+        "remarks": {
+            "display_name": "Creative Reality Studio",
+            "fullname": "Creative Reality Studio",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "CSM",
+        "remarks": {
+            "display_name": "Common Sense Machines",
+            "fullname": "Common Sense Machines",
+            "twitter_handle": "CSM_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "CURSOR",
+        "remarks": {
+            "display_name": "Cursor",
+            "fullname": "Cursor",
+            "twitter_handle": "cursor_ai",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "DADABOTS",
+        "remarks": {
+            "display_name": "dadabots",
+            "fullname": "dadabots",
+            "twitter_handle": "dadabots",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DBRX",
+        "remarks": {
+            "display_name": "Databricks Mosaic Research",
+            "fullname": "Databricks Mosaic Research",
+            "twitter_handle": "MosaicML",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DECART",
+        "remarks": {
+            "display_name": "Decart",
+            "fullname": "Decart",
+            "twitter_handle": "DecartAI",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "DEEPAI",
+        "remarks": {
+            "display_name": "DeepAI",
+            "fullname": "DeepAI",
+            "twitter_handle": "DeepAI",
+            "categories": [
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "DEEPBRAIN",
+        "remarks": {
+            "display_name": "DeepBrain",
+            "fullname": "DeepBrain",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "DEEPL",
+        "remarks": {
+            "display_name": "DeepL",
+            "fullname": "DeepL",
+            "twitter_handle": "DeepLcom",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DEEPSEEK",
+        "remarks": {
+            "display_name": "DeepSeek",
+            "fullname": "DeepSeek",
+            "twitter_handle": "deepseek_ai",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "DESCRIPT",
+        "remarks": {
+            "display_name": "Descript",
+            "fullname": "Descript",
+            "twitter_handle": "DescriptApp",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DIGG",
+        "remarks": {
+            "display_name": "Digg",
+            "fullname": "Digg",
+            "twitter_handle": "digg",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DIGIPALS",
+        "remarks": {
+            "display_name": "DigiPals",
+            "fullname": "DigiPals",
+            "twitter_handle": "digipals_app",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DIGIT",
+        "remarks": {
+            "display_name": "Digit",
+            "fullname": "Digit",
+            "twitter_handle": "agilityrobotics",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "DONOTPAY",
+        "remarks": {
+            "display_name": "DoNotPay",
+            "fullname": "DoNotPay",
+            "twitter_handle": "donotpay",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "DORBROS",
+        "remarks": {
+            "display_name": "The Dor Brothers",
+            "fullname": "The Dor Brothers",
+            "twitter_handle": "thedorbrothers",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "DOUBAO",
+        "remarks": {
+            "display_name": "Doubao",
+            "fullname": "Doubao",
+            "twitter_handle": "",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "DUCKASSIST",
+        "remarks": {
+            "display_name": "DuckAssist",
+            "fullname": "DuckAssist",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ELEVENLABS",
+        "remarks": {
+            "display_name": "ElevenLabs",
+            "fullname": "ElevenLabs",
+            "twitter_handle": "elevenlabsio",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ELICIT",
+        "remarks": {
+            "display_name": "Elicit",
+            "fullname": "Elicit",
+            "twitter_handle": "elicitorg",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ELUNA",
+        "remarks": {
+            "display_name": "Eluna",
+            "fullname": "Eluna",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "ELYSIAN",
+        "remarks": {
+            "display_name": "Elysian Labs",
+            "fullname": "Elysian Labs",
+            "twitter_handle": "koe_recast",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ERNIE",
+        "remarks": {
+            "display_name": "Ernie",
+            "fullname": "Ernie",
+            "twitter_handle": "",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "ESSENTIALAI",
+        "remarks": {
+            "display_name": "Essential AI",
+            "fullname": "Essential AI",
+            "twitter_handle": "essential_ai",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "ETCHED",
+        "remarks": {
+            "display_name": "Etched",
+            "fullname": "Etched",
+            "twitter_handle": "Etched",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "EUREKALABS",
+        "remarks": {
+            "display_name": "Eureka Labs",
+            "fullname": "Eureka Labs",
+            "twitter_handle": "EurekaLabsAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "EVERART",
+        "remarks": {
+            "display_name": "Everart",
+            "fullname": "Everart",
+            "twitter_handle": "everartai",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "EVOLUTIONARYSCALE",
+        "remarks": {
+            "display_name": "EvolutionaryScale",
+            "fullname": "EvolutionaryScale",
+            "twitter_handle": "EvoscaleAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "EXA",
+        "remarks": {
+            "display_name": "Exa",
+            "fullname": "Exa",
+            "twitter_handle": "metaphorsystems",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "FABLESIMULATION",
+        "remarks": {
+            "display_name": "The Simulation",
+            "fullname": "The Simulation",
+            "twitter_handle": "fablesimulation",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "FACTORY",
+        "remarks": {
+            "display_name": "Factory",
+            "fullname": "Factory",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "FAL",
+        "remarks": {
+            "display_name": "fal",
+            "fullname": "fal",
+            "twitter_handle": "FAL",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "FBSTUDIO",
+        "remarks": {
+            "display_name": "Firebase Studio",
+            "fullname": "Firebase Studio",
+            "twitter_handle": "GeminiApp",
+            "categories": [
+                "coding_agents",
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "FIGURE_AI",
+        "remarks": {
+            "display_name": "Figure AI",
+            "fullname": "Figure AI",
+            "twitter_handle": "Figure_robot",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "FIREFLY",
+        "remarks": {
+            "display_name": "Firefly",
+            "fullname": "Firefly",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "FIREWORKS",
+        "remarks": {
+            "display_name": "Fireworks AI",
+            "fullname": "Fireworks AI",
+            "twitter_handle": "fireworks_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "FRAMER",
+        "remarks": {
+            "display_name": "Framer",
+            "fullname": "Framer",
+            "twitter_handle": "framer",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "FUTURE_OF_LIFE_INSTITUTE",
+        "remarks": {
+            "display_name": "Future of Life Institute",
+            "fullname": "Future of Life Institute",
+            "twitter_handle": "FLIxrisk",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GEMINI",
+        "remarks": {
+            "display_name": "Gemini",
+            "fullname": "Gemini",
+            "twitter_handle": "GeminiApp",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "GEMINI_CLI",
+        "remarks": {
+            "display_name": "Gemini CLI",
+            "fullname": "Gemini CLI",
+            "twitter_handle": "GeminiApp",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "GENESIS_AI",
+        "remarks": {
+            "display_name": "Genesis AI",
+            "fullname": "Genesis AI",
+            "twitter_handle": "gs_ai_",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "GENIE",
+        "remarks": {
+            "display_name": "Genie",
+            "fullname": "Genie",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "GENMO",
+        "remarks": {
+            "display_name": "Genmo",
+            "fullname": "Genmo",
+            "twitter_handle": "genmoai",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "GENSPARK",
+        "remarks": {
+            "display_name": "Genspark",
+            "fullname": "Genspark",
+            "twitter_handle": "genspark_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GLEAN",
+        "remarks": {
+            "display_name": "Glean",
+            "fullname": "Glean",
+            "twitter_handle": "glean",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GOOGLE_SEARCH_AI",
+        "remarks": {
+            "display_name": "Google Search AI",
+            "fullname": "Google Search AI",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GOOSE",
+        "remarks": {
+            "display_name": "Goose",
+            "fullname": "Goose",
+            "twitter_handle": "blockopensource",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "GRANOLA",
+        "remarks": {
+            "display_name": "Granola",
+            "fullname": "Granola",
+            "twitter_handle": "meetgranola",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GROQ",
+        "remarks": {
+            "display_name": "Groq",
+            "fullname": "Groq",
+            "twitter_handle": "GroqInc",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "GSTACK",
+        "remarks": {
+            "display_name": "GStack",
+            "fullname": "GStack",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "H",
+        "remarks": {
+            "display_name": "H",
+            "fullname": "H",
+            "twitter_handle": "hcompany_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "H2OAI",
+        "remarks": {
+            "display_name": "H2O.ai",
+            "fullname": "H2O.ai",
+            "twitter_handle": "h2oai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HAIZE_LABS",
+        "remarks": {
+            "display_name": "Haize Labs",
+            "fullname": "Haize Labs",
+            "twitter_handle": "haizelabs",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HARMONIC",
+        "remarks": {
+            "display_name": "Harmonic",
+            "fullname": "Harmonic",
+            "twitter_handle": "HarmonicMath",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HARVEY",
+        "remarks": {
+            "display_name": "Harvey",
+            "fullname": "Harvey",
+            "twitter_handle": "harvey__ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HEDRA",
+        "remarks": {
+            "display_name": "Hedra",
+            "fullname": "Hedra",
+            "twitter_handle": "hedra_labs",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "HEYGEN",
+        "remarks": {
+            "display_name": "HeyGen",
+            "fullname": "HeyGen",
+            "twitter_handle": "HeyGen_Official",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "HEYGLIF",
+        "remarks": {
+            "display_name": "GLIF",
+            "fullname": "GLIF",
+            "twitter_handle": "heyglif",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HIGGSFIELD",
+        "remarks": {
+            "display_name": "Higgsfield",
+            "fullname": "Higgsfield",
+            "twitter_handle": "higgsfield_ai",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "HUGGINGFACE",
+        "remarks": {
+            "display_name": "Hugging Face",
+            "fullname": "Hugging Face",
+            "twitter_handle": "huggingface",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HUMANE",
+        "remarks": {
+            "display_name": "Humane",
+            "fullname": "Humane",
+            "twitter_handle": "Humane",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HUMANLOOP",
+        "remarks": {
+            "display_name": "Humanloop",
+            "fullname": "Humanloop",
+            "twitter_handle": "humanloop",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HUMEAI",
+        "remarks": {
+            "display_name": "Hume AI",
+            "fullname": "Hume AI",
+            "twitter_handle": "hume_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "HUNYUAN",
+        "remarks": {
+            "display_name": "Hunyuan",
+            "fullname": "Hunyuan",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "IDEOGRAM",
+        "remarks": {
+            "display_name": "Ideogram",
+            "fullname": "Ideogram",
+            "twitter_handle": "ideogram_ai",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "IIPOSTS",
+        "remarks": {
+            "display_name": "Intelligent Internet",
+            "fullname": "Intelligent Internet",
+            "twitter_handle": "SchellingAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "IMAGEN",
+        "remarks": {
+            "display_name": "Imagen",
+            "fullname": "Imagen",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "IMBUE",
+        "remarks": {
+            "display_name": "Imbue",
+            "fullname": "Imbue",
+            "twitter_handle": "imbue_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "INCEPTIONAI",
+        "remarks": {
+            "display_name": "Inception",
+            "fullname": "Inception",
+            "twitter_handle": "InceptionAILabs",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "INFLECTION",
+        "remarks": {
+            "display_name": "Inflection AI",
+            "fullname": "Inflection AI",
+            "twitter_handle": "inflectionAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "INTERACTION",
+        "remarks": {
+            "display_name": "Interaction",
+            "fullname": "Interaction",
+            "twitter_handle": "interaction",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "JINA_AI",
+        "remarks": {
+            "display_name": "Jina AI",
+            "fullname": "Jina AI",
+            "twitter_handle": "JinaAI_",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "JULES",
+        "remarks": {
+            "display_name": "Jules",
+            "fullname": "Jules",
+            "twitter_handle": "julesagent",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "JULIUSAI",
+        "remarks": {
+            "display_name": "Julius AI",
+            "fullname": "Julius AI",
+            "twitter_handle": "juliusai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "JUNIE",
+        "remarks": {
+            "display_name": "Junie",
+            "fullname": "Junie",
+            "twitter_handle": "jetbrains",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "KAGI",
+        "remarks": {
+            "display_name": "Kagi",
+            "fullname": "Kagi",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "KILO",
+        "remarks": {
+            "display_name": "Kilo",
+            "fullname": "Kilo",
+            "twitter_handle": "Kilo_Code",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "KLING",
+        "remarks": {
+            "display_name": "Kling",
+            "fullname": "Kling",
+            "twitter_handle": "Kling_ai",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "KREA",
+        "remarks": {
+            "display_name": "Krea",
+            "fullname": "Krea",
+            "twitter_handle": "krea_ai",
+            "categories": [
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "KSCALE",
+        "remarks": {
+            "display_name": "K-Scale Labs",
+            "fullname": "K-Scale Labs",
+            "twitter_handle": "kscalelabs",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "KYUTAI",
+        "remarks": {
+            "display_name": "Kyutai",
+            "fullname": "Kyutai",
+            "twitter_handle": "kyutai_labs",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "LAMINI",
+        "remarks": {
+            "display_name": "Lamini",
+            "fullname": "Lamini",
+            "twitter_handle": "LaminiAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LANGCHAIN",
+        "remarks": {
+            "display_name": "LangChain",
+            "fullname": "LangChain",
+            "twitter_handle": "LangChainAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LEMON_SLICE_AI",
+        "remarks": {
+            "display_name": "Lemon Slice AI",
+            "fullname": "Lemon Slice AI",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "LEONARDO",
+        "remarks": {
+            "display_name": "Leonardo",
+            "fullname": "Leonardo",
+            "twitter_handle": "LeonardoAi_",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "LETZ_AI",
+        "remarks": {
+            "display_name": "Letz AI",
+            "fullname": "Letz AI",
+            "twitter_handle": "letz_ai",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "LIGHTON",
+        "remarks": {
+            "display_name": "LightOn",
+            "fullname": "LightOn",
+            "twitter_handle": "LightOnIO",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "LIMITLESS",
+        "remarks": {
+            "display_name": "Rewind",
+            "fullname": "Rewind",
+            "twitter_handle": "limitlessai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LIQUIDAI",
+        "remarks": {
+            "display_name": "Liquid AI",
+            "fullname": "Liquid AI",
+            "twitter_handle": "LiquidAI_",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "LLAMA",
+        "remarks": {
+            "display_name": "Llama",
+            "fullname": "Llama",
+            "twitter_handle": "",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "LLAMAINDEX",
+        "remarks": {
+            "display_name": "LlamaIndex",
+            "fullname": "LlamaIndex",
+            "twitter_handle": "llama_index",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LMSTUDIO",
+        "remarks": {
+            "display_name": "lmstudio",
+            "fullname": "lmstudio",
+            "twitter_handle": "LMStudioAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LMSYS",
+        "remarks": {
+            "display_name": "LMSYS",
+            "fullname": "LMSYS",
+            "twitter_handle": "lmsys_oss",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "LOVABLE",
+        "remarks": {
+            "display_name": "Lovable",
+            "fullname": "Lovable",
+            "twitter_handle": "Lovable_dev",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "LUMAAI",
+        "remarks": {
+            "display_name": "Luma AI",
+            "fullname": "Luma AI",
+            "twitter_handle": "LumaLabsAI",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "MAGIC",
+        "remarks": {
+            "display_name": "Magic",
+            "fullname": "Magic",
+            "twitter_handle": "magic",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "MAGNIFIC_AI",
+        "remarks": {
+            "display_name": "Magnific AI",
+            "fullname": "Magnific AI",
+            "twitter_handle": "Magnific_AI",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "MANUSAI",
+        "remarks": {
+            "display_name": "Manus",
+            "fullname": "Manus",
+            "twitter_handle": "ManusAI_HQ",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MATHEMATICS_INC",
+        "remarks": {
+            "display_name": "Mathematics, Inc.",
+            "fullname": "Mathematics, Inc.",
+            "twitter_handle": "mathematics_inc",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MATICROBOTS",
+        "remarks": {
+            "display_name": "Matic Robots",
+            "fullname": "Matic Robots",
+            "twitter_handle": "maticrobots",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "MATX_COMPUTING",
+        "remarks": {
+            "display_name": "MatX Computing",
+            "fullname": "MatX Computing",
+            "twitter_handle": "reinerpope",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MEMDOTAI",
+        "remarks": {
+            "display_name": "Mem",
+            "fullname": "Mem",
+            "twitter_handle": "memdotai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "METR",
+        "remarks": {
+            "display_name": "METR",
+            "fullname": "METR",
+            "twitter_handle": "METR_Evals",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MIDJOURNEY",
+        "remarks": {
+            "display_name": "Midjourney",
+            "fullname": "Midjourney",
+            "twitter_handle": "midjourney",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "MINDBRANCHES",
+        "remarks": {
+            "display_name": "MindBranches",
+            "fullname": "MindBranches",
+            "twitter_handle": "MindBranches",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MINIMAX",
+        "remarks": {
+            "display_name": "MiniMax",
+            "fullname": "MiniMax",
+            "twitter_handle": "MiniMax__AI",
+            "categories": [
+                "foundation_model",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "MINIONAI",
+        "remarks": {
+            "display_name": "Minion AI",
+            "fullname": "Minion AI",
+            "twitter_handle": "ai_minion",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MISTRAL",
+        "remarks": {
+            "display_name": "Mistral",
+            "fullname": "Mistral",
+            "twitter_handle": "MistralAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "MIT_NLP",
+        "remarks": {
+            "display_name": "MIT NLP",
+            "fullname": "MIT NLP",
+            "twitter_handle": "nlp_mit",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MODAL",
+        "remarks": {
+            "display_name": "Modal",
+            "fullname": "Modal",
+            "twitter_handle": "modal_labs",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MODULAR",
+        "remarks": {
+            "display_name": "Modular",
+            "fullname": "Modular",
+            "twitter_handle": "Modular",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MOLTBOOK",
+        "remarks": {
+            "display_name": "Moltbook",
+            "fullname": "Moltbook",
+            "twitter_handle": "moltbook",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "MOONSHOT_AI",
+        "remarks": {
+            "display_name": "Moonshot AI",
+            "fullname": "Moonshot AI",
+            "twitter_handle": "Kimi_ai_",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "MTS",
+        "remarks": {
+            "display_name": "MTS",
+            "fullname": "MTS",
+            "twitter_handle": "MTSlive",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "NANOBANANA",
+        "remarks": {
+            "display_name": "NanoBanana",
+            "fullname": "NanoBanana",
+            "twitter_handle": "GeminiApp",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "NEEVA",
+        "remarks": {
+            "display_name": "Neeva",
+            "fullname": "Neeva",
+            "twitter_handle": "Neeva",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "NEO",
+        "remarks": {
+            "display_name": "Neo",
+            "fullname": "Neo",
+            "twitter_handle": "monsterapis",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "NOMIC_AI",
+        "remarks": {
+            "display_name": "Nomic AI",
+            "fullname": "Nomic AI",
+            "twitter_handle": "nomic_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "NOTEBOOKLM",
+        "remarks": {
+            "display_name": "NotebookLM",
+            "fullname": "NotebookLM",
+            "twitter_handle": "notebooklm",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "NOUS_RESEARCH",
+        "remarks": {
+            "display_name": "Nous Research",
+            "fullname": "Nous Research",
+            "twitter_handle": "NousResearch",
+            "categories": [
+                "coding_agents",
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "NUDGE",
+        "remarks": {
+            "display_name": "Nudge",
+            "fullname": "Nudge",
+            "twitter_handle": "nudge",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "NUMERAI",
+        "remarks": {
+            "display_name": "Numerai",
+            "fullname": "Numerai",
+            "twitter_handle": "numerai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ODYSSEY",
+        "remarks": {
+            "display_name": "Odyssey",
+            "fullname": "Odyssey",
+            "twitter_handle": "odysseyml",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "OLLAMA",
+        "remarks": {
+            "display_name": "ollama",
+            "fullname": "ollama",
+            "twitter_handle": "ollama",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "OPENAI",
+        "remarks": {
+            "display_name": "OpenAI",
+            "fullname": "OpenAI",
+            "twitter_handle": "OpenAI",
+            "categories": [
+                "coding_agents",
+                "foundation_model",
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "OPENCLAW",
+        "remarks": {
+            "display_name": "OpenClaw",
+            "fullname": "OpenClaw",
+            "twitter_handle": "clawdbot",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "OPENCODE",
+        "remarks": {
+            "display_name": "OpenCode",
+            "fullname": "OpenCode",
+            "twitter_handle": "opencode",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "OPENHANDS",
+        "remarks": {
+            "display_name": "OpenHands",
+            "fullname": "OpenHands",
+            "twitter_handle": "allhands_ai",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "OPENROUTER",
+        "remarks": {
+            "display_name": "OpenRouter",
+            "fullname": "OpenRouter",
+            "twitter_handle": "OpenRouterAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "OPTIMUS",
+        "remarks": {
+            "display_name": "Tesla Optimus",
+            "fullname": "Tesla Optimus",
+            "twitter_handle": "Tesla_Optimus",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "OZ",
+        "remarks": {
+            "display_name": "Oz",
+            "fullname": "Oz",
+            "twitter_handle": "warpdotdev",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "PERPLEXITY",
+        "remarks": {
+            "display_name": "Perplexity",
+            "fullname": "Perplexity",
+            "twitter_handle": "AskPerplexity",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "PHIND",
+        "remarks": {
+            "display_name": "Phind",
+            "fullname": "Phind",
+            "twitter_handle": "phindsearch",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "PHYSICAL_INTELLIGENCE",
+        "remarks": {
+            "display_name": "Physical Intelligence",
+            "fullname": "Physical Intelligence",
+            "twitter_handle": "physical_int",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "PIKA",
+        "remarks": {
+            "display_name": "Pika",
+            "fullname": "Pika",
+            "twitter_handle": "pika_labs",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "PINECONE",
+        "remarks": {
+            "display_name": "Pinecone",
+            "fullname": "Pinecone",
+            "twitter_handle": "pinecone",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "PLAYGROUND",
+        "remarks": {
+            "display_name": "Playground",
+            "fullname": "Playground",
+            "twitter_handle": "playground_ai",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "PLAYHT",
+        "remarks": {
+            "display_name": "PlayHT",
+            "fullname": "PlayHT",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "PLEASE",
+        "remarks": {
+            "display_name": "Please AI",
+            "fullname": "Please AI",
+            "twitter_handle": "MultiOn_AI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "POE",
+        "remarks": {
+            "display_name": "Poe",
+            "fullname": "Poe",
+            "twitter_handle": "poe_platform",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "POLSIA",
+        "remarks": {
+            "display_name": "Polsia",
+            "fullname": "Polsia",
+            "twitter_handle": "polsia",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "POOLSIDE",
+        "remarks": {
+            "display_name": "Poolside",
+            "fullname": "Poolside",
+            "twitter_handle": "poolsideai",
+            "categories": [
+                "coding_agents",
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "PRISMML",
+        "remarks": {
+            "display_name": "PrismML",
+            "fullname": "PrismML",
+            "twitter_handle": "PrismML",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "PROPHETIC",
+        "remarks": {
+            "display_name": "Prophetic",
+            "fullname": "Prophetic",
+            "twitter_handle": "PropheticAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "QWEN",
+        "remarks": {
+            "display_name": "Qwen",
+            "fullname": "Qwen",
+            "twitter_handle": "Alibaba_Qwen",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "RABBIT_HMI",
+        "remarks": {
+            "display_name": "rabbit inc.",
+            "fullname": "rabbit inc.",
+            "twitter_handle": "rabbit_hmi",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "RAYCAST",
+        "remarks": {
+            "display_name": "Raycast",
+            "fullname": "Raycast",
+            "twitter_handle": "glazeapps",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "RECRAFT",
+        "remarks": {
+            "display_name": "Recraft",
+            "fullname": "Recraft",
+            "twitter_handle": "recraftai",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "RECURSIVE_SI",
+        "remarks": {
+            "display_name": "Recursive SI",
+            "fullname": "Recursive SI",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "REKA",
+        "remarks": {
+            "display_name": "Reka",
+            "fullname": "Reka",
+            "twitter_handle": "RekaAILabs",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "REPLICATE",
+        "remarks": {
+            "display_name": "Replicate",
+            "fullname": "Replicate",
+            "twitter_handle": "replicate",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "REPLIT",
+        "remarks": {
+            "display_name": "Replit",
+            "fullname": "Replit",
+            "twitter_handle": "replit",
+            "categories": [
+                "coding_agents",
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "RFM1",
+        "remarks": {
+            "display_name": "RFM-1",
+            "fullname": "RFM-1",
+            "twitter_handle": "",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "RICURSIVE_INTELLIGENCE",
+        "remarks": {
+            "display_name": "Ricursive Intelligence",
+            "fullname": "Ricursive Intelligence",
+            "twitter_handle": "RicursiveAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "RIME",
+        "remarks": {
+            "display_name": "Rime",
+            "fullname": "Rime",
+            "twitter_handle": "rimelabs",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ROO_CODE",
+        "remarks": {
+            "display_name": "Roo Code",
+            "fullname": "Roo Code",
+            "twitter_handle": "roo_code",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "ROSEBUD_AI",
+        "remarks": {
+            "display_name": "Rosebud AI",
+            "fullname": "Rosebud AI",
+            "twitter_handle": "Rosebud_AI",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "RUNWAYML",
+        "remarks": {
+            "display_name": "Runway",
+            "fullname": "Runway",
+            "twitter_handle": "runwayml",
+            "categories": [
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SAFE_SUPERINTELLIGENCE",
+        "remarks": {
+            "display_name": "Safe Superintelligence",
+            "fullname": "Safe Superintelligence",
+            "twitter_handle": "ssi",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SAKANA_AI",
+        "remarks": {
+            "display_name": "Sakana AI",
+            "fullname": "Sakana AI",
+            "twitter_handle": "SakanaAILabs",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SAMBANOVA_SYSTEMS",
+        "remarks": {
+            "display_name": "SambaNova Systems",
+            "fullname": "SambaNova Systems",
+            "twitter_handle": "SambaNovaAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SARVAM_AI",
+        "remarks": {
+            "display_name": "Sarvam AI",
+            "fullname": "Sarvam AI",
+            "twitter_handle": "SarvamAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "SCALE_AI",
+        "remarks": {
+            "display_name": "Scale AI",
+            "fullname": "Scale AI",
+            "twitter_handle": "scale_AI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SCENARIO",
+        "remarks": {
+            "display_name": "Scenario",
+            "fullname": "Scenario",
+            "twitter_handle": "Scenario_gg",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SEED",
+        "remarks": {
+            "display_name": "Seed",
+            "fullname": "Seed",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SEMANTICSCHOLAR",
+        "remarks": {
+            "display_name": "Semantic Scholar",
+            "fullname": "Semantic Scholar",
+            "twitter_handle": "SemanticScholar",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SESAME",
+        "remarks": {
+            "display_name": "Sesame",
+            "fullname": "Sesame",
+            "twitter_handle": "sesame",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SHIELD_AI",
+        "remarks": {
+            "display_name": "Shield AI",
+            "fullname": "Shield AI",
+            "twitter_handle": "shieldaitech",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "SIERRA",
+        "remarks": {
+            "display_name": "Sierra",
+            "fullname": "Sierra",
+            "twitter_handle": "SierraPlatform",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SINDARIN",
+        "remarks": {
+            "display_name": "sindarin.",
+            "fullname": "sindarin.",
+            "twitter_handle": "SindarinTech",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SKILD_BRAIN",
+        "remarks": {
+            "display_name": "Skild Brain",
+            "fullname": "Skild Brain",
+            "twitter_handle": "",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "SMOLAI",
+        "remarks": {
+            "display_name": "AI News by Smol AI",
+            "fullname": "AI News by Smol AI",
+            "twitter_handle": "SmolModels",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SNORKEL_AI",
+        "remarks": {
+            "display_name": "Snorkel AI",
+            "fullname": "Snorkel AI",
+            "twitter_handle": "SnorkelAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SPACEX",
+        "remarks": {
+            "display_name": "SpaceX",
+            "fullname": "SpaceX",
+            "twitter_handle": "SpaceX",
+            "categories": [
+                "foundation_model",
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SPEAK",
+        "remarks": {
+            "display_name": "Speak",
+            "fullname": "Speak",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SPLINE",
+        "remarks": {
+            "display_name": "Spline",
+            "fullname": "Spline",
+            "twitter_handle": "splinetool",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "STABILITYAI",
+        "remarks": {
+            "display_name": "Stability AI",
+            "fullname": "Stability AI",
+            "twitter_handle": "StabilityAI",
+            "categories": [
+                "image_gen",
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "STANDARD_INTELLIGENCE",
+        "remarks": {
+            "display_name": "Standard Intelligence",
+            "fullname": "Standard Intelligence",
+            "twitter_handle": "",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "STEPFUN",
+        "remarks": {
+            "display_name": "Stepfun",
+            "fullname": "Stepfun",
+            "twitter_handle": "",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "STITCH",
+        "remarks": {
+            "display_name": "Stitch",
+            "fullname": "Stitch",
+            "twitter_handle": "Galileo_AI",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "SUBQUADRATIC",
+        "remarks": {
+            "display_name": "Subquadratic",
+            "fullname": "Subquadratic",
+            "twitter_handle": "alex_whedon",
+            "categories": [
+                "coding_agents",
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "SUNDAYROBOTICS",
+        "remarks": {
+            "display_name": "Sunday",
+            "fullname": "Sunday",
+            "twitter_handle": "sundayrobotics",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "SUNO",
+        "remarks": {
+            "display_name": "Suno",
+            "fullname": "Suno",
+            "twitter_handle": "suno_ai_",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "SYNC",
+        "remarks": {
+            "display_name": "Sync",
+            "fullname": "Sync",
+            "twitter_handle": "synclabs_ai",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SYNTHESIA",
+        "remarks": {
+            "display_name": "Synthesia",
+            "fullname": "Synthesia",
+            "twitter_handle": "synthesiaIO",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "SYNTHESIS",
+        "remarks": {
+            "display_name": "Synthesis",
+            "fullname": "Synthesis",
+            "twitter_handle": "synthesischool",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "TAALAS",
+        "remarks": {
+            "display_name": "Taalas",
+            "fullname": "Taalas",
+            "twitter_handle": "taalas_inc",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "TALKIE",
+        "remarks": {
+            "display_name": "Talkie",
+            "fullname": "Talkie",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "TAVUS",
+        "remarks": {
+            "display_name": "Tavus",
+            "fullname": "Tavus",
+            "twitter_handle": "heytavus",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "TENSTORRENT",
+        "remarks": {
+            "display_name": "Tenstorrent",
+            "fullname": "Tenstorrent",
+            "twitter_handle": "tenstorrent",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "TESLA_ROBOTAXI",
+        "remarks": {
+            "display_name": "Tesla Robotaxi",
+            "fullname": "Tesla Robotaxi",
+            "twitter_handle": "robotaxi",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "TESSL",
+        "remarks": {
+            "display_name": "Tessl",
+            "fullname": "Tessl",
+            "twitter_handle": "",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "TESTINGCATALOG",
+        "remarks": {
+            "display_name": "TestingCatalog News",
+            "fullname": "TestingCatalog News",
+            "twitter_handle": "testingcatalog",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "THEBOTCO",
+        "remarks": {
+            "display_name": "The Bot Company",
+            "fullname": "The Bot Company",
+            "twitter_handle": "thebotcompany",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "THE_TINY_CORP",
+        "remarks": {
+            "display_name": "the tiny corp",
+            "fullname": "the tiny corp",
+            "twitter_handle": "__tinygrad__",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "THINKING_MACHINES_LAB",
+        "remarks": {
+            "display_name": "Thinking Machines Lab",
+            "fullname": "Thinking Machines Lab",
+            "twitter_handle": "thinkymachines",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "TOGETHER_AI",
+        "remarks": {
+            "display_name": "Together AI",
+            "fullname": "Together AI",
+            "twitter_handle": "togethercompute",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "UDIO",
+        "remarks": {
+            "display_name": "Udio",
+            "fullname": "Udio",
+            "twitter_handle": "udiomusic",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "UNITREE",
+        "remarks": {
+            "display_name": "Unitree",
+            "fullname": "Unitree",
+            "twitter_handle": "UnitreeRobotics",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "UNIVERSAL1",
+        "remarks": {
+            "display_name": "Universal-1",
+            "fullname": "Universal-1",
+            "twitter_handle": "",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "UNSLOTH_AI",
+        "remarks": {
+            "display_name": "Unsloth AI",
+            "fullname": "Unsloth AI",
+            "twitter_handle": "unslothai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "V0",
+        "remarks": {
+            "display_name": "v0",
+            "fullname": "v0",
+            "twitter_handle": "v0",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "VECTARA",
+        "remarks": {
+            "display_name": "Vectara",
+            "fullname": "Vectara",
+            "twitter_handle": "vectara",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "VENICE.AI",
+        "remarks": {
+            "display_name": "Venice.ai",
+            "fullname": "Venice.ai",
+            "twitter_handle": "TryVenice",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "VEO",
+        "remarks": {
+            "display_name": "Veo",
+            "fullname": "Veo",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "VISUAL_ELECTRIC",
+        "remarks": {
+            "display_name": "Visual Electric",
+            "fullname": "Visual Electric",
+            "twitter_handle": "visualelectric",
+            "categories": [
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "VITA_GROUP",
+        "remarks": {
+            "display_name": "VITA Group",
+            "fullname": "VITA Group",
+            "twitter_handle": "VITAGroupUT",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "VOYAGE",
+        "remarks": {
+            "display_name": "Voyage AI by MongoDB",
+            "fullname": "Voyage AI by MongoDB",
+            "twitter_handle": "Voyage_AI_",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "WAABI",
+        "remarks": {
+            "display_name": "Waabi",
+            "fullname": "Waabi",
+            "twitter_handle": "Waabi_ai",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "WAN",
+        "remarks": {
+            "display_name": "WAN",
+            "fullname": "WAN",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "WAYVE",
+        "remarks": {
+            "display_name": "Wayve",
+            "fullname": "Wayve",
+            "twitter_handle": "wayve_ai",
+            "categories": [
+                "robotics"
+            ]
+        }
+    },
+    {
+        "symbol": "WEAVIATE",
+        "remarks": {
+            "display_name": "Weaviate",
+            "fullname": "Weaviate",
+            "twitter_handle": "weaviate_io",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "WEBSIM",
+        "remarks": {
+            "display_name": "WebSim",
+            "fullname": "WebSim",
+            "twitter_handle": "websim_ai",
+            "categories": [
+                "vibe_apps"
+            ]
+        }
+    },
+    {
+        "symbol": "WEIGHTS_BIASES",
+        "remarks": {
+            "display_name": "Weights & Biases",
+            "fullname": "Weights & Biases",
+            "twitter_handle": "weights_biases",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "WINDSURF",
+        "remarks": {
+            "display_name": "Windsurf",
+            "fullname": "Windsurf",
+            "twitter_handle": "windsurf_ai",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "WISPRFLOW",
+        "remarks": {
+            "display_name": "Wispr Flow",
+            "fullname": "Wispr Flow",
+            "twitter_handle": "WisprAI",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "WORLD_LABS",
+        "remarks": {
+            "display_name": "World Labs",
+            "fullname": "World Labs",
+            "twitter_handle": "theworldlabs",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "WRITER",
+        "remarks": {
+            "display_name": "Writer",
+            "fullname": "Writer",
+            "twitter_handle": "Get_Writer",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "YOUCOM",
+        "remarks": {
+            "display_name": "You.com",
+            "fullname": "You.com",
+            "twitter_handle": "YouSearchEngine",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "YUTORI",
+        "remarks": {
+            "display_name": "Yutori",
+            "fullname": "Yutori",
+            "twitter_handle": "yutori_ai",
+            "categories": []
+        }
+    },
+    {
+        "symbol": "ZED",
+        "remarks": {
+            "display_name": "Zed",
+            "fullname": "Zed",
+            "twitter_handle": "zeddotdev",
+            "categories": [
+                "coding_agents"
+            ]
+        }
+    },
+    {
+        "symbol": "ZHIPU",
+        "remarks": {
+            "display_name": "Z.ai",
+            "fullname": "Z.ai",
+            "twitter_handle": "ChatGLM",
+            "categories": [
+                "foundation_model",
+                "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "ZYPHRA",
+        "remarks": {
+            "display_name": "Zyphra",
+            "fullname": "Zyphra",
+            "twitter_handle": "ZyphraAI",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    }
+]

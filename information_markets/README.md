@@ -1,6 +1,6 @@
 # Information Markets Projects List Contribution Guidelines
 
-The information markets projects list data is stored in `information_market/information_market_data.json`. Below is an example format:
+The information markets projects list data is stored in `information_markets/information_markets_projects.json`. Below is an example format:
 
 ```json
 [
