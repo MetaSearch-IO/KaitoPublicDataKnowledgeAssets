@@ -13,4 +13,4 @@
 - [ ] `ticker` / `symbol` follows the folder README's key format and the file stays **sorted** by it (new curation datasets)
 - [ ] `twitter_handle` is the **official** account, without the `@` prefix
 - [ ] `fullname` / `display_name` have no `@` marks
-- [ ] One entry per company — products/models are not separate entries (AI list)
+- [ ] I am not adding a product/model whose parent company is already listed (AI list — see the [folder README](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/blob/main/ai_companies/README.md) for the standalone-entity exception)
