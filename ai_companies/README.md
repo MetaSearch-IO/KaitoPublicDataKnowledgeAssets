@@ -26,9 +26,10 @@ Two files:
 ]
 ```
 
-- **symbol** — the company name in uppercase, with underscores for spaces
-  (e.g. `OPENAI`, `BLACK_FOREST_LABS`). This is the primary key: one entry
-  per symbol, file sorted by it (ASCII ascending).
+- **symbol** — the entity name in uppercase, with underscores for spaces
+  (e.g. `OPENAI`, `BLACK_FOREST_LABS`; a few keys contain dots, like
+  `A0.DEV`). This is the primary key: one entry per symbol, file sorted by
+  it (ASCII ascending — uppercase sorts before lowercase).
 - **display_name** — how the company is displayed (e.g. `OpenAI`).
 - **fullname** — the company's official name.
 - **twitter_handle** — the company's official X/Twitter handle, **without**
@@ -38,11 +39,17 @@ Two files:
   value must be an **active** slug from `categories.json`. An empty array
   means the company appears only on the **All** view.
 
-### One entry per company, not per product
+### One entry per tracked entity — don't add products of listed companies
 
-List companies/organizations, not their individual models or products —
-e.g. `OPENAI`, not `GPT`/`DALLE`/`SORA`. Product mindshare is consolidated
-into the parent company by Kaito's internal pipeline.
+If a company is already listed, do **not** add its individual models or
+products as separate entries — e.g. `OPENAI` is listed, so `GPT`, `DALLE`
+and `SORA` are not; their mindshare is consolidated into OpenAI by Kaito's
+internal pipeline.
+
+You will see some standalone model/product names in the list (e.g. `LLAMA`,
+`ERNIE`, `VEO`): those are tracked as top-level entities because their
+parent company is not part of the AI leaderboards (Meta, Baidu and Google
+are tracked in other verticals). That is intentional — leave them as-is.
 
 ## `categories.json` format — proposing a new category
 

@@ -20,8 +20,13 @@ import re
 import sys
 from pathlib import Path
 
-HANDLE_RE = re.compile(r"^[A-Za-z0-9_]{1,15}$")
-SLUG_RE = re.compile(r"^[a-z0-9_]{1,40}$")
+HANDLE_RE = re.compile(r"[A-Za-z0-9_]{1,15}")
+SLUG_RE = re.compile(r"[a-z0-9_]{1,40}")
+CONTROL_CHARS_RE = re.compile(r"[\x00-\x1f\x7f]")
+
+# An *active* category must keep at least this many member companies —
+# new-category PRs must add the category and its members together.
+MIN_CATEGORY_MEMBERS = 8
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -37,6 +42,19 @@ def warn(msg: str) -> None:
     warnings.append(msg)
 
 
+def _reject_dup_keys(pairs):
+    obj = {}
+    for key, value in pairs:
+        if key in obj:
+            raise ValueError(f"duplicate object key {key!r}")
+        obj[key] = value
+    return obj
+
+
+def _reject_constant(name):
+    raise ValueError(f"non-standard JSON constant {name!r}")
+
+
 def load(rel_path: str):
     path = REPO_ROOT / rel_path
     if not path.exists():
@@ -44,15 +62,50 @@ def load(rel_path: str):
         return None
     try:
         with path.open() as f:
-            return json.load(f)
-    except json.JSONDecodeError as exc:
+            return json.load(
+                f,
+                object_pairs_hook=_reject_dup_keys,
+                parse_constant=_reject_constant,
+            )
+    except (json.JSONDecodeError, ValueError) as exc:
         err(f"{rel_path}: invalid JSON — {exc}")
         return None
 
 
+def req_str(
+    rel_path: str,
+    ident: str,
+    obj: dict,
+    field: str,
+    *,
+    strict: bool,
+    allow_empty: bool = False,
+) -> str | None:
+    """Validate a required string field; returns the value when usable."""
+    if field not in obj:
+        err(f"{rel_path}: {ident}: '{field}' is required")
+        return None
+    value = obj[field]
+    if not isinstance(value, str):
+        err(f"{rel_path}: {ident}: '{field}' must be a string")
+        return None
+    if CONTROL_CHARS_RE.search(value):
+        err(f"{rel_path}: {ident}: '{field}' contains control characters")
+        return None
+    if value != value.strip():
+        msg = f"{rel_path}: {ident}: '{field}' has leading/trailing whitespace"
+        err(msg) if strict else warn(msg)
+        return value.strip() or None
+    if not value:
+        if allow_empty:
+            return value
+        err(f"{rel_path}: {ident}: '{field}' must not be empty")
+        return None
+    return value
+
+
 def check_handle(rel_path: str, ident: str, handle, *, strict: bool) -> None:
-    if not isinstance(handle, str):
-        err(f"{rel_path}: {ident}: twitter_handle must be a string")
+    if handle is None:
         return
     if handle == "":
         warn(f"{rel_path}: {ident}: twitter_handle is empty — help us fill it in!")
@@ -60,11 +113,17 @@ def check_handle(rel_path: str, ident: str, handle, *, strict: bool) -> None:
     if handle.startswith("@"):
         err(f"{rel_path}: {ident}: twitter_handle must not include the @ prefix")
         return
-    if not HANDLE_RE.match(handle):
+    if not HANDLE_RE.fullmatch(handle):
         msg = (
             f"{rel_path}: {ident}: twitter_handle {handle!r} is not a valid "
             "X/Twitter handle (1-15 chars, letters/digits/underscore)"
         )
+        err(msg) if strict else warn(msg)
+
+
+def check_no_at(rel_path: str, ident: str, field: str, value, *, strict: bool) -> None:
+    if isinstance(value, str) and "@" in value:
+        msg = f"{rel_path}: {ident}: '{field}' must not contain an @ mark"
         err(msg) if strict else warn(msg)
 
 
@@ -82,9 +141,8 @@ def check_ticker_list(rel_path: str, data, *, strict: bool, sorted_required: boo
         if not isinstance(entry, dict):
             err(f"{rel_path}: {ident} must be an object")
             continue
-        ticker = entry.get("ticker")
-        if not isinstance(ticker, str) or not ticker.strip():
-            err(f"{rel_path}: {ident}: 'ticker' must be a non-empty string")
+        ticker = req_str(rel_path, ident, entry, "ticker", strict=strict)
+        if ticker is None:
             continue
         ident = ticker
         keys_order.append(ticker)
@@ -95,13 +153,16 @@ def check_ticker_list(rel_path: str, data, *, strict: bool, sorted_required: boo
         if not isinstance(remarks, dict):
             err(f"{rel_path}: {ident}: 'remarks' must be an object")
             continue
-        for field in ("display_ticker", "fullname", "twitter_handle"):
-            if field not in remarks:
-                err(f"{rel_path}: {ident}: remarks.{field} is required")
-        if isinstance(remarks.get("display_ticker"), str) and not remarks["display_ticker"].strip():
-            err(f"{rel_path}: {ident}: remarks.display_ticker must not be empty")
-        if "twitter_handle" in remarks:
-            check_handle(rel_path, ident, remarks["twitter_handle"], strict=strict)
+        display = req_str(rel_path, ident, remarks, "display_ticker", strict=strict)
+        fullname = req_str(
+            rel_path, ident, remarks, "fullname", strict=strict, allow_empty=True
+        )
+        handle = req_str(
+            rel_path, ident, remarks, "twitter_handle", strict=strict, allow_empty=True
+        )
+        check_no_at(rel_path, ident, "display_ticker", display, strict=strict)
+        check_no_at(rel_path, ident, "fullname", fullname, strict=strict)
+        check_handle(rel_path, ident, handle, strict=strict)
     if sorted_required and keys_order != sorted(keys_order):
         first_bad = next(
             (k for k, s in zip(keys_order, sorted(keys_order)) if k != s), "?"
@@ -120,14 +181,14 @@ def check_ai_companies(rel_path: str, data, active_slugs: set[str]) -> None:
         return
     seen: dict[str, int] = {}
     keys_order: list[str] = []
+    category_members: dict[str, int] = {slug: 0 for slug in active_slugs}
     for i, entry in enumerate(data):
         ident = f"entry[{i}]"
         if not isinstance(entry, dict):
             err(f"{rel_path}: {ident} must be an object")
             continue
-        symbol = entry.get("symbol")
-        if not isinstance(symbol, str) or not symbol.strip():
-            err(f"{rel_path}: {ident}: 'symbol' must be a non-empty string")
+        symbol = req_str(rel_path, ident, entry, "symbol", strict=True)
+        if symbol is None:
             continue
         ident = symbol
         keys_order.append(symbol)
@@ -138,25 +199,40 @@ def check_ai_companies(rel_path: str, data, active_slugs: set[str]) -> None:
         if not isinstance(remarks, dict):
             err(f"{rel_path}: {ident}: 'remarks' must be an object")
             continue
-        for field in ("display_name", "fullname", "twitter_handle", "categories"):
-            if field not in remarks:
-                err(f"{rel_path}: {ident}: remarks.{field} is required")
-        if isinstance(remarks.get("display_name"), str) and not remarks["display_name"].strip():
-            err(f"{rel_path}: {ident}: remarks.display_name must not be empty")
-        if "twitter_handle" in remarks:
-            check_handle(rel_path, ident, remarks["twitter_handle"], strict=True)
-        categories = remarks.get("categories")
-        if categories is not None:
-            if not isinstance(categories, list):
-                err(f"{rel_path}: {ident}: remarks.categories must be an array")
+        display = req_str(rel_path, ident, remarks, "display_name", strict=True)
+        fullname = req_str(
+            rel_path, ident, remarks, "fullname", strict=True, allow_empty=True
+        )
+        handle = req_str(
+            rel_path, ident, remarks, "twitter_handle", strict=True, allow_empty=True
+        )
+        check_no_at(rel_path, ident, "display_name", display, strict=True)
+        check_no_at(rel_path, ident, "fullname", fullname, strict=True)
+        check_handle(rel_path, ident, handle, strict=True)
+        if "categories" not in remarks:
+            err(f"{rel_path}: {ident}: remarks.categories is required")
+            continue
+        categories = remarks["categories"]
+        if not isinstance(categories, list):
+            err(f"{rel_path}: {ident}: remarks.categories must be an array")
+            continue
+        entry_seen: set[str] = set()
+        for c in categories:
+            if not isinstance(c, str):
+                err(f"{rel_path}: {ident}: categories entries must be strings")
+                continue
+            if c in entry_seen:
+                err(f"{rel_path}: {ident}: duplicate category {c!r}")
+                continue
+            entry_seen.add(c)
+            if c not in active_slugs:
+                err(
+                    f"{rel_path}: {ident}: unknown category {c!r} — must be "
+                    "an active slug from ai_companies/categories.json "
+                    "(propose new categories in that file, in the same PR)"
+                )
             else:
-                for c in categories:
-                    if c not in active_slugs:
-                        err(
-                            f"{rel_path}: {ident}: unknown category {c!r} — must be "
-                            "an active slug from ai_companies/categories.json "
-                            "(propose new categories in that file, in the same PR)"
-                        )
+                category_members[c] += 1
     if keys_order != sorted(keys_order):
         first_bad = next(
             (k for k, s in zip(keys_order, sorted(keys_order)) if k != s), "?"
@@ -165,6 +241,14 @@ def check_ai_companies(rel_path: str, data, active_slugs: set[str]) -> None:
             f"{rel_path}: entries must be sorted by symbol (ASCII ascending); "
             f"first out-of-order entry near {first_bad!r}"
         )
+    for slug, count in sorted(category_members.items()):
+        if count < MIN_CATEGORY_MEMBERS:
+            err(
+                f"ai_companies/categories.json: active category {slug!r} has only "
+                f"{count} member compan{'y' if count == 1 else 'ies'} in {rel_path} "
+                f"— active categories need at least {MIN_CATEGORY_MEMBERS} "
+                "(add members in the same PR, or mark the category 'retired')"
+            )
 
 
 def check_categories(rel_path: str, data) -> set[str]:
@@ -180,14 +264,17 @@ def check_categories(rel_path: str, data) -> set[str]:
             err(f"{rel_path}: entry[{i}] must be an object")
             continue
         slug = entry.get("slug")
-        if not isinstance(slug, str) or not SLUG_RE.match(slug):
-            err(f"{rel_path}: entry[{i}]: 'slug' must match {SLUG_RE.pattern}")
+        if not isinstance(slug, str) or not SLUG_RE.fullmatch(slug):
+            err(
+                f"{rel_path}: entry[{i}]: 'slug' must be 1-40 chars of "
+                "lowercase letters/digits/underscore"
+            )
             continue
         if slug in seen:
             err(f"{rel_path}: duplicate slug {slug!r}")
         seen.add(slug)
-        if not isinstance(entry.get("display_name"), str) or not entry["display_name"].strip():
-            err(f"{rel_path}: {slug}: 'display_name' must be a non-empty string")
+        if req_str(rel_path, slug, entry, "display_name", strict=True) is None:
+            continue
         status = entry.get("status")
         if status not in ("active", "retired"):
             err(f"{rel_path}: {slug}: 'status' must be 'active' or 'retired'")

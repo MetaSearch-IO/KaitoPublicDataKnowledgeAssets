@@ -9,8 +9,8 @@
 
 ## Checklist
 
-- [ ] I edited the right dataset for my suggestion (see the [README](../blob/main/README.md) routing table)
-- [ ] `ticker` / `symbol` is uppercase and the file stays **sorted** by it (new curation datasets)
+- [ ] I edited the right dataset for my suggestion (see the [README](https://github.com/MetaSearch-IO/KaitoPublicDataKnowledgeAssets/blob/main/README.md) routing table)
+- [ ] `ticker` / `symbol` follows the folder README's key format and the file stays **sorted** by it (new curation datasets)
 - [ ] `twitter_handle` is the **official** account, without the `@` prefix
 - [ ] `fullname` / `display_name` have no `@` marks
 - [ ] One entry per company — products/models are not separate entries (AI list)

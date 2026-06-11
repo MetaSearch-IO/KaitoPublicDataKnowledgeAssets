@@ -20,9 +20,12 @@ request.
 ]
 ```
 
-- **ticker** — the token symbol in uppercase (e.g. `UNI`, `SOL`). This is the
-  primary key: one entry per ticker, and the file is sorted by it (ASCII
-  ascending). You can find symbols on CoinGecko, CoinMarketCap, or similar.
+- **ticker** — the token symbol exactly as tracked by Kaito, usually
+  uppercase (e.g. `UNI`, `SOL`); a few legacy keys are mixed-case or contain
+  spaces (e.g. `stETH`, `BabyDoge`) — keep existing keys unchanged. This is
+  the primary key: one entry per ticker, and the file is sorted by it (ASCII
+  ascending — uppercase sorts before lowercase). You can find symbols on
+  CoinGecko, CoinMarketCap, or similar.
 - **display_ticker** — how the ticker is displayed, usually the same as
   `ticker`.
 - **fullname** — the project's official name (e.g. `Uniswap`).

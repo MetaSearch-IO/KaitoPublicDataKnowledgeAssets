@@ -5,10 +5,18 @@ on:
   push:
     branches: [main]
 
+# CI is a format gate, not the trust anchor: every PR (including any change
+# to this workflow or to scripts/) still requires CODEOWNERS review by the
+# Kaito data team before merge.
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Validate JSON datasets
         run: python3 scripts/validate_datasets.py
