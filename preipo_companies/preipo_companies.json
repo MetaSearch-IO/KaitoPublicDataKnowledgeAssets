@@ -1,0 +1,114 @@
+[
+    {
+        "symbol": "ANDURIL",
+        "remarks": {
+            "display_name": "Anduril",
+            "fullname": "Anduril Industries, Inc.",
+            "twitter_handle": "anduriltech"
+        }
+    },
+    {
+        "symbol": "ANTHROPIC",
+        "remarks": {
+            "display_name": "Anthropic",
+            "fullname": "Anthropic PBC",
+            "twitter_handle": "AnthropicAI"
+        }
+    },
+    {
+        "symbol": "CANVA",
+        "remarks": {
+            "display_name": "Canva",
+            "fullname": "Canva, Inc.",
+            "twitter_handle": "canva"
+        }
+    },
+    {
+        "symbol": "DATABRICKS",
+        "remarks": {
+            "display_name": "Databricks",
+            "fullname": "Databricks, Inc.",
+            "twitter_handle": "databricks"
+        }
+    },
+    {
+        "symbol": "DISCORD",
+        "remarks": {
+            "display_name": "Discord",
+            "fullname": "Discord Inc.",
+            "twitter_handle": "discord"
+        }
+    },
+    {
+        "symbol": "KALSHI",
+        "remarks": {
+            "display_name": "Kalshi",
+            "fullname": "Kalshi, Inc.",
+            "twitter_handle": "Kalshi"
+        }
+    },
+    {
+        "symbol": "KRAKEN",
+        "remarks": {
+            "display_name": "Kraken",
+            "fullname": "Payward, Inc.",
+            "twitter_handle": "krakenfx"
+        }
+    },
+    {
+        "symbol": "NOTION",
+        "remarks": {
+            "display_name": "Notion",
+            "fullname": "Notion Labs, Inc.",
+            "twitter_handle": "NotionHQ"
+        }
+    },
+    {
+        "symbol": "OPENAI",
+        "remarks": {
+            "display_name": "OpenAI",
+            "fullname": "OpenAI Group PBC",
+            "twitter_handle": "OpenAI"
+        }
+    },
+    {
+        "symbol": "PERPLEXITY",
+        "remarks": {
+            "display_name": "Perplexity",
+            "fullname": "Perplexity AI, Inc.",
+            "twitter_handle": "perplexity_ai"
+        }
+    },
+    {
+        "symbol": "POLYMARKET",
+        "remarks": {
+            "display_name": "Polymarket",
+            "fullname": "Polymarket (Blockratize, Inc.)",
+            "twitter_handle": "Polymarket"
+        }
+    },
+    {
+        "symbol": "REVOLUT",
+        "remarks": {
+            "display_name": "Revolut",
+            "fullname": "Revolut Ltd",
+            "twitter_handle": "Revolut"
+        }
+    },
+    {
+        "symbol": "RIPPLE",
+        "remarks": {
+            "display_name": "Ripple",
+            "fullname": "Ripple Labs, Inc.",
+            "twitter_handle": "Ripple"
+        }
+    },
+    {
+        "symbol": "STRIPE",
+        "remarks": {
+            "display_name": "Stripe",
+            "fullname": "Stripe, Inc.",
+            "twitter_handle": "stripe"
+        }
+    }
+]
