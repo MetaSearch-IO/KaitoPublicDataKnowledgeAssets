@@ -8,6 +8,14 @@
         }
     },
     {
+        "symbol": "ADDEPAR",
+        "remarks": {
+            "display_name": "Addepar",
+            "fullname": "Addepar, Inc.",
+            "twitter_handle": "Addepar"
+        }
+    },
+    {
         "symbol": "ANDURIL",
         "remarks": {
             "display_name": "Anduril",
@@ -56,6 +64,14 @@
         }
     },
     {
+        "symbol": "COMMURE",
+        "remarks": {
+            "display_name": "Commure",
+            "fullname": "Commure, Inc.",
+            "twitter_handle": "CommureOS"
+        }
+    },
+    {
         "symbol": "CRUSOE",
         "remarks": {
             "display_name": "Crusoe",
@@ -93,6 +109,14 @@
             "display_name": "FieldAI",
             "fullname": "FieldAI, Inc.",
             "twitter_handle": "fieldai_"
+        }
+    },
+    {
+        "symbol": "GECKO_ROBOTICS",
+        "remarks": {
+            "display_name": "Gecko Robotics",
+            "fullname": "Gecko Robotics, Inc.",
+            "twitter_handle": "geckorobotics"
         }
     },
     {
@@ -144,11 +168,27 @@
         }
     },
     {
+        "symbol": "LIQUID_DEATH",
+        "remarks": {
+            "display_name": "Liquid Death",
+            "fullname": "Liquid Death, Inc.",
+            "twitter_handle": "LiquidDeath"
+        }
+    },
+    {
         "symbol": "NOTION",
         "remarks": {
             "display_name": "Notion",
             "fullname": "Notion Labs, Inc.",
             "twitter_handle": "NotionHQ"
+        }
+    },
+    {
+        "symbol": "ONEBRIEF",
+        "remarks": {
+            "display_name": "Onebrief",
+            "fullname": "Onebrief, Inc.",
+            "twitter_handle": "Onebriefapp"
         }
     },
     {
@@ -176,11 +216,27 @@
         }
     },
     {
+        "symbol": "POSTMAN",
+        "remarks": {
+            "display_name": "Postman",
+            "fullname": "Postman, Inc.",
+            "twitter_handle": "getpostman"
+        }
+    },
+    {
         "symbol": "PSIQUANTUM",
         "remarks": {
             "display_name": "PsiQuantum",
             "fullname": "PsiQuantum Corp.",
             "twitter_handle": "PsiQuantum"
+        }
+    },
+    {
+        "symbol": "REDWOOD_MATERIALS",
+        "remarks": {
+            "display_name": "Redwood Materials",
+            "fullname": "Redwood Materials, Inc.",
+            "twitter_handle": "RedwoodMat"
         }
     },
     {
@@ -240,6 +296,14 @@
         }
     },
     {
+        "symbol": "SKYDIO",
+        "remarks": {
+            "display_name": "Skydio",
+            "fullname": "Skydio, Inc.",
+            "twitter_handle": "SkydioHQ"
+        }
+    },
+    {
         "symbol": "STRIPE",
         "remarks": {
             "display_name": "Stripe",
@@ -253,6 +317,14 @@
             "display_name": "Varda Space Industries",
             "fullname": "Varda Space Industries, Inc.",
             "twitter_handle": "VardaSpace"
+        }
+    },
+    {
+        "symbol": "VERKADA",
+        "remarks": {
+            "display_name": "Verkada",
+            "fullname": "Verkada Inc.",
+            "twitter_handle": "VerkadaHQ"
         }
     },
     {
