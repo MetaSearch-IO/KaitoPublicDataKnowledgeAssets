@@ -16,6 +16,14 @@
         }
     },
     {
+        "symbol": "AGILITY_ROBOTICS",
+        "remarks": {
+            "display_name": "Agility Robotics",
+            "fullname": "Agility Robotics, Inc.",
+            "twitter_handle": "agilityrobotics"
+        }
+    },
+    {
         "symbol": "ANDURIL",
         "remarks": {
             "display_name": "Anduril",
@@ -40,6 +48,22 @@
         }
     },
     {
+        "symbol": "AYAR_LABS",
+        "remarks": {
+            "display_name": "Ayar Labs",
+            "fullname": "Ayar Labs, Inc.",
+            "twitter_handle": "AyarLabs"
+        }
+    },
+    {
+        "symbol": "BLUE_ORIGIN",
+        "remarks": {
+            "display_name": "Blue Origin",
+            "fullname": "Blue Origin Enterprises, L.P.",
+            "twitter_handle": "blueorigin"
+        }
+    },
+    {
         "symbol": "BYTEDANCE",
         "remarks": {
             "display_name": "ByteDance",
@@ -53,6 +77,14 @@
             "display_name": "Canva",
             "fullname": "Canva, Inc.",
             "twitter_handle": "canva"
+        }
+    },
+    {
+        "symbol": "CHAINALYSIS",
+        "remarks": {
+            "display_name": "Chainalysis",
+            "fullname": "Chainalysis Inc.",
+            "twitter_handle": "chainalysis"
         }
     },
     {
@@ -96,6 +128,14 @@
         }
     },
     {
+        "symbol": "DEEL",
+        "remarks": {
+            "display_name": "Deel",
+            "fullname": "Deel Inc.",
+            "twitter_handle": "deel"
+        }
+    },
+    {
         "symbol": "DISCORD",
         "remarks": {
             "display_name": "Discord",
@@ -109,6 +149,14 @@
             "display_name": "FieldAI",
             "fullname": "FieldAI, Inc.",
             "twitter_handle": "fieldai_"
+        }
+    },
+    {
+        "symbol": "FIREBLOCKS",
+        "remarks": {
+            "display_name": "Fireblocks",
+            "fullname": "Fireblocks Inc.",
+            "twitter_handle": "FireblocksHQ"
         }
     },
     {
@@ -133,6 +181,30 @@
             "display_name": "Groq",
             "fullname": "Groq, Inc.",
             "twitter_handle": "GroqInc"
+        }
+    },
+    {
+        "symbol": "HADRIAN",
+        "remarks": {
+            "display_name": "Hadrian",
+            "fullname": "Hadrian Automation, Inc.",
+            "twitter_handle": "HadrianInc"
+        }
+    },
+    {
+        "symbol": "IMPULSE_SPACE",
+        "remarks": {
+            "display_name": "Impulse Space",
+            "fullname": "Impulse Space, Inc.",
+            "twitter_handle": "GoToImpulse"
+        }
+    },
+    {
+        "symbol": "ISOMORPHIC_LABS",
+        "remarks": {
+            "display_name": "Isomorphic Labs",
+            "fullname": "Isomorphic Labs Limited",
+            "twitter_handle": "IsomorphicLabs"
         }
     },
     {
@@ -200,11 +272,27 @@
         }
     },
     {
+        "symbol": "OPENEVIDENCE",
+        "remarks": {
+            "display_name": "OpenEvidence",
+            "fullname": "OpenEvidence, Inc.",
+            "twitter_handle": "EvidenceOpen"
+        }
+    },
+    {
         "symbol": "PERPLEXITY",
         "remarks": {
             "display_name": "Perplexity",
             "fullname": "Perplexity AI, Inc.",
             "twitter_handle": "perplexity_ai"
+        }
+    },
+    {
+        "symbol": "PLAID",
+        "remarks": {
+            "display_name": "Plaid",
+            "fullname": "Plaid Inc.",
+            "twitter_handle": "Plaid"
         }
     },
     {
@@ -280,6 +368,14 @@
         }
     },
     {
+        "symbol": "SARONIC",
+        "remarks": {
+            "display_name": "Saronic",
+            "fullname": "Saronic Technologies, Inc.",
+            "twitter_handle": "Saronic"
+        }
+    },
+    {
         "symbol": "SCALE_AI",
         "remarks": {
             "display_name": "Scale AI",
@@ -312,6 +408,30 @@
         }
     },
     {
+        "symbol": "TANIUM",
+        "remarks": {
+            "display_name": "Tanium",
+            "fullname": "Tanium Inc.",
+            "twitter_handle": "Tanium"
+        }
+    },
+    {
+        "symbol": "THRIVE_MARKET",
+        "remarks": {
+            "display_name": "Thrive Market",
+            "fullname": "Thrive Market, Inc.",
+            "twitter_handle": "ThriveMarket"
+        }
+    },
+    {
+        "symbol": "UNITREE",
+        "remarks": {
+            "display_name": "Unitree",
+            "fullname": "Hangzhou Unitree Technology Co., Ltd.",
+            "twitter_handle": "unitreerobotics"
+        }
+    },
+    {
         "symbol": "VARDA_SPACE_INDUSTRIES",
         "remarks": {
             "display_name": "Varda Space Industries",
@@ -333,6 +453,14 @@
             "display_name": "Whatnot",
             "fullname": "Whatnot Inc.",
             "twitter_handle": "Whatnot"
+        }
+    },
+    {
+        "symbol": "WHOOP",
+        "remarks": {
+            "display_name": "WHOOP",
+            "fullname": "WHOOP, Inc.",
+            "twitter_handle": "WHOOP"
         }
     },
     {
