@@ -16,11 +16,27 @@
         }
     },
     {
+        "symbol": "APPTRONIK",
+        "remarks": {
+            "display_name": "Apptronik",
+            "fullname": "Apptronik, Inc.",
+            "twitter_handle": "Apptronik"
+        }
+    },
+    {
         "symbol": "CANVA",
         "remarks": {
             "display_name": "Canva",
             "fullname": "Canva, Inc.",
             "twitter_handle": "canva"
+        }
+    },
+    {
+        "symbol": "CRUSOE",
+        "remarks": {
+            "display_name": "Crusoe",
+            "fullname": "Crusoe Energy Systems LLC",
+            "twitter_handle": "CrusoeAI"
         }
     },
     {
@@ -40,6 +56,22 @@
         }
     },
     {
+        "symbol": "FIELD_AI",
+        "remarks": {
+            "display_name": "FieldAI",
+            "fullname": "FieldAI, Inc.",
+            "twitter_handle": "fieldai_"
+        }
+    },
+    {
+        "symbol": "GROQ",
+        "remarks": {
+            "display_name": "Groq",
+            "fullname": "Groq, Inc.",
+            "twitter_handle": "GroqInc"
+        }
+    },
+    {
         "symbol": "KALSHI",
         "remarks": {
             "display_name": "Kalshi",
@@ -53,6 +85,22 @@
             "display_name": "Kraken",
             "fullname": "Payward, Inc.",
             "twitter_handle": "krakenfx"
+        }
+    },
+    {
+        "symbol": "LAMBDA_LABS",
+        "remarks": {
+            "display_name": "Lambda",
+            "fullname": "Lambda Labs, Inc.",
+            "twitter_handle": "LambdaAPI"
+        }
+    },
+    {
+        "symbol": "LIGHTMATTER",
+        "remarks": {
+            "display_name": "Lightmatter",
+            "fullname": "Lightmatter, Inc.",
+            "twitter_handle": "LightmatterCo"
         }
     },
     {
@@ -88,6 +136,22 @@
         }
     },
     {
+        "symbol": "PSIQUANTUM",
+        "remarks": {
+            "display_name": "PsiQuantum",
+            "fullname": "PsiQuantum Corp.",
+            "twitter_handle": "PsiQuantum"
+        }
+    },
+    {
+        "symbol": "REPLIT",
+        "remarks": {
+            "display_name": "Replit",
+            "fullname": "Replit, Inc.",
+            "twitter_handle": "replit"
+        }
+    },
+    {
         "symbol": "REVOLUT",
         "remarks": {
             "display_name": "Revolut",
@@ -101,6 +165,30 @@
             "display_name": "Ripple",
             "fullname": "Ripple Labs, Inc.",
             "twitter_handle": "Ripple"
+        }
+    },
+    {
+        "symbol": "SANDBOXAQ",
+        "remarks": {
+            "display_name": "SandboxAQ",
+            "fullname": "SandboxAQ, Inc.",
+            "twitter_handle": "SandboxAQ"
+        }
+    },
+    {
+        "symbol": "SCALE_AI",
+        "remarks": {
+            "display_name": "Scale AI",
+            "fullname": "Scale AI, Inc.",
+            "twitter_handle": "scale_ai"
+        }
+    },
+    {
+        "symbol": "SHIELD_AI",
+        "remarks": {
+            "display_name": "Shield AI",
+            "fullname": "Shield AI, Inc.",
+            "twitter_handle": "shieldaitech"
         }
     },
     {
