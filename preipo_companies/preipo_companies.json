@@ -1,5 +1,13 @@
 [
     {
+        "symbol": "1XTECH",
+        "remarks": {
+            "display_name": "1X",
+            "fullname": "1X Technologies AS",
+            "twitter_handle": "1x_tech"
+        }
+    },
+    {
         "symbol": "ANDURIL",
         "remarks": {
             "display_name": "Anduril",
@@ -32,6 +40,14 @@
         }
     },
     {
+        "symbol": "COHERE",
+        "remarks": {
+            "display_name": "Cohere",
+            "fullname": "Cohere Inc.",
+            "twitter_handle": "cohere"
+        }
+    },
+    {
         "symbol": "CRUSOE",
         "remarks": {
             "display_name": "Crusoe",
@@ -48,6 +64,14 @@
         }
     },
     {
+        "symbol": "DATAMINR",
+        "remarks": {
+            "display_name": "Dataminr",
+            "fullname": "Dataminr, Inc.",
+            "twitter_handle": "Dataminr"
+        }
+    },
+    {
         "symbol": "DISCORD",
         "remarks": {
             "display_name": "Discord",
@@ -61,6 +85,14 @@
             "display_name": "FieldAI",
             "fullname": "FieldAI, Inc.",
             "twitter_handle": "fieldai_"
+        }
+    },
+    {
+        "symbol": "GLEAN",
+        "remarks": {
+            "display_name": "Glean",
+            "fullname": "Glean Technologies, Inc.",
+            "twitter_handle": "glean"
         }
     },
     {
@@ -168,6 +200,14 @@
         }
     },
     {
+        "symbol": "SAMBANOVA_SYSTEMS",
+        "remarks": {
+            "display_name": "SambaNova Systems",
+            "fullname": "SambaNova Systems, Inc.",
+            "twitter_handle": "SambaNovaAI"
+        }
+    },
+    {
         "symbol": "SANDBOXAQ",
         "remarks": {
             "display_name": "SandboxAQ",
@@ -197,6 +237,22 @@
             "display_name": "Stripe",
             "fullname": "Stripe, Inc.",
             "twitter_handle": "stripe"
+        }
+    },
+    {
+        "symbol": "VARDA_SPACE_INDUSTRIES",
+        "remarks": {
+            "display_name": "Varda Space Industries",
+            "fullname": "Varda Space Industries, Inc.",
+            "twitter_handle": "VardaSpace"
+        }
+    },
+    {
+        "symbol": "WHATNOT",
+        "remarks": {
+            "display_name": "Whatnot",
+            "fullname": "Whatnot Inc.",
+            "twitter_handle": "Whatnot"
         }
     }
 ]
