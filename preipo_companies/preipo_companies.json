@@ -32,6 +32,14 @@
         }
     },
     {
+        "symbol": "BYTEDANCE",
+        "remarks": {
+            "display_name": "ByteDance",
+            "fullname": "ByteDance Ltd.",
+            "twitter_handle": "BytedanceTalk"
+        }
+    },
+    {
         "symbol": "CANVA",
         "remarks": {
             "display_name": "Canva",
@@ -253,6 +261,14 @@
             "display_name": "Whatnot",
             "fullname": "Whatnot Inc.",
             "twitter_handle": "Whatnot"
+        }
+    },
+    {
+        "symbol": "XIAOHONGSHU",
+        "remarks": {
+            "display_name": "Xiaohongshu",
+            "fullname": "Xiaohongshu / RedNote",
+            "twitter_handle": "xiaohongshu"
         }
     }
 ]
