@@ -464,10 +464,10 @@
         }
     },
     {
-        "symbol": "XIAOHONGSHU",
+        "symbol": "rednote",
         "remarks": {
-            "display_name": "Xiaohongshu",
-            "fullname": "Xiaohongshu / RedNote",
+            "display_name": "rednote",
+            "fullname": "rednote / Xiaohongshu",
             "twitter_handle": "xiaohongshu"
         }
     }
