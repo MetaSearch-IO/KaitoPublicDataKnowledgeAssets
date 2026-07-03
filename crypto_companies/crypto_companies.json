@@ -528,6 +528,14 @@
         }
     },
     {
+    "ticker": "ANSEM",
+    "remarks": {
+        "display_ticker": "ANSEM",
+        "fullname": "The Black Bull",
+        "twitter_handle": "blknoiz06"
+    }
+    }
+    {
         "ticker": "ANTAUTONOMI",
         "remarks": {
             "display_ticker": "ANT",
