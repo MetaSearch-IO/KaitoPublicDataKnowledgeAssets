@@ -1,0 +1,119 @@
+# AI PR Router — Label-driven PR routing
+#
+# Reacts to triage labels applied by ai-pr-triage.yml:
+#   ai-review       → queue for EC2 agent review (auto-merges if AI approves)
+#   human-required  → queue for EC2 agent review (human must merge)
+#
+# WORKLOG 2026-04-30 — auto-merge tier removed; the auto-approve job that
+# fired on the auto-merge label was deleted. Every PR now goes through AI
+# review before merge.
+#
+# Source: kaito-docs-central/templates/workflows/ai-pr-router.yml
+# Deploy: /deploy-github-workflow <repo> ai-pr-router
+#
+# Secrets:
+#   - ORG_AUTOMATION_TOKEN     (Required — kaitogithubbot PAT)
+
+name: AI PR Router
+
+on:
+  pull_request:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to review"
+        required: true
+        type: number
+      action:
+        description: "Action to take"
+        required: true
+        type: choice
+        options:
+          - ai-review
+          - human-review
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  # ─── ai-review: queue for EC2 agent, auto-merge if approved ───
+  ai-review:
+    name: Queue AI Review
+    runs-on: ubuntu-latest
+    if: >-
+      (github.event_name == 'workflow_dispatch' && inputs.action == 'ai-review') ||
+      (
+        github.event_name == 'pull_request' &&
+        github.event.label.name == 'ai-review' &&
+        github.actor != 'kaito-reviewer[bot]' &&
+        !contains(github.event.pull_request.labels.*.name, 'ai-agent-authored')
+      )
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check diff size
+        id: diff
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number || inputs.pr_number }}
+          DIFF_SIZE=$(gh pr diff "$PR_NUMBER" | wc -c)
+          if [ "$DIFF_SIZE" -gt 100000 ]; then
+            REPO=${{ github.repository }}
+            gh pr comment "$PR_NUMBER" \
+              --body "PR diff too large for AI review ($DIFF_SIZE bytes). Upgrading to \`human-required\`."
+            gh api "repos/${REPO}/issues/${PR_NUMBER}/labels/ai-review" \
+              --method DELETE 2>/dev/null || true
+            gh api "repos/${REPO}/issues/${PR_NUMBER}/labels" \
+              --method POST -f "labels[]=human-required"
+            echo "upgraded=true" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
+
+      # Note: Uses REST API instead of gh pr edit because
+      # Fine-grained PATs lack GraphQL access to reviewRequests.
+      - name: Queue for EC2 review
+        if: steps.diff.outputs.upgraded != 'true'
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number || inputs.pr_number }}
+          REPO=${{ github.repository }}
+          gh api "repos/${REPO}/issues/${PR_NUMBER}/labels" \
+            --method POST -f "labels[]=ai-review-queued"
+          gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
+            --method POST -f body="**AI Code Review** queued for EC2 agent."
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
+
+  # ─── human-required: queue for EC2 review, human must merge ───
+  human-review:
+    name: Queue AI Review (Human Required)
+    runs-on: ubuntu-latest
+    if: >-
+      (github.event_name == 'workflow_dispatch' && inputs.action == 'human-review') ||
+      (
+        github.event_name == 'pull_request' &&
+        github.event.label.name == 'human-required' &&
+        github.actor != 'kaito-reviewer[bot]' &&
+        !contains(github.event.pull_request.labels.*.name, 'ai-agent-authored')
+      )
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Note: Uses REST API instead of gh pr edit because
+      # Fine-grained PATs lack GraphQL access to reviewRequests.
+      - name: Queue for EC2 review
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number || inputs.pr_number }}
+          REPO=${{ github.repository }}
+          gh api "repos/${REPO}/issues/${PR_NUMBER}/labels" \
+            --method POST -f "labels[]=ai-review-queued"
+          gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
+            --method POST \
+            -f body="**AI Review (Human Required)** queued for EC2 agent.
+
+          _A human must still review and merge this PR._"
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
