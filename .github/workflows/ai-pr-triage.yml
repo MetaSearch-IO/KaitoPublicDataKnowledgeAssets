@@ -1,0 +1,312 @@
+# AI PR Triage — Classification + Issue queuing
+#
+# Two jobs:
+#   1. Classify PRs into 2 tiers by analyzing changed files and PR metadata
+#   2. Queue Issues labeled 'ai-task' for EC2 agent pickup
+#
+# PR labels applied:
+#   ai-review       — default; AI reviews and auto-merges if approved
+#   human-required  — risky changes; AI posts advisory review, human must merge
+#
+# The PR's source issue (parsed from `Resolves #N` / `Closes #N` in body) acts
+# as a floor: if the issue is `human-required`, the PR inherits that tier.
+# File-based rules can escalate but never downgrade. (WORKLOG 2026-04-30)
+#
+# Issue labels applied:
+#   ai-agent-queued — queued for EC2 code agent
+#
+# Source: kaito-docs-central/templates/workflows/ai-pr-triage.yml
+# Deploy: /deploy-github-workflow <repo> ai-pr-triage
+#
+# Required secrets:
+#   - ORG_AUTOMATION_TOKEN  (Organization Secret, for labeling — triggers router)
+
+name: AI PR Triage
+
+# Note: Uses pull_request_target (not pull_request) so that organization
+# secrets are accessible even for dependabot PRs. This is safe because
+# this workflow only reads PR metadata and applies labels — it does NOT
+# checkout or execute code from the PR branch.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to queue for EC2 agent"
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  # ═══════════════════════════════════════════════════════════════
+  # Job 1: Classify PRs
+  # ═══════════════════════════════════════════════════════════════
+  triage:
+    name: Classify PR
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # ─── Detect file categories ───
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            docs-only:
+              - 'docs/**'
+              - '*.md'
+              - 'README*'
+            submodule-only:
+              - 'docs/central'
+            has-workflow-changes:
+              - '.github/**'
+            has-code-changes:
+              - 'src/**'
+              - 'lib/**'
+              - 'test/**'
+              - 'tests/**'
+            has-migration:
+              - '**/*migration*/**'
+              - '**/*migrations*/**'
+              - '**/schema/**'
+              - '**/db/**'
+            has-infra:
+              - 'infrastructure/**'
+              - 'terraform/**'
+              - 'cdk/**'
+              - 'Dockerfile'
+              - 'docker-compose*'
+              # WORKLOG 2026-04-30 — CDK repos put stacks in lib/, not cdk/
+              - 'lib/stack/**'
+              - 'lib/stacks/**'
+              - 'lib/*-stack.ts'
+              - 'lib/**/*-stack.ts'
+              - 'lib/**/*-stacks.ts'
+              - 'lib/*Stack.ts'
+              - 'lib/**/*Stack.ts'
+              - 'lib/pipeline-*.ts'
+              - 'lib/**/pipeline-*.ts'
+            has-env-files:
+              - '**/.env*'
+              - '**/secret*'
+              - '**/credential*'
+            has-dependency-changes:
+              - 'package.json'
+              - 'package-lock.json'
+              - 'yarn.lock'
+              - 'pnpm-lock.yaml'
+              - 'build.gradle'
+              - 'pom.xml'
+            lock-file-only:
+              - 'package-lock.json'
+              - 'yarn.lock'
+              - 'pnpm-lock.yaml'
+
+      # ─── Step 1: Rule-based classification (free, instant) ───
+      - name: Rule-based triage
+        id: rules
+        run: |
+          TIER="ai-review"  # default
+          REASON="code changes detected"
+
+          # ── human-required signals (check first, highest priority) ──
+
+          if [ "${{ steps.filter.outputs.has-migration }}" = "true" ]; then
+            TIER="human-required"
+            REASON="database migration files detected"
+          elif [ "${{ steps.filter.outputs.has-workflow-changes }}" = "true" ]; then
+            TIER="human-required"
+            REASON=".github/ workflow changes detected"
+          elif [ "${{ steps.filter.outputs.has-env-files }}" = "true" ]; then
+            TIER="human-required"
+            REASON="environment/secret files detected"
+          elif [ "${{ steps.filter.outputs.has-infra }}" = "true" ]; then
+            TIER="human-required"
+            REASON="infrastructure changes detected"
+          fi
+
+          # WORKLOG 2026-04-30 — auto-merge tier removed.
+          # Floor is now ai-review for every PR; auto-merge only happens after
+          # the EC2 agent's AI review explicitly approves. The auto-merge
+          # short-circuit was load-shedding for trivial PRs (dependabot,
+          # docs-only, lock-file-only); cost saved was ~30-60s of EC2 time per
+          # PR, but the rule surface kept misclassifying mixed dep bumps as
+          # safe (incident: KaitoBffCDK#64). Not worth the silent-merge risk.
+
+          # ── Large diff check ──
+          if [ "$TIER" != "human-required" ]; then
+            PR_NUMBER=${{ github.event.pull_request.number }}
+            FILE_COUNT=$(gh pr diff "$PR_NUMBER" --name-only | wc -l | tr -d ' ')
+            DIFF_SIZE=$(gh pr diff "$PR_NUMBER" | wc -c)
+
+            if [ "$FILE_COUNT" -gt 50 ] || [ "$DIFF_SIZE" -gt 100000 ]; then
+              TIER="human-required"
+              REASON="large diff ($FILE_COUNT files, $DIFF_SIZE bytes)"
+            fi
+          fi
+
+          echo "tier=$TIER" >> $GITHUB_OUTPUT
+          echo "reason=$REASON" >> $GITHUB_OUTPUT
+          echo "Rule-based triage: $TIER ($REASON)"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # ─── Step 2: Inherit triage label from source issue ───
+      # WORKLOG 2026-04-30 — Notion → issue → PR chain authority.
+      # If this PR was opened by ai-code-local from an issue (PR body contains
+      # `Resolves #N` / `Closes #N` / `Fixes #N`), and that issue carries the
+      # human-required label, escalate the PR to human-required. File rules
+      # can escalate but never downgrade what the source issue declared.
+      - name: Inherit source issue triage label
+        id: inherit
+        run: |
+          PR_BODY=$(gh pr view "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" --json body -q .body)
+          ISSUE_NUMBER=$(printf '%s\n' "$PR_BODY" \
+            | grep -oiE '(Resolves|Closes|Fixes)(:?[[:space:]]+)[A-Za-z0-9_.-]*/?[A-Za-z0-9_.-]*#[0-9]+' \
+            | head -1 \
+            | grep -oE '#[0-9]+' \
+            | head -1 \
+            | grep -oE '[0-9]+' \
+            || true)
+
+          TIER="${{ steps.rules.outputs.tier }}"
+          REASON="${{ steps.rules.outputs.reason }}"
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            ISSUE_LABELS=$(gh issue view "$ISSUE_NUMBER" \
+              --repo "${{ github.repository }}" \
+              --json labels -q '.labels[].name' 2>/dev/null || echo "")
+            if echo "$ISSUE_LABELS" | grep -qE "^human-required$" \
+               && [ "$TIER" != "human-required" ]; then
+              TIER="human-required"
+              REASON="inherited from source issue #${ISSUE_NUMBER}"
+            fi
+          fi
+
+          echo "tier=$TIER" >> $GITHUB_OUTPUT
+          echo "reason=$REASON" >> $GITHUB_OUTPUT
+          echo "Final triage: $TIER ($REASON)"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # ─── Apply label ───
+      # Note: Label steps use ORG_AUTOMATION_TOKEN instead of github.token
+      # because GitHub does not emit 'labeled' events from actions performed
+      # by github.token (anti-recursion). The router triggers on 'labeled'.
+      # Note: Uses REST API (gh api) instead of gh pr edit because
+      # Fine-grained PATs lack GraphQL access to reviewRequests.
+      - name: Remove existing triage labels
+        run: |
+          ISSUE_NUMBER=${{ github.event.pull_request.number }}
+          REPO=${{ github.repository }}
+          for label in auto-merge ai-review human-required; do
+            gh api "repos/${REPO}/issues/${ISSUE_NUMBER}/labels/${label}" \
+              --method DELETE 2>/dev/null || true
+          done
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
+
+      - name: Apply triage label
+        run: |
+          ISSUE_NUMBER=${{ github.event.pull_request.number }}
+          REPO=${{ github.repository }}
+          TIER="${{ steps.inherit.outputs.tier }}"
+          REASON="${{ steps.inherit.outputs.reason }}"
+
+          # Ensure label exists in repo
+          gh api "repos/${REPO}/labels" --method POST \
+            -f name="$TIER" \
+            -f description="PR triage: $TIER" \
+            -f color="$(
+              case $TIER in
+                ai-review) echo "1D76DB" ;;
+                human-required) echo "D93F0B" ;;
+              esac
+            )" 2>/dev/null || true
+
+          # Add label to PR
+          gh api "repos/${REPO}/issues/${ISSUE_NUMBER}/labels" \
+            --method POST -f "labels[]=$TIER"
+
+          # Post triage summary as comment
+          gh api "repos/${REPO}/issues/${ISSUE_NUMBER}/comments" \
+            --method POST -f body="**PR Triage**: \`$TIER\`
+
+          Reason: $REASON
+
+          | Label | Meaning |
+          | ----- | ------- |
+          | \`ai-review\` | AI code review, auto-merge if approved |
+          | \`human-required\` | AI review posted, human must review and merge |"
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
+
+  # ═══════════════════════════════════════════════════════════════
+  # Job 2: Queue Issues for EC2 Code Agent
+  # ═══════════════════════════════════════════════════════════════
+  queue-issue:
+    name: Queue Issue for EC2 Agent
+    runs-on: ubuntu-latest
+    if: >-
+      (github.event_name == 'workflow_dispatch') ||
+      (github.event_name == 'issues' && github.event.label.name == 'ai-task')
+    timeout-minutes: 5
+
+    steps:
+      - name: Get issue details
+        id: issue
+        run: |
+          REPO="${{ github.repository }}"
+          ISSUE_NUMBER=${{ github.event.issue.number || inputs.issue_number }}
+          echo "number=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
+
+          ISSUE_TITLE=$(gh issue view "$ISSUE_NUMBER" --repo "$REPO" --json title -q .title)
+          echo "title=$ISSUE_TITLE" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Read issue triage label
+        id: triage
+        run: |
+          REPO="${{ github.repository }}"
+          ISSUE_NUMBER=${{ steps.issue.outputs.number }}
+          LABELS=$(gh issue view "$ISSUE_NUMBER" --repo "$REPO" --json labels -q '.labels[].name')
+
+          TRIAGE_LABEL=""
+          for label in human-required ai-review; do
+            if echo "$LABELS" | grep -q "^${label}$"; then
+              TRIAGE_LABEL="$label"
+              break
+            fi
+          done
+
+          TRIAGE_LABEL="${TRIAGE_LABEL:-ai-review}"
+          echo "label=$TRIAGE_LABEL" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # Note: Uses REST API instead of gh issue edit because
+      # Fine-grained PATs lack GraphQL access to certain fields.
+      - name: Queue issue for EC2 agent
+        run: |
+          REPO="${{ github.repository }}"
+          ISSUE_NUMBER=${{ steps.issue.outputs.number }}
+
+          gh api "repos/${REPO}/issues/${ISSUE_NUMBER}/labels" \
+            --method POST -f "labels[]=ai-agent-queued"
+
+          gh api "repos/${REPO}/issues/${ISSUE_NUMBER}/comments" \
+            --method POST \
+            -f body="**AI Code Agent** queued for EC2 agent (triage: \`${{ steps.triage.outputs.label }}\`)."
+        env:
+          GH_TOKEN: ${{ secrets.ORG_AUTOMATION_TOKEN }}
