@@ -374,5 +374,13 @@
             "fullname": "MagicMarkets",
             "twitter_handle": "magicmarkets"
         }
+    },
+    {
+        "ticker": "QUOTE",
+        "remarks": {
+            "display_ticker": "QUOTE",
+            "fullname": "QuoteMarkets",
+            "twitter_handle": "quotemarkets"
+        }
     }
 ]
