@@ -1366,5 +1366,13 @@
             "fullname": "Arcium",
             "twitter_handle": "Arcium"
         }
+    },
+    {
+        "ticker": "ROLLY",
+        "remarks": {
+            "display_ticker": "ROLLY",
+            "fullname": "Rolly",
+            "twitter_handle": "rolly_onchain"
+        }
     }
 ]
