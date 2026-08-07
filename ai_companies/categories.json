@@ -16,7 +16,12 @@
     },
     {
         "slug": "video_gen",
-        "display_name": "Video Generation",
+        "display_name": "Video Gen Models",
+        "status": "active"
+    },
+    {
+        "slug": "video_gen_apps",
+        "display_name": "Video Gen Apps",
         "status": "active"
     },
     {
