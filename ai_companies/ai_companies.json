@@ -331,6 +331,17 @@
         }
     },
     {
+        "symbol": "BYTEPLUS",
+        "remarks": {
+            "display_name": "BytePlus",
+            "fullname": "BytePlus",
+            "twitter_handle": "BytePlusGlobal",
+            "categories": [
+                "video_gen_apps"
+            ]
+        }
+    },
+    {
         "symbol": "CARTESIA",
         "remarks": {
             "display_name": "Cartesia",
@@ -515,11 +526,11 @@
     {
         "symbol": "CRS",
         "remarks": {
-            "display_name": "Creative Reality Studio",
+            "display_name": "D-ID",
             "fullname": "Creative Reality Studio",
             "twitter_handle": "",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -580,7 +591,7 @@
             "twitter_handle": "DeepAI",
             "categories": [
                 "image_gen",
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -591,7 +602,7 @@
             "fullname": "DeepBrain",
             "twitter_handle": "",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -669,7 +680,7 @@
             "fullname": "The Dor Brothers",
             "twitter_handle": "thedorbrothers",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -681,6 +692,18 @@
             "twitter_handle": "",
             "categories": [
                 "foundation_model"
+            ]
+        }
+    },
+    {
+        "symbol": "DREAMINA",
+        "remarks": {
+            "display_name": "Dreamina",
+            "fullname": "Dreamina",
+            "twitter_handle": "dreamina_ai",
+            "categories": [
+                "image_gen",
+                "video_gen_apps"
             ]
         }
     },
@@ -809,7 +832,7 @@
             "fullname": "The Simulation",
             "twitter_handle": "fablesimulation",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1070,7 +1093,7 @@
             "fullname": "Hedra",
             "twitter_handle": "hedra_labs",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1081,7 +1104,7 @@
             "fullname": "HeyGen",
             "twitter_handle": "HeyGen_Official",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1101,7 +1124,7 @@
             "fullname": "Higgsfield",
             "twitter_handle": "higgsfield_ai",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1302,7 +1325,7 @@
             "twitter_handle": "krea_ai",
             "categories": [
                 "image_gen",
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1353,7 +1376,7 @@
             "fullname": "Lemon Slice AI",
             "twitter_handle": "",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1376,6 +1399,18 @@
             "twitter_handle": "letz_ai",
             "categories": [
                 "image_gen"
+            ]
+        }
+    },
+    {
+        "symbol": "LIBLIB",
+        "remarks": {
+            "display_name": "LiblibAI",
+            "fullname": "LiblibAI",
+            "twitter_handle": "",
+            "categories": [
+                "image_gen",
+                "video_gen_apps"
             ]
         }
     },
@@ -1747,6 +1782,17 @@
         }
     },
     {
+        "symbol": "OIIOII",
+        "remarks": {
+            "display_name": "OiiOii",
+            "fullname": "OiiOii",
+            "twitter_handle": "",
+            "categories": [
+                "video_gen_apps"
+            ]
+        }
+    },
+    {
         "symbol": "OLLAMA",
         "remarks": {
             "display_name": "ollama",
@@ -1867,7 +1913,7 @@
             "fullname": "Pika",
             "twitter_handle": "pika_labs",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -1916,6 +1962,17 @@
             "fullname": "Poe",
             "twitter_handle": "poe_platform",
             "categories": []
+        }
+    },
+    {
+        "symbol": "POLLO_AI",
+        "remarks": {
+            "display_name": "Pollo AI",
+            "fullname": "Pollo AI",
+            "twitter_handle": "itspolloai",
+            "categories": [
+                "video_gen_apps"
+            ]
         }
     },
     {
@@ -2365,7 +2422,7 @@
             "fullname": "Sync",
             "twitter_handle": "synclabs_ai",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -2376,7 +2433,7 @@
             "fullname": "Synthesia",
             "twitter_handle": "synthesiaIO",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
@@ -2414,7 +2471,7 @@
             "fullname": "Tavus",
             "twitter_handle": "heytavus",
             "categories": [
-                "video_gen"
+                "video_gen_apps"
             ]
         }
     },
