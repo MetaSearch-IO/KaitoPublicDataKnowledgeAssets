@@ -1374,5 +1374,21 @@
             "fullname": "Rolly",
             "twitter_handle": "rolly_onchain"
         }
+    },
+    {
+        "ticker": "TERMIX",
+        "remarks": {
+            "display_ticker": "TERMIX",
+            "fullname": "TermiX",
+            "twitter_handle": "termix_ai"
+        }
+    },
+    {
+        "ticker": "PRIMUS",
+        "remarks": {
+            "display_ticker": "PRIMUS",
+            "fullname": "Primus Labs",
+            "twitter_handle": "primus_labs"
+        }
     }
 ]
