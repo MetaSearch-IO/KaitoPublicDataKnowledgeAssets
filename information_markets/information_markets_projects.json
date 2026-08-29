@@ -366,5 +366,13 @@
             "fullname": "Outcome",
             "twitter_handle": "Outcomexyz"
         }
+    },
+    {
+        "ticker": "QUOTE",
+        "remarks": {
+            "display_ticker": "QUOTE",
+            "fullname": "QuoteMarkets",
+            "twitter_handle": "quotemarkets"
+        }
     }
 ]
