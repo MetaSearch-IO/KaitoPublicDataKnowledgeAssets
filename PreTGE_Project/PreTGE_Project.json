@@ -232,14 +232,6 @@
         }
     },
     {
-        "ticker": "POLYNOMIAL",
-        "remarks": {
-            "display_ticker": "POLYNOMIAL",
-            "fullname": "Polynomial",
-            "twitter_handle": "polynomialfi"
-        }
-    },
-    {
         "ticker": "ABSTRACT",
         "remarks": {
             "display_ticker": "ABSTRACT",
@@ -333,14 +325,6 @@
             "display_ticker": "MULTIPLIER",
             "fullname": "Multiplier",
             "twitter_handle": "brokeexee"
-        }
-    },
-    {
-        "ticker": "BOTANIXLABS",
-        "remarks": {
-            "display_ticker": "BOTANIXLABS",
-            "fullname": "Botanix Labs",
-            "twitter_handle": "botanix"
         }
     },
     {
@@ -696,14 +680,6 @@
         }
     },
     {
-        "ticker": "SOLSTICE",
-        "remarks": {
-            "display_ticker": "SOLSTICE",
-            "fullname": "Solstice",
-            "twitter_handle": "solsticefi"
-        }
-    },
-    {
         "ticker": "TIMEFUN",
         "remarks": {
             "display_ticker": "TIMEFUN",
@@ -845,14 +821,6 @@
             "display_ticker": "RISE",
             "fullname": "RISE",
             "twitter_handle": "rise_chain"
-        }
-    },
-    {
-        "ticker": "YUPP",
-        "remarks": {
-            "display_ticker": "YUPP",
-            "fullname": "Yupp",
-            "twitter_handle": "yupp_ai"
         }
     },
     {
@@ -1344,27 +1312,11 @@
         }
     },
     {
-        "ticker": "HOOLI",
-        "remarks": {
-            "display_ticker": "HOOLI",
-            "fullname": "HOOLI",
-            "twitter_handle": "mypethooligan"
-        }
-    },
-    {
         "ticker": "KII",
         "remarks": {
             "display_ticker": "KII",
             "fullname": "KiiChain",
             "twitter_handle": "KiiChainio"
-        }
-    },
-    {
-        "ticker": "ARX",
-        "remarks": {
-            "display_ticker": "ARX",
-            "fullname": "Arcium",
-            "twitter_handle": "Arcium"
         }
     },
     {
