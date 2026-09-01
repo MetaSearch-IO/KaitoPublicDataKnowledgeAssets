@@ -768,14 +768,6 @@
         }
     },
     {
-        "ticker": "FXHASH",
-        "remarks": {
-            "display_ticker": "FXHASH",
-            "fullname": "fxhash",
-            "twitter_handle": "fx_hash_"
-        }
-    },
-    {
         "ticker": "PROJECTX",
         "remarks": {
             "display_ticker": "PROJECTX",
@@ -1360,14 +1352,6 @@
         }
     },
     {
-        "ticker": "ARX",
-        "remarks": {
-            "display_ticker": "ARX",
-            "fullname": "Arcium",
-            "twitter_handle": "Arcium"
-        }
-    },
-    {
         "ticker": "ROLLY",
         "remarks": {
             "display_ticker": "ROLLY",
@@ -1389,6 +1373,22 @@
             "display_ticker": "PRIMUS",
             "fullname": "Primus Labs",
             "twitter_handle": "primus_labs"
+        }
+    },
+    {
+        "ticker": "BOLTBOLT",
+        "remarks": {
+            "display_ticker": "BOLT",
+            "fullname": "bolt",
+            "twitter_handle": "umia_finance"
+        }
+    },
+    {
+        "ticker": "CAMBRIA",
+        "remarks": {
+            "display_ticker": "CAMBRIA",
+            "fullname": "Cambria",
+            "twitter_handle": "playcambria"
         }
     }
 ]
