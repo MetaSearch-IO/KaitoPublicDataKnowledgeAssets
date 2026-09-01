@@ -1374,5 +1374,21 @@
             "fullname": "Primus Labs",
             "twitter_handle": "primus_labs"
         }
+    },
+    {
+        "ticker": "BOLTBOLT",
+        "remarks": {
+            "display_ticker": "BOLT",
+            "fullname": "bolt",
+            "twitter_handle": "umia_finance"
+        }
+    },
+    {
+        "ticker": "CAMBRIA",
+        "remarks": {
+            "display_ticker": "CAMBRIA",
+            "fullname": "Cambria",
+            "twitter_handle": "playcambria"
+        }
     }
 ]
