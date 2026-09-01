@@ -1390,5 +1390,13 @@
             "fullname": "Cambria",
             "twitter_handle": "playcambria"
         }
+    },
+    {
+        "ticker": "DAWN",
+        "remarks": {
+            "display_ticker": "DAWN",
+            "fullname": "DAWN",
+            "twitter_handle": "dawninternet"
+        }
     }
 ]
