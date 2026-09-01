@@ -1360,14 +1360,6 @@
         }
     },
     {
-        "ticker": "ARX",
-        "remarks": {
-            "display_ticker": "ARX",
-            "fullname": "Arcium",
-            "twitter_handle": "Arcium"
-        }
-    },
-    {
         "ticker": "ROLLY",
         "remarks": {
             "display_ticker": "ROLLY",
