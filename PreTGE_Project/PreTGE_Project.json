@@ -768,14 +768,6 @@
         }
     },
     {
-        "ticker": "FXHASH",
-        "remarks": {
-            "display_ticker": "FXHASH",
-            "fullname": "fxhash",
-            "twitter_handle": "fx_hash_"
-        }
-    },
-    {
         "ticker": "PROJECTX",
         "remarks": {
             "display_ticker": "PROJECTX",
