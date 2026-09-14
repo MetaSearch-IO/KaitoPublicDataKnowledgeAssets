@@ -366,5 +366,13 @@
             "fullname": "Outcome",
             "twitter_handle": "Outcomexyz"
         }
+    },
+    {
+        "ticker": "MAGICMARKETS",
+        "remarks": {
+            "display_ticker": "MAGICMARKETS",
+            "fullname": "MagicMarkets",
+            "twitter_handle": "magicmarkets"
+        }
     }
 ]
