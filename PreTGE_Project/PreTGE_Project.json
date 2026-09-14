@@ -768,14 +768,6 @@
         }
     },
     {
-        "ticker": "FXHASH",
-        "remarks": {
-            "display_ticker": "FXHASH",
-            "fullname": "fxhash",
-            "twitter_handle": "fx_hash_"
-        }
-    },
-    {
         "ticker": "PROJECTX",
         "remarks": {
             "display_ticker": "PROJECTX",
@@ -1360,19 +1352,51 @@
         }
     },
     {
-        "ticker": "ARX",
-        "remarks": {
-            "display_ticker": "ARX",
-            "fullname": "Arcium",
-            "twitter_handle": "Arcium"
-        }
-    },
-    {
         "ticker": "ROLLY",
         "remarks": {
             "display_ticker": "ROLLY",
             "fullname": "Rolly",
             "twitter_handle": "rolly_onchain"
+        }
+    },
+    {
+        "ticker": "TERMIX",
+        "remarks": {
+            "display_ticker": "TERMIX",
+            "fullname": "TermiX",
+            "twitter_handle": "termix_ai"
+        }
+    },
+    {
+        "ticker": "PRIMUS",
+        "remarks": {
+            "display_ticker": "PRIMUS",
+            "fullname": "Primus Labs",
+            "twitter_handle": "primus_labs"
+        }
+    },
+    {
+        "ticker": "BOLTBOLT",
+        "remarks": {
+            "display_ticker": "BOLT",
+            "fullname": "bolt",
+            "twitter_handle": "umia_finance"
+        }
+    },
+    {
+        "ticker": "CAMBRIA",
+        "remarks": {
+            "display_ticker": "CAMBRIA",
+            "fullname": "Cambria",
+            "twitter_handle": "playcambria"
+        }
+    },
+    {
+        "ticker": "SLEEP",
+        "remarks": {
+            "display_ticker": "SLEEP",
+            "fullname": "Sleepagotchi",
+            "twitter_handle": "sleepagotchi"
         }
     }
 ]
