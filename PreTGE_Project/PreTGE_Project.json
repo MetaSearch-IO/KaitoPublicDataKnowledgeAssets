@@ -1398,5 +1398,13 @@
             "fullname": "Gotchi",
             "twitter_handle": "sleepagotchi"
         }
+    },
+    {
+        "ticker": "CIT",
+        "remarks": {
+            "display_ticker": "CIT",
+            "fullname": "City Protocol",
+            "twitter_handle": "cityprotocolHQ"
+        }
     }
 ]
