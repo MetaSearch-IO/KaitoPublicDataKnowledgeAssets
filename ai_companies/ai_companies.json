@@ -2554,6 +2554,17 @@
         }
     },
     {
+        "symbol": "TYPESAFE_AI",
+        "remarks": {
+            "display_name": "TypeSafe AI",
+            "fullname": "TypeSafe AI",
+            "twitter_handle": "typesafeai",
+            "categories": [
+                "foundation_model"
+            ]
+        }
+    },
+    {
         "symbol": "UDIO",
         "remarks": {
             "display_name": "Udio",

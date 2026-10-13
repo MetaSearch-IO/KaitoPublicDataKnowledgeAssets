@@ -366,5 +366,21 @@
             "fullname": "Outcome",
             "twitter_handle": "Outcomexyz"
         }
+    },
+    {
+        "ticker": "MAGICMARKETS",
+        "remarks": {
+            "display_ticker": "MAGICMARKETS",
+            "fullname": "MagicMarkets",
+            "twitter_handle": "magicmarkets"
+        }
+    },
+    {
+        "ticker": "QUOTE",
+        "remarks": {
+            "display_ticker": "QUOTE",
+            "fullname": "QuoteMarkets",
+            "twitter_handle": "quotemarkets"
+        }
     }
 ]
