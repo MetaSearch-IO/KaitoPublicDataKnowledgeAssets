@@ -1374,5 +1374,13 @@
             "fullname": "City Protocol",
             "twitter_handle": "cityprotocolHQ"
         }
+    },
+    {
+        "ticker": "DAWNINTERNET",
+        "remarks": {
+            "display_ticker": "DAWN",
+            "fullname": "DAWN",
+            "twitter_handle": "dawninternet"
+        }
     }
 ]
