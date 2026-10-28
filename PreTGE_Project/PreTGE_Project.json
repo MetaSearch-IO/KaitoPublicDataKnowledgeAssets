@@ -1376,6 +1376,14 @@
         }
     },
     {
+        "ticker": "CAN",
+        "remarks": {
+            "display_ticker": "CAN",
+            "fullname": "CANZA FINANCE",
+            "twitter_handle": "Canza_Finance"
+        }
+    },
+    {
         "ticker": "DAWNINTERNET",
         "remarks": {
             "display_ticker": "DAWN",
